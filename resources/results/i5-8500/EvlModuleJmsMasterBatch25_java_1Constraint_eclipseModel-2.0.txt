@@ -1,0 +1,275 @@
+Windows 10
+OpenJDK 64-Bit Server VM 11.0.3+7
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 4096 MB
+Xmx: 14336 MB
+Starting execution at 27 Jan 2020, 19:20:29
+-----------------------------------------------------
+[MASTER] 19:20:30.121123200 Connected to tcp://144.32.179.190:61616 session 746
+[MASTER] 19:20:30.167983100 Waiting for workers to load configuration...
+[MASTER] 19:20:48.052718100 Total number of jobs = 45699
+[MASTER] 19:20:51.785864100 Sent 7325 jobs to workers
+[MASTER] 19:20:51.832724 Awaiting workers to signal completion...
+[MASTER] 19:21:29.258149200 Worker finished (processed 293 jobs)
+[MASTER] 19:21:29.258149200 Worker finished (processed 293 jobs)
+[MASTER] 19:21:29.539309200 Worker finished (processed 293 jobs)
+[MASTER] 19:21:29.601790200 Worker finished (processed 293 jobs)
+[MASTER] 19:21:29.679889300 Worker finished (processed 293 jobs)
+[MASTER] 19:21:29.757989600 Worker finished (processed 293 jobs)
+[MASTER] 19:21:29.867331900 Worker finished (processed 293 jobs)
+[MASTER] 19:21:29.882949300 Worker finished (processed 293 jobs)
+[MASTER] 19:21:29.898570400 Worker finished (processed 293 jobs)
+[MASTER] 19:21:29.929810500 Worker finished (processed 293 jobs)
+[MASTER] 19:21:29.929810500 Worker finished (processed 293 jobs)
+[MASTER] 19:21:30.054769500 Worker finished (processed 293 jobs)
+[MASTER] 19:21:30.054769500 Worker finished (processed 293 jobs)
+[MASTER] 19:21:30.054769500 Worker finished (processed 293 jobs)
+[MASTER] 19:21:30.086010500 Worker finished (processed 293 jobs)
+[MASTER] 19:21:30.101630100 Finished processing 292 master jobs
+[MASTER] 19:21:30.164148100 Worker finished (processed 293 jobs)
+[MASTER] 19:21:30.195467 Worker finished (processed 293 jobs)
+[MASTER] 19:21:30.382791400 Worker finished (processed 293 jobs)
+[MASTER] 19:21:30.382791400 Worker finished (processed 293 jobs)
+[MASTER] 19:21:30.492169300 Worker finished (processed 293 jobs)
+[MASTER] 19:21:30.601473400 Worker finished (processed 293 jobs)
+[MASTER] 19:21:30.804569600 Worker finished (processed 293 jobs)
+[MASTER] 19:21:30.835801100 Worker finished (processed 293 jobs)
+[MASTER] 19:21:30.929590100 Worker finished (processed 293 jobs)
+[MASTER] 19:21:31.726153 Worker finished (processed 293 jobs)
+[MASTER] 19:21:31.726153 All workers finished (7325 processed jobs)
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 059 (59 ms), 8 MB
+Loading model(s): 14.523 (14523 ms), 1509 MB
+Sending configuration to workers: 16.727 (16727 ms), 639 MB
+GARBAGE_COLLECTION: 01.746 (1746 ms), 0 MB
+GARBAGE_COLLECTION: 01.793 (1793 ms), 0 MB
+execute(): 43.789 (43789 ms), 2243 MB
+
+Finished at 27 Jan 2020, 19:21:32
+-----------------------------------------------------
+'allImportsAreUsed' took 1:46:17.092
+-----------------------------------------------------
+45699 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 11.0.3+7
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 4096 MB
+Xmx: 14336 MB
+Starting execution at 27 Jan 2020, 19:21:51
+-----------------------------------------------------
+[MASTER] 19:21:52.143269800 Connected to tcp://144.32.179.190:61616 session 746
+[MASTER] 19:21:52.190128800 Waiting for workers to load configuration...
+[MASTER] 19:22:10.450067200 Total number of jobs = 45699
+[MASTER] 19:22:14.136400 Sent 7325 jobs to workers
+[MASTER] 19:22:14.152020800 Awaiting workers to signal completion...
+[MASTER] 19:22:51.390227600 Worker finished (processed 293 jobs)
+[MASTER] 19:22:51.452709100 Worker finished (processed 293 jobs)
+[MASTER] 19:22:51.968171400 Worker finished (processed 293 jobs)
+[MASTER] 19:22:52.030649300 Worker finished (processed 293 jobs)
+[MASTER] 19:22:52.046270400 Worker finished (processed 293 jobs)
+[MASTER] 19:22:52.077509900 Worker finished (processed 293 jobs)
+[MASTER] 19:22:52.202471400 Worker finished (processed 293 jobs)
+[MASTER] 19:22:52.327430700 Worker finished (processed 293 jobs)
+[MASTER] 19:22:52.374291500 Worker finished (processed 293 jobs)
+[MASTER] 19:22:52.499250900 Worker finished (processed 293 jobs)
+[MASTER] 19:22:52.530491 Worker finished (processed 293 jobs)
+[MASTER] 19:22:52.608592800 Worker finished (processed 293 jobs)
+[MASTER] 19:22:52.717931900 Worker finished (processed 293 jobs)
+[MASTER] 19:22:52.733551600 Worker finished (processed 293 jobs)
+[MASTER] 19:22:52.764792900 Worker finished (processed 293 jobs)
+[MASTER] 19:22:52.796031800 Worker finished (processed 293 jobs)
+[MASTER] 19:22:52.842892500 Worker finished (processed 293 jobs)
+[MASTER] 19:22:52.936614400 Worker finished (processed 293 jobs)
+[MASTER] 19:22:53.014713600 Worker finished (processed 293 jobs)
+[MASTER] 19:22:53.030334 Worker finished (processed 293 jobs)
+[MASTER] 19:22:53.061573 Worker finished (processed 293 jobs)
+[MASTER] 19:22:53.061573 Worker finished (processed 293 jobs)
+[MASTER] 19:22:53.124053100 Worker finished (processed 293 jobs)
+[MASTER] 19:22:53.452074500 Worker finished (processed 293 jobs)
+[MASTER] 19:22:53.686376800 Worker finished (processed 293 jobs)
+[MASTER] 19:22:53.686376800 All workers finished (7325 processed jobs)
+[MASTER] 19:22:54.826660300 Finished processing 292 master jobs
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 059 (59 ms), 10 MB
+Loading model(s): 14.797 (14797 ms), 1568 MB
+Sending configuration to workers: 17.152 (17152 ms), 655 MB
+GARBAGE_COLLECTION: 01.661 (1661 ms), 0 MB
+GARBAGE_COLLECTION: 01.810 (1810 ms), 0 MB
+execute(): 44.493 (44493 ms), 1896 MB
+
+Finished at 27 Jan 2020, 19:22:55
+-----------------------------------------------------
+'allImportsAreUsed' took 1:46:17.005
+-----------------------------------------------------
+45699 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 11.0.3+7
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 4096 MB
+Xmx: 14336 MB
+Starting execution at 27 Jan 2020, 19:23:11
+-----------------------------------------------------
+[MASTER] 19:23:12.385198300 Connected to tcp://144.32.179.190:61616 session 746
+[MASTER] 19:23:12.447677600 Waiting for workers to load configuration...
+[MASTER] 19:23:30.551529200 Total number of jobs = 45699
+[MASTER] 19:23:34.159763200 Sent 7325 jobs to workers
+[MASTER] 19:23:34.206623400 Awaiting workers to signal completion...
+[MASTER] 19:24:11.366729900 Worker finished (processed 293 jobs)
+[MASTER] 19:24:11.944670500 Worker finished (processed 293 jobs)
+[MASTER] 19:24:12.022771200 Worker finished (processed 293 jobs)
+[MASTER] 19:24:12.069630700 Worker finished (processed 293 jobs)
+[MASTER] 19:24:12.116492200 Worker finished (processed 293 jobs)
+[MASTER] 19:24:12.225832200 Worker finished (processed 293 jobs)
+[MASTER] 19:24:12.350793100 Worker finished (processed 293 jobs)
+[MASTER] 19:24:12.382033500 Worker finished (processed 293 jobs)
+[MASTER] 19:24:12.506993 Worker finished (processed 293 jobs)
+[MASTER] 19:24:12.506993 Worker finished (processed 293 jobs)
+[MASTER] 19:24:12.569472700 Worker finished (processed 293 jobs)
+[MASTER] 19:24:12.647574400 Worker finished (processed 293 jobs)
+[MASTER] 19:24:12.678813200 Worker finished (processed 293 jobs)
+[MASTER] 19:24:12.678813200 Worker finished (processed 293 jobs)
+[MASTER] 19:24:12.710053900 Worker finished (processed 293 jobs)
+[MASTER] 19:24:12.835012800 Worker finished (processed 293 jobs)
+[MASTER] 19:24:12.850634200 Worker finished (processed 293 jobs)
+[MASTER] 19:24:12.850634200 Worker finished (processed 293 jobs)
+[MASTER] 19:24:12.913114100 Worker finished (processed 293 jobs)
+[MASTER] 19:24:13.116175100 Worker finished (processed 293 jobs)
+[MASTER] 19:24:13.209895100 Worker finished (processed 293 jobs)
+[MASTER] 19:24:13.350505100 Worker finished (processed 293 jobs)
+[MASTER] 19:24:13.381744300 Worker finished (processed 293 jobs)
+[MASTER] 19:24:13.397363800 Finished processing 292 master jobs
+[MASTER] 19:24:13.459857 Worker finished (processed 293 jobs)
+[MASTER] 19:24:13.522324400 Worker finished (processed 293 jobs)
+[MASTER] 19:24:13.522324400 All workers finished (7325 processed jobs)
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 059 (59 ms), 8 MB
+Loading model(s): 14.780 (14780 ms), 1301 MB
+Sending configuration to workers: 16.928 (16928 ms), 651 MB
+GARBAGE_COLLECTION: 01.789 (1789 ms), 0 MB
+GARBAGE_COLLECTION: 01.717 (1717 ms), 0 MB
+execute(): 43.093 (43093 ms), 3379 MB
+
+Finished at 27 Jan 2020, 19:24:14
+-----------------------------------------------------
+'allImportsAreUsed' took 1:46:18.246
+-----------------------------------------------------
+45699 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 11.0.3+7
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 4096 MB
+Xmx: 14336 MB
+Starting execution at 27 Jan 2020, 19:24:35
+-----------------------------------------------------
+[MASTER] 19:24:35.877361300 Connected to tcp://144.32.179.190:61616 session 746
+[MASTER] 19:24:35.939838100 Waiting for workers to load configuration...
+[MASTER] 19:24:53.715462700 Total number of jobs = 45699
+[MASTER] 19:24:57.401762400 Sent 7325 jobs to workers
+[MASTER] 19:24:57.448623100 Awaiting workers to signal completion...
+[MASTER] 19:25:29.329183500 Finished processing 292 master jobs
+[MASTER] 19:25:34.015900400 Worker finished (processed 293 jobs)
+[MASTER] 19:25:34.187636200 Worker finished (processed 293 jobs)
+[MASTER] 19:25:34.656244 Worker finished (processed 293 jobs)
+[MASTER] 19:25:34.921922900 Worker finished (processed 293 jobs)
+[MASTER] 19:25:34.937534200 Worker finished (processed 293 jobs)
+[MASTER] 19:25:35.062511300 Worker finished (processed 293 jobs)
+[MASTER] 19:25:35.078127 Worker finished (processed 293 jobs)
+[MASTER] 19:25:35.312425100 Worker finished (processed 293 jobs)
+[MASTER] 19:25:35.390486400 Worker finished (processed 293 jobs)
+[MASTER] 19:25:35.452992400 Worker finished (processed 293 jobs)
+[MASTER] 19:25:35.484316400 Worker finished (processed 293 jobs)
+[MASTER] 19:25:35.499857 Worker finished (processed 293 jobs)
+[MASTER] 19:25:35.593625900 Worker finished (processed 293 jobs)
+[MASTER] 19:25:35.765560700 Worker finished (processed 293 jobs)
+[MASTER] 19:25:35.781259300 Worker finished (processed 293 jobs)
+[MASTER] 19:25:35.796879400 Worker finished (processed 293 jobs)
+[MASTER] 19:25:35.859285100 Worker finished (processed 293 jobs)
+[MASTER] 19:25:35.953081400 Worker finished (processed 293 jobs)
+[MASTER] 19:25:36.093607900 Worker finished (processed 293 jobs)
+[MASTER] 19:25:36.187302700 Worker finished (processed 293 jobs)
+[MASTER] 19:25:36.281022400 Worker finished (processed 293 jobs)
+[MASTER] 19:25:36.437223500 Worker finished (processed 293 jobs)
+[MASTER] 19:25:36.718386 Worker finished (processed 293 jobs)
+[MASTER] 19:25:36.968310 Worker finished (processed 293 jobs)
+[MASTER] 19:25:37.718164 Worker finished (processed 293 jobs)
+[MASTER] 19:25:37.733786200 All workers finished (7325 processed jobs)
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 059 (59 ms), 10 MB
+Loading model(s): 14.853 (14853 ms), 1569 MB
+Sending configuration to workers: 16.708 (16708 ms), 655 MB
+GARBAGE_COLLECTION: 01.691 (1691 ms), 0 MB
+GARBAGE_COLLECTION: 01.720 (1720 ms), 0 MB
+execute(): 44.363 (44363 ms), 4174 MB
+
+Finished at 27 Jan 2020, 19:25:38
+-----------------------------------------------------
+'allImportsAreUsed' took 1:45:08.081
+-----------------------------------------------------
+45699 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 11.0.3+7
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 4096 MB
+Xmx: 14336 MB
+Starting execution at 27 Jan 2020, 19:30:43
+-----------------------------------------------------
+[MASTER] 19:30:43.834436500 Connected to tcp://144.32.179.190:61616 session 746
+[MASTER] 19:30:43.896917200 Waiting for workers to load configuration...
+[MASTER] 19:31:01.891412500 Total number of jobs = 45699
+[MASTER] 19:31:05.671506200 Sent 7325 jobs to workers
+[MASTER] 19:31:05.733988 Awaiting workers to signal completion...
+[MASTER] 19:31:42.582396100 Worker finished (processed 293 jobs)
+[MASTER] 19:31:42.847941500 Worker finished (processed 293 jobs)
+[MASTER] 19:31:42.879183900 Worker finished (processed 293 jobs)
+[MASTER] 19:31:43.472755600 Worker finished (processed 293 jobs)
+[MASTER] 19:31:43.503998100 Worker finished (processed 293 jobs)
+[MASTER] 19:31:43.566477400 Worker finished (processed 293 jobs)
+[MASTER] 19:31:43.613340500 Worker finished (processed 293 jobs)
+[MASTER] 19:31:43.660201 Worker finished (processed 293 jobs)
+[MASTER] 19:31:43.941365800 Worker finished (processed 293 jobs)
+[MASTER] 19:31:43.956987700 Worker finished (processed 293 jobs)
+[MASTER] 19:31:43.972609100 Worker finished (processed 293 jobs)
+[MASTER] 19:31:44.081949300 Worker finished (processed 293 jobs)
+[MASTER] 19:31:44.191292300 Worker finished (processed 293 jobs)
+[MASTER] 19:31:44.222533500 Worker finished (processed 293 jobs)
+[MASTER] 19:31:44.253774300 Worker finished (processed 293 jobs)
+[MASTER] 19:31:44.253774300 Worker finished (processed 293 jobs)
+[MASTER] 19:31:44.269394800 Worker finished (processed 293 jobs)
+[MASTER] 19:31:44.285016600 Worker finished (processed 293 jobs)
+[MASTER] 19:31:44.316255800 Worker finished (processed 293 jobs)
+[MASTER] 19:31:44.316255800 Worker finished (processed 293 jobs)
+[MASTER] 19:31:44.472460400 Worker finished (processed 293 jobs)
+[MASTER] 19:31:44.472460400 Worker finished (processed 293 jobs)
+[MASTER] 19:31:44.519321800 Worker finished (processed 293 jobs)
+[MASTER] 19:31:44.550560100 Worker finished (processed 293 jobs)
+[MASTER] 19:31:44.550560100 Worker finished (processed 293 jobs)
+[MASTER] 19:31:44.550560100 All workers finished (7325 processed jobs)
+[MASTER] 19:31:45.597155800 Finished processing 292 master jobs
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 060 (60 ms), 10 MB
+Loading model(s): 14.609 (14609 ms), 1530 MB
+Sending configuration to workers: 16.740 (16740 ms), 655 MB
+GARBAGE_COLLECTION: 01.677 (1677 ms), 0 MB
+GARBAGE_COLLECTION: 01.768 (1768 ms), 0 MB
+execute(): 43.847 (43847 ms), 4119 MB
+
+Finished at 27 Jan 2020, 19:31:46
+-----------------------------------------------------
+'allImportsAreUsed' took 1:46:10.999
+-----------------------------------------------------
+45699 constraints have not been satisfied.
+-----------------------------------------------------

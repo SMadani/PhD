@@ -1,0 +1,31 @@
+Windows 10
+OpenJDK 64-Bit Server VM 11.0.3+7
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 4096 MB
+Xmx: 14336 MB
+Starting execution at 22 Nov 2019, 17:06:37
+-----------------------------------------------------
+[MASTER] 17:06:38.357240800 Connected to tcp://144.32.179.145:61616 session 746
+[MASTER] 17:06:38.419724600 Waiting for workers to load configuration...
+[MASTER] 17:06:55.821671500 Total number of jobs = 45699
+[MASTER] 17:06:58.883398600 Sent 4571 jobs to workers
+[MASTER] 17:06:58.899019 Awaiting workers to signal completion...
+[MASTER] 17:14:22.038411100 Finished processing 3046 master jobs
+[MASTER] 17:17:31.266757500 Worker finished (processed 4571 jobs)
+[MASTER] 17:17:31.266757500 All workers finished (4571 processed jobs)
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 059 (59 ms), 6 MB
+Loading model(s): 15.144 (15144 ms), 638 MB
+Sending configuration to workers: 16.305 (16305 ms), 638 MB
+GARBAGE_COLLECTION: 01.669 (1669 ms), 0 MB
+GARBAGE_COLLECTION: 01.660 (1660 ms), 0 MB
+execute(): 10:35.580 (635580 ms), 23 MB
+
+Finished at 22 Nov 2019, 17:17:32
+-----------------------------------------------------
+'allImportsAreUsed' took 1:46:48.607
+-----------------------------------------------------
+45699 constraints have not been satisfied.
+-----------------------------------------------------

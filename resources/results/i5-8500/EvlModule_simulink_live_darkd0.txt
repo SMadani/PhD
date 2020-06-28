@@ -1,0 +1,454 @@
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 19-Aug-2019 13:50:23
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 093 (93 ms), -11 MB
+Parsing model: 55.347 (55347 ms), 2 MB
+GARBAGE_COLLECTION: 13.082 (13082 ms), 0 MB
+execute(): 07:32.196 (452196 ms), 5572 MB
+
+Finished at 19-Aug-2019 13:59:04
+-----------------------------------------------------
+'PropertyCheck_BlockNameIsLowerCase' took 54.657,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 51.049,
+'VertexConnectivity_AllOutportsConnected' took 47.037,
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 41.555,
+'LoopAbsence' took 39.360,
+'NavigationAndFilter_InportsAreGreen' took 32.327,
+'PropertyCheck_HasDescription' took 11.225,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 10.243,
+'PropertyCheck_TagVisibility' took 190
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 19-Aug-2019 13:59:06
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 093 (93 ms), -11 MB
+Parsing model: 18.606 (18606 ms), 2 MB
+GARBAGE_COLLECTION: 13.957 (13957 ms), 0 MB
+execute(): 07:35.366 (455366 ms), 5391 MB
+
+Finished at 19-Aug-2019 14:07:14
+-----------------------------------------------------
+'PropertyCheck_BlockNameIsLowerCase' took 55.502,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 51.557,
+'VertexConnectivity_AllOutportsConnected' took 47.623,
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 42.006,
+'LoopAbsence' took 39.713,
+'NavigationAndFilter_InportsAreGreen' took 32.806,
+'PropertyCheck_HasDescription' took 11.253,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 10.246,
+'PropertyCheck_TagVisibility' took 190
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 19-Aug-2019 14:07:16
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 090 (90 ms), -32 MB
+Parsing model: 14.040 (14040 ms), 2 MB
+GARBAGE_COLLECTION: 13.777 (13777 ms), 0 MB
+execute(): 07:33.427 (453427 ms), 5393 MB
+
+Finished at 19-Aug-2019 14:15:17
+-----------------------------------------------------
+'PropertyCheck_BlockNameIsLowerCase' took 55.607,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 54.883,
+'VertexConnectivity_AllOutportsConnected' took 44.988,
+'LoopAbsence' took 40.154,
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 36.479,
+'NavigationAndFilter_InportsAreGreen' took 33.134,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 13.984,
+'PropertyCheck_HasDescription' took 09.033,
+'PropertyCheck_TagVisibility' took 190
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 19-Aug-2019 14:15:19
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 096 (96 ms), -11 MB
+Parsing model: 48.869 (48869 ms), 2 MB
+GARBAGE_COLLECTION: 10.448 (10448 ms), 0 MB
+execute(): 07:39.261 (459261 ms), 5391 MB
+
+Finished at 19-Aug-2019 14:23:58
+-----------------------------------------------------
+'PropertyCheck_BlockNameIsLowerCase' took 55.689,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 55.326,
+'VertexConnectivity_AllOutportsConnected' took 45.212,
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 42.142,
+'LoopAbsence' took 40.207,
+'NavigationAndFilter_InportsAreGreen' took 33.183,
+'PropertyCheck_HasDescription' took 11.315,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 10.390,
+'PropertyCheck_TagVisibility' took 192
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 19-Aug-2019 14:24:00
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 086 (86 ms), -11 MB
+Parsing model: 14.349 (14349 ms), 2 MB
+GARBAGE_COLLECTION: 13.607 (13607 ms), 0 MB
+execute(): 07:36.277 (456277 ms), 5391 MB
+
+Finished at 19-Aug-2019 14:32:04
+-----------------------------------------------------
+'PropertyCheck_BlockNameIsLowerCase' took 55.820,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 54.901,
+'VertexConnectivity_AllOutportsConnected' took 45.172,
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 40.854,
+'LoopAbsence' took 40.158,
+'NavigationAndFilter_InportsAreGreen' took 33.097,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 10.062,
+'PropertyCheck_HasDescription' took 09.111,
+'PropertyCheck_TagVisibility' took 194
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 28-Aug-2019 17:57:52
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 095 (95 ms), -11 MB
+Parsing model: 47.779 (47779 ms), 2 MB
+GARBAGE_COLLECTION: 09.380 (9380 ms), 0 MB
+execute(): 07:44.056 (464056 ms), 5599 MB
+
+Finished at 28-Aug-2019 18:06:33
+-----------------------------------------------------
+'PropertyCheck_BlockNameIsLowerCase' took 57.551,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 55.081,
+'VertexConnectivity_AllOutportsConnected' took 44.914,
+'LoopAbsence' took 39.993,
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 37.968,
+'NavigationAndFilter_InportsAreGreen' took 33.010,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 10.700,
+'PropertyCheck_HasDescription' took 09.196,
+'PropertyCheck_TagVisibility' took 201
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 07-Oct-2019 17:20:56
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 106 (106 ms), -13 MB
+Loading model: 01:13.740 (73740 ms), 0 MB
+GARBAGE_COLLECTION: 10.158 (10158 ms), 0 MB
+execute(): 09:11.106 (551106 ms), 5590 MB
+
+Finished at 07-Oct-2019 17:31:31
+-----------------------------------------------------
+'PropertyCheck_BlockNameIsLowerCase' took 01:09.272,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 01:04.901,
+'VertexConnectivity_AllOutportsConnected' took 52.827,
+'LoopAbsence' took 47.674,
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 45.771,
+'NavigationAndFilter_InportsAreGreen' took 39.231,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 15.357,
+'PropertyCheck_HasDescription' took 14.588,
+'PropertyCheck_TagVisibility' took 224
+
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 10-Oct-2019 16:36:05
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 106 (106 ms), -13 MB
+Loading model: 01:13.945 (73945 ms), 0 MB
+GARBAGE_COLLECTION: 10.859 (10859 ms), 0 MB
+execute(): 08:58.582 (538582 ms), 5545 MB
+
+Finished at 10-Oct-2019 16:46:29
+-----------------------------------------------------
+'PropertyCheck_BlockNameIsLowerCase' took 01:07.356,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 01:01.502,
+'VertexConnectivity_AllOutportsConnected' took 54.655,
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 49.304,
+'LoopAbsence' took 46.727,
+'NavigationAndFilter_InportsAreGreen' took 38.274,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 11.741,
+'PropertyCheck_HasDescription' took 10.379,
+'PropertyCheck_TagVisibility' took 232
+
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 25-Oct-2019 17:12:38
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 076 (76 ms), -13 MB
+Loading model(s): 15.567 (15567 ms), 0 MB
+GARBAGE_COLLECTION: 10.742 (10742 ms), 0 MB
+execute(): 08:16.019 (496019 ms), 5378 MB
+
+Finished at 25-Oct-2019 17:21:20
+-----------------------------------------------------
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 01:20.024,
+'PropertyCheck_BlockNameIsLowerCase' took 01:06.216,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 01:04.202,
+'VertexConnectivity_AllOutportsConnected' took 51.532,
+'LoopAbsence' took 46.522,
+'NavigationAndFilter_InportsAreGreen' took 37.879,
+'PropertyCheck_HasDescription' took 14.071,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 11.332,
+'PropertyCheck_TagVisibility' took 216
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 30-Oct-2019 14:44:28
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 092 (92 ms), -13 MB
+Loading model(s): 56.518 (56518 ms), 0 MB
+GARBAGE_COLLECTION: 19.918 (19918 ms), 0 MB
+execute(): 08:26.531 (506531 ms), 5465 MB
+
+Finished at 30-Oct-2019 14:54:11
+-----------------------------------------------------
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 01:21.822,
+'PropertyCheck_BlockNameIsLowerCase' took 01:06.371,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 01:05.188,
+'VertexConnectivity_AllOutportsConnected' took 52.432,
+'LoopAbsence' took 47.136,
+'NavigationAndFilter_InportsAreGreen' took 38.539,
+'PropertyCheck_HasDescription' took 17.091,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 11.258,
+'PropertyCheck_TagVisibility' took 227
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 04-Nov-2019 15:46:23
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 101 (101 ms), -13 MB
+Loading model(s): 56.004 (56004 ms), 0 MB
+GARBAGE_COLLECTION: 15.731 (15731 ms), 0 MB
+execute(): 08:10.348 (490348 ms), 5374 MB
+
+Finished at 04-Nov-2019 15:55:45
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 08-Nov-2019 16:53:24
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 100 (100 ms), -13 MB
+Loading model(s): 53.705 (53705 ms), 0 MB
+GARBAGE_COLLECTION: 16.861 (16861 ms), 0 MB
+execute(): 08:22.064 (502064 ms), 5374 MB
+
+Finished at 08-Nov-2019 17:02:57
+-----------------------------------------------------
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 01:20.441,
+'PropertyCheck_BlockNameIsLowerCase' took 01:06.017,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 01:04.919,
+'VertexConnectivity_AllOutportsConnected' took 52.249,
+'LoopAbsence' took 46.962,
+'pre' took 40.017,
+'NavigationAndFilter_InportsAreGreen' took 38.140,
+'PropertyCheck_HasDescription' took 17.010,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 12.198,
+'PropertyCheck_TagVisibility' took 218
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 08-Nov-2019 17:18:54
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 077 (77 ms), -13 MB
+Loading model(s): 22.481 (22481 ms), 0 MB
+GARBAGE_COLLECTION: 13.022 (13022 ms), 0 MB
+execute(): 07:37.178 (457178 ms), 5375 MB
+
+Finished at 08-Nov-2019 17:27:07
+-----------------------------------------------------
+'PropertyCheck_BlockNameIsLowerCase' took 01:06.376,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 01:01.953,
+'VertexConnectivity_AllOutportsConnected' took 52.398,
+'LoopAbsence' took 50.803,
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 45.748,
+'NavigationAndFilter_InportsAreGreen' took 38.518,
+'pre' took 37.152,
+'PropertyCheck_HasDescription' took 17.428,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 11.556,
+'PropertyCheck_TagVisibility' took 220
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 11-Nov-2019 15:39:02
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 103 (103 ms), -13 MB
+Loading model(s): 56.948 (56948 ms), 0 MB
+GARBAGE_COLLECTION: 16.095 (16095 ms), 0 MB
+execute(): 08:09.972 (489972 ms), 5374 MB
+
+Finished at 11-Nov-2019 15:48:25
+-----------------------------------------------------
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 01:19.122,
+'PropertyCheck_BlockNameIsLowerCase' took 01:04.467,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 01:03.141,
+'VertexConnectivity_AllOutportsConnected' took 50.653,
+'LoopAbsence' took 45.536,
+'pre' took 39.616,
+'NavigationAndFilter_InportsAreGreen' took 37.649,
+'PropertyCheck_HasDescription' took 16.066,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 11.845,
+'PropertyCheck_TagVisibility' took 216
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 11-Nov-2019 18:37:02
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 100 (100 ms), -13 MB
+Loading model(s): 58.959 (58959 ms), 0 MB
+GARBAGE_COLLECTION: 16.837 (16837 ms), 0 MB
+execute(): 08:15.646 (495646 ms), 5428 MB
+
+Finished at 11-Nov-2019 18:46:33
+-----------------------------------------------------
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 01:19.396,
+'PropertyCheck_BlockNameIsLowerCase' took 01:05.661,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 01:04.310,
+'VertexConnectivity_AllOutportsConnected' took 51.572,
+'LoopAbsence' took 46.320,
+'pre' took 39.886,
+'NavigationAndFilter_InportsAreGreen' took 38.001,
+'PropertyCheck_HasDescription' took 13.938,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 11.823,
+'PropertyCheck_TagVisibility' took 210
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 18-Nov-2019 18:24:13
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 103 (103 ms), -13 MB
+Loading model(s): 57.314 (57314 ms), 0 MB
+GARBAGE_COLLECTION: 18.919 (18919 ms), 0 MB
+execute(): 08:14.641 (494641 ms), 5374 MB
+
+Finished at 18-Nov-2019 18:33:44
+-----------------------------------------------------
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 01:19.344,
+'PropertyCheck_BlockNameIsLowerCase' took 01:05.309,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 01:04.018,
+'VertexConnectivity_AllOutportsConnected' took 51.123,
+'LoopAbsence' took 46.022,
+'pre' took 39.756,
+'NavigationAndFilter_InportsAreGreen' took 37.586,
+'PropertyCheck_HasDescription' took 16.719,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 12.147,
+'PropertyCheck_TagVisibility' took 208
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------

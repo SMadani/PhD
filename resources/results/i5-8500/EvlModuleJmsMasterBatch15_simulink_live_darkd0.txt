@@ -1,0 +1,214 @@
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 25-Oct-2019 18:58:08
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 090 (90 ms), -13 MB
+Sending configuration to workers: 495 (495 ms), 7 MB
+Loading model(s): 13.634 (13634 ms), 2 MB
+GARBAGE_COLLECTION: 103 (103 ms), 0 MB
+GARBAGE_COLLECTION: 130 (130 ms), 0 MB
+execute(): 03:59.310 (239310 ms), 28 MB
+
+Finished at 25-Oct-2019 19:02:21
+-----------------------------------------------------
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 01:15.946,
+'PropertyCheck_BlockNameIsLowerCase' took 01:04.443,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 57.713,
+'VertexConnectivity_AllOutportsConnected' took 45.648,
+'LoopAbsence' took 40.488,
+'NavigationAndFilter_InportsAreGreen' took 31.808,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 09.126,
+'PropertyCheck_HasDescription' took 07.730,
+'PropertyCheck_TagVisibility' took 202
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 25-Oct-2019 19:02:45
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 090 (90 ms), -13 MB
+Sending configuration to workers: 608 (608 ms), -12 MB
+Loading model(s): 13.586 (13586 ms), -17 MB
+GARBAGE_COLLECTION: 105 (105 ms), 0 MB
+GARBAGE_COLLECTION: 170 (170 ms), 0 MB
+execute(): 03:56.701 (236701 ms), 26 MB
+
+Finished at 25-Oct-2019 19:06:56
+-----------------------------------------------------
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 01:16.451,
+'PropertyCheck_BlockNameIsLowerCase' took 01:04.431,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 58.261,
+'VertexConnectivity_AllOutportsConnected' took 46.041,
+'LoopAbsence' took 41.043,
+'NavigationAndFilter_InportsAreGreen' took 32.196,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 09.121,
+'PropertyCheck_HasDescription' took 07.778,
+'PropertyCheck_TagVisibility' took 210
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 04-Nov-2019 17:46:55
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 090 (90 ms), -13 MB
+Sending configuration to workers: 382 (382 ms), 7 MB
+Loading model(s): 21.952 (21952 ms), 3 MB
+GARBAGE_COLLECTION: 251 (251 ms), 0 MB
+execute(): 03:14.850 (194850 ms), -13 MB
+
+Finished at 04-Nov-2019 17:51:09
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 04-Nov-2019 17:59:33
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 090 (90 ms), -13 MB
+Sending configuration to workers: 371 (371 ms), 7 MB
+Loading model(s): 13.579 (13579 ms), 3 MB
+GARBAGE_COLLECTION: 095 (95 ms), 0 MB
+GARBAGE_COLLECTION: 175 (175 ms), 0 MB
+execute(): 03:15.671 (195671 ms), 66 MB
+
+Finished at 04-Nov-2019 18:03:39
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 04-Nov-2019 18:09:25
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 090 (90 ms), -13 MB
+Sending configuration to workers: 381 (381 ms), 7 MB
+Loading model(s): 13.336 (13336 ms), -7 MB
+GARBAGE_COLLECTION: 223 (223 ms), 0 MB
+execute(): 03:16.644 (196644 ms), 74 MB
+
+Finished at 04-Nov-2019 18:13:31
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 04-Nov-2019 18:13:54
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 089 (89 ms), -13 MB
+Sending configuration to workers: 379 (379 ms), 7 MB
+Loading model(s): 13.536 (13536 ms), -17 MB
+GARBAGE_COLLECTION: 255 (255 ms), 0 MB
+execute(): 03:29.043 (209043 ms), 40 MB
+
+Finished at 04-Nov-2019 18:18:13
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 04-Nov-2019 18:18:30
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 091 (91 ms), -13 MB
+Sending configuration to workers: 392 (392 ms), 7 MB
+Loading model(s): 13.553 (13553 ms), 3 MB
+GARBAGE_COLLECTION: 155 (155 ms), 0 MB
+GARBAGE_COLLECTION: 196 (196 ms), 0 MB
+execute(): 03:17.690 (197690 ms), 39 MB
+
+Finished at 04-Nov-2019 18:22:39
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 04-Nov-2019 18:23:47
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 081 (81 ms), -13 MB
+Sending configuration to workers: 381 (381 ms), 17 MB
+Loading model(s): 13.804 (13804 ms), -7 MB
+GARBAGE_COLLECTION: 268 (268 ms), 0 MB
+execute(): 03:16.654 (196654 ms), 114 MB
+
+Finished at 04-Nov-2019 18:27:55
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 04-Nov-2019 18:28:26
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 088 (88 ms), -13 MB
+Sending configuration to workers: 373 (373 ms), 13 MB
+Loading model(s): 13.524 (13524 ms), -27 MB
+GARBAGE_COLLECTION: 259 (259 ms), 0 MB
+execute(): 03:19.249 (199249 ms), 49 MB
+
+Finished at 04-Nov-2019 18:32:36
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 04-Nov-2019 18:33:22
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 090 (90 ms), -13 MB
+Sending configuration to workers: 374 (374 ms), 13 MB
+Loading model(s): 13.495 (13495 ms), 3 MB
+GARBAGE_COLLECTION: 262 (262 ms), 0 MB
+execute(): 03:11.843 (191843 ms), 66 MB
+
+Finished at 04-Nov-2019 18:37:25
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------

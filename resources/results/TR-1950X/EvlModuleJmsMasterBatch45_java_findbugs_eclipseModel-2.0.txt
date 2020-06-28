@@ -1,0 +1,64 @@
+Linux 5.1.11-300.fc30.x86_64
+OpenJDK 64-Bit Server VM 11.0.3+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8032 MB
+Xmx: 28880 MB
+Starting execution at 21 Jun 2019, 18:44:52
+-----------------------------------------------------
+Number of jobs: 969698
+
+Profiled processes:
+Parsing script: 129 (129 ms), 9 MB
+Parsing model: 18.702 (18702 ms), 634 MB
+GARBAGE_COLLECTION: 01.043 (1043 ms), 0 MB
+execute(): 01:29.092 (89092 ms), 229 MB
+
+Finished at 21 Jun 2019, 18:46:41
+-----------------------------------------------------
+'allImportsAreUsed' took 5:09:50.670,
+'canBeLocal' took 12.219,
+'variableIsUsed' took 12.213,
+'publicFieldsOnlyInPOJO' took 11.235,
+'noObscuredVariables' took 07.994,
+'parametersEffectivelyFinal' took 07.872,
+'hashCodeAndEquals' took 06.950,
+'notReservedWord' took 06.317,
+'equalsNotOnLiterals' took 05.720,
+'emptyBlockIsDocumented' took 04.997,
+'shouldStartWithLowerCase' took 03.947,
+'equalsNotOnStrings' took 03.417,
+'localMethodIsUsed' took 03.351,
+'noDeadCode' took 03.270,
+'doesNotCallFinalize' took 02.366,
+'publicVariableIsFinal' took 01.846,
+'noUselessControlFlow' took 01.721,
+'noRedundantInterfaceImpl' took 01.289,
+'shouldStartWithUpperCase' took 952,
+'doesNotCallExit' took 924,
+'noRedundantComparison' took 849,
+'doesNotCallRunFinalizers' took 783,
+'equalsAndCompareTo' took 729,
+'noRedundantAssignments' took 624,
+'cloneInCloneable' took 496,
+'noCovariantEquals' took 467,
+'serialUIDInSerializableClass' took 395,
+'comparatorImplementsSerializable' took 334,
+'noCovariantCompareTo' took 329,
+'exceptionIsUsed' took 137,
+'moreThan3Cases' took 088,
+'noRedundantSuperCall' took 054,
+'doesNotCatchDubiousExceptions' took 041,
+'publicVariableIsFinal' took 004,
+'hasStatements' took 004
+-----------------------------------------------------
+143055 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.1.11-300.fc30.x86_64
+OpenJDK 64-Bit Server VM 11.0.3+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8032 MB
+Xmx: 28880 MB
+Starting execution at 21 Jun 2019, 18:49:50
+-----------------------------------------------------

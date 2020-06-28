@@ -1,0 +1,47 @@
+model name	: AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 736 MB
+Xmx: 25668 MB
+Starting execution at 19 Aug 2018, 22:06:38
+-----------------------------------------------------
+
+Profiled processes:
+Parsing model: 29.448 (29448 ms), 2547 MB
+execute(): 2:02:09.632 (7329632 ms), 3884 MB
+
+Finished at 20 Aug 2018, 00:09:17
+-----------------------------------------------------
+'allImportsAreUsed' took 2:01:23.929,
+'noObscuredVariables' took 05.554,
+'parametersEffectivelyFinal' took 04.074,
+'doesNotCallRunFinalizers' took 04.010,
+'doesNotCallFinalize' took 03.980,
+'hashCodeAndEquals' took 03.369,
+'doesNotCallExit' took 03.101,
+'equalsNotOnLiterals' took 02.787,
+'equalsNotOnStrings' took 02.611,
+'variableIsUsed' took 02.122,
+'localMethodIsUsed' took 01.797,
+'equalsAndCompareTo' took 01.620,
+'noCovariantEquals' took 01.577,
+'noCovariantCompareTo' took 01.496,
+'noUselessControlFlow' took 01.372,
+'emptyBlockIsDocumented' took 01.125,
+'noDeadCode' took 881,
+'shouldStartWithLowerCase' took 635,
+'noRedundantInterfaceImpl' took 593,
+'publicVariableIsFinal' took 384,
+'noRedundantAssignments' took 310,
+'noRedundantComparison' took 175,
+'serialUIDInSerializableClass' took 134,
+'cloneInCloneable' took 122,
+'comparatorImplementsSerializable' took 095,
+'exceptionIsUsed' took 056,
+'publicVariableIsFinal' took 041,
+'moreThan3Cases' took 021,
+'noRedundantSuperCall' took 021,
+'doesNotCatchDubiousExceptions' took 008,
+'hasStatements' took 003
+-----------------------------------------------------
+89345 constraints have not been satisfied.
+-----------------------------------------------------

@@ -1,0 +1,58 @@
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 10 Jan 2020, 14:25:56
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 079 (79 ms), 102 MB
+Loading model(s): 04.070 (4070 ms), 1289 MB
+GARBAGE_COLLECTION: 01.000 (1000 ms), 0 MB
+execute(): 02.147 (2147 ms), 2150 MB
+
+Finished at 10 Jan 2020, 14:26:03
+-----------------------------------------------------
+'hashCodeAndEquals' took 02.733,
+'noObscuredVariables' took 923,
+'publicFieldsOnlyInPOJO' took 545,
+'equalsAndCompareTo' took 527,
+'noRedundantInterfaceImpl' took 399,
+'noCovariantEquals' took 129,
+'noCovariantCompareTo' took 083,
+'cloneInCloneable' took 052,
+'serialUIDInSerializableClass' took 041,
+'comparatorImplementsSerializable' took 023
+-----------------------------------------------------
+3203 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 9885 MB
+Xmx: 26176 MB
+Starting execution at 10 Jan 2020, 14:26:04
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 283 (283 ms), 0 MB
+execute(): 01.197 (1197 ms), 369 MB
+
+Finished at 10 Jan 2020, 14:26:05
+-----------------------------------------------------
+'hashCodeAndEquals' took 01.599,
+'noObscuredVariables' took 873,
+'equalsAndCompareTo' took 585,
+'noRedundantInterfaceImpl' took 369,
+'noCovariantEquals' took 066,
+'publicFieldsOnlyInPOJO' took 064,
+'noCovariantCompareTo' took 052,
+'serialUIDInSerializableClass' took 046,
+'cloneInCloneable' took 036,
+'comparatorImplementsSerializable' took 022
+-----------------------------------------------------
+3203 constraints have not been satisfied.
+-----------------------------------------------------

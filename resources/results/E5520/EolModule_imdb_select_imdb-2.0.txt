@@ -1,0 +1,96 @@
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 07-Jan-2020 02:05:27
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 183 (183 ms), 307 MB
+Loading model(s): 25.128 (25128 ms), 3707 MB
+GARBAGE_COLLECTION: 20.139 (20139 ms), 0 MB
+execute(): 1:03:26.564 (3806564 ms), 1531 MB
+
+Finished at 07-Jan-2020 03:09:39
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 23002 MB
+Xmx: 27305 MB
+Starting execution at 07-Jan-2020 03:09:43
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 04.389 (4389 ms), 0 MB
+execute(): 1:00:52.838 (3652838 ms), 2761 MB
+
+Finished at 07-Jan-2020 04:10:40
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 08-Jan-2020 00:37:04
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 170 (170 ms), 307 MB
+Loading model(s): 30.865 (30865 ms), 3476 MB
+GARBAGE_COLLECTION: 19.895 (19895 ms), 0 MB
+execute(): 1:03:36.133 (3816133 ms), 3699 MB
+
+Finished at 08-Jan-2020 01:41:31
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 27583 MB
+Xmx: 27583 MB
+Starting execution at 08-Jan-2020 01:41:36
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 04.661 (4661 ms), 0 MB
+execute(): 1:04:56.892 (3896892 ms), 596 MB
+
+Finished at 08-Jan-2020 02:46:38
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 09-Jan-2020 05:34:24
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 190 (190 ms), 307 MB
+Loading model(s): 23.909 (23909 ms), 3476 MB
+GARBAGE_COLLECTION: 20.105 (20105 ms), 0 MB
+execute(): 1:08:41.053 (4121053 ms), 6879 MB
+
+Finished at 09-Jan-2020 06:43:50
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29131 MB
+Xmx: 29131 MB
+Starting execution at 09-Jan-2020 06:43:57
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 04.276 (4276 ms), 0 MB
+execute(): 1:02:14.445 (3734445 ms), 265 MB
+
+Finished at 09-Jan-2020 07:46:16
+-----------------------------------------------------

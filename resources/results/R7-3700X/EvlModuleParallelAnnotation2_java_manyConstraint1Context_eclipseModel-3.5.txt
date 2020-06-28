@@ -1,0 +1,58 @@
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 10 Jan 2020, 14:28:47
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 080 (80 ms), 122 MB
+Loading model(s): 21.509 (21509 ms), 3451 MB
+GARBAGE_COLLECTION: 04.676 (4676 ms), 0 MB
+execute(): 11.219 (11219 ms), 1918 MB
+
+Finished at 10 Jan 2020, 14:29:24
+-----------------------------------------------------
+'hashCodeAndEquals' took 07.629,
+'noObscuredVariables' took 04.670,
+'publicFieldsOnlyInPOJO' took 02.093,
+'equalsAndCompareTo' took 01.888,
+'noRedundantInterfaceImpl' took 01.397,
+'noCovariantEquals' took 278,
+'noCovariantCompareTo' took 204,
+'cloneInCloneable' took 166,
+'serialUIDInSerializableClass' took 133,
+'comparatorImplementsSerializable' took 100
+-----------------------------------------------------
+11858 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 13018 MB
+Xmx: 26176 MB
+Starting execution at 10 Jan 2020, 14:29:26
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 01.933 (1933 ms), 0 MB
+execute(): 08.346 (8346 ms), 2602 MB
+
+Finished at 10 Jan 2020, 14:29:37
+-----------------------------------------------------
+'hashCodeAndEquals' took 05.815,
+'noObscuredVariables' took 04.631,
+'equalsAndCompareTo' took 01.935,
+'noRedundantInterfaceImpl' took 01.396,
+'publicFieldsOnlyInPOJO' took 463,
+'noCovariantEquals' took 227,
+'noCovariantCompareTo' took 203,
+'serialUIDInSerializableClass' took 131,
+'cloneInCloneable' took 105,
+'comparatorImplementsSerializable' took 098
+-----------------------------------------------------
+11858 constraints have not been satisfied.
+-----------------------------------------------------

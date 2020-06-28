@@ -1,0 +1,24 @@
+Linux 5.0.5-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+cut: invalid byte/character position ‘:14’
+Try 'cut --help' for more information.
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 7 May 2019, 07:23:51
+-----------------------------------------------------
+
+Profiled processes:
+Prepare model: 01.143 (1143 ms), 29 MB
+setup: 358 (358 ms), 7 MB
+Parse script: 845 (845 ms), 20 MB
+Check for query: 002 (2 ms), 0 MB
+Prepare validator: 002 (2 ms), 0 MB
+execute: 13:41.049 (821049 ms), 4 MB
+GARBAGE_COLLECTION: 358 (358 ms), 0 MB
+dispose: 040 (40 ms), -1 MB
+
+Finished at 7 May 2019, 07:37:35
+-----------------------------------------------------
+All constraints satisfied.
+-----------------------------------------------------

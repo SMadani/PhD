@@ -1,0 +1,55 @@
+Linux 5.1.12-300.fc30.x86_64
+OpenJDK 64-Bit Server VM 11.0.3+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8032 MB
+Xmx: 28880 MB
+Starting execution at 11 Jul 2019, 15:08:33
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 124 (124 ms), 10 MB
+Parsing model: 29.466 (29466 ms), 1024 MB
+GARBAGE_COLLECTION: 01.568 (1568 ms), 0 MB
+execute(): 4:49:07.088 (17347088 ms), 461 MB
+
+Finished at 11 Jul 2019, 19:58:12
+-----------------------------------------------------
+'allImportsAreUsed' took 4:48:07.167,
+'noObscuredVariables' took 08.780,
+'parametersEffectivelyFinal' took 06.325,
+'publicFieldsOnlyInPOJO' took 04.170,
+'variableIsUsed' took 03.872,
+'equalsNotOnLiterals' took 03.761,
+'equalsNotOnStrings' took 03.526,
+'hashCodeAndEquals' took 03.375,
+'canBeLocal' took 02.732,
+'localMethodIsUsed' took 02.337,
+'noUselessControlFlow' took 02.054,
+'notReservedWord' took 01.960,
+'emptyBlockIsDocumented' took 01.883,
+'noDeadCode' took 01.417,
+'shouldStartWithLowerCase' took 01.073,
+'noRedundantInterfaceImpl' took 901,
+'doesNotCallFinalize' took 820,
+'doesNotCallExit' took 614,
+'doesNotCallRunFinalizers' took 607,
+'equalsAndCompareTo' took 556,
+'noRedundantComparison' took 432,
+'noRedundantAssignments' took 404,
+'publicVariableIsFinal' took 383,
+'shouldStartWithUpperCase' took 333,
+'noCovariantEquals' took 218,
+'serialUIDInSerializableClass' took 205,
+'comparatorImplementsSerializable' took 202,
+'noCovariantCompareTo' took 169,
+'cloneInCloneable' took 159,
+'exceptionIsUsed' took 081,
+'publicVariableIsFinal' took 042,
+'noRedundantSuperCall' took 037,
+'moreThan3Cases' took 036,
+'doesNotCatchDubiousExceptions' took 012,
+'hasStatements' took 007
+-----------------------------------------------------
+189601 constraints have not been satisfied.
+-----------------------------------------------------

@@ -1,0 +1,68 @@
+Linux 4.20.13-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 8 Mar 2019, 08:30:50
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 096 (96 ms), 7 MB
+Parsing model: 03.948 (3948 ms), 259 MB
+GARBAGE_COLLECTION: 787 (787 ms), 0 MB
+execute(): 02:17.692 (137692 ms), -30 MB
+
+Finished at 8 Mar 2019, 08:33:13
+-----------------------------------------------------
+Linux 4.20.13-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 9 Mar 2019, 04:42:52
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 093 (93 ms), 7 MB
+Parsing model: 03.944 (3944 ms), 272 MB
+GARBAGE_COLLECTION: 793 (793 ms), 0 MB
+execute(): 02:14.599 (134599 ms), -47 MB
+
+Finished at 9 Mar 2019, 04:45:12
+-----------------------------------------------------
+Linux 4.20.13-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 10 Mar 2019, 00:43:45
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 093 (93 ms), 7 MB
+Parsing model: 04.157 (4157 ms), 250 MB
+GARBAGE_COLLECTION: 726 (726 ms), 0 MB
+execute(): 02:11.539 (131539 ms), -39 MB
+
+Finished at 10 Mar 2019, 00:46:01
+-----------------------------------------------------
+Linux 4.20.13-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 10 Mar 2019, 20:41:53
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 094 (94 ms), 8 MB
+Parsing model: 03.987 (3987 ms), 247 MB
+GARBAGE_COLLECTION: 790 (790 ms), 0 MB
+execute(): 02:19.055 (139055 ms), -36 MB
+
+Finished at 10 Mar 2019, 20:44:17
+-----------------------------------------------------

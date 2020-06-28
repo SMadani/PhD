@@ -1,0 +1,318 @@
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13+33
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26757 MB
+Starting execution at 7 Oct 2019, 00:00:49
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 110 (110 ms), -23 MB
+Loading model: 42.000 (42000 ms), 4366 MB
+GARBAGE_COLLECTION: 17.540 (17540 ms), 0 MB
+execute(): 05:50.129 (350129 ms), 2868 MB
+
+Finished at 7 Oct 2019, 00:07:38
+-----------------------------------------------------
+'validPageLength' took 01:55.356,
+'isValidMonth' took 01:23.652,
+'malformedKey' took 29.243,
+'malformedURL' took 05.176,
+'activelyPublishingInIST' took 02.288,
+'isValidISBN' took 314,
+'publishedInIST' took 001
+
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13+33
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26757 MB
+Starting execution at 7 Oct 2019, 00:15:30
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 110 (110 ms), -23 MB
+Loading model: 39.911 (39911 ms), 4232 MB
+GARBAGE_COLLECTION: 16.620 (16620 ms), 0 MB
+execute(): 05:54.972 (354972 ms), 3005 MB
+
+Finished at 7 Oct 2019, 00:22:21
+-----------------------------------------------------
+'validPageLength' took 03:05.949,
+'isValidMonth' took 01:49.346,
+'malformedKey' took 30.320,
+'malformedURL' took 04.298,
+'activelyPublishingInIST' took 579,
+'isValidISBN' took 300,
+'publishedInIST' took 001
+
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 80 MB
+Xmx: 29448 MB
+Starting execution at 15 Dec 2019, 18:00:33
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 133 (133 ms), 13 MB
+Loading model(s): 40.050 (40050 ms), 4136 MB
+GARBAGE_COLLECTION: 10.051 (10051 ms), 0 MB
+execute(): 04:43.093 (283093 ms), 1833 MB
+
+Finished at 15 Dec 2019, 18:06:07
+-----------------------------------------------------
+'validPageLength' took 02:10.561,
+'isValidMonth' took 01:29.918,
+'malformedKey' took 32.762,
+'malformedURL' took 04.124,
+'isValidISBN' took 340,
+'activelyPublishingInIST' took 244,
+'publishedInIST' took 001,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 12640 MB
+Xmx: 29448 MB
+Starting execution at 15 Dec 2019, 18:06:10
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 05.278 (5278 ms), 0 MB
+execute(): 04:33.557 (273557 ms), 2250 MB
+
+Finished at 15 Dec 2019, 18:10:48
+-----------------------------------------------------
+'validPageLength' took 02:08.103,
+'isValidMonth' took 01:27.700,
+'malformedKey' took 30.619,
+'malformedURL' took 04.427,
+'isValidISBN' took 437,
+'activelyPublishingInIST' took 195,
+'pre' took 000,
+'publishedInIST' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 12512 MB
+Xmx: 29448 MB
+Starting execution at 15 Dec 2019, 18:10:51
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 04.731 (4731 ms), 0 MB
+execute(): 04:34.404 (274404 ms), 2250 MB
+
+Finished at 15 Dec 2019, 18:15:30
+-----------------------------------------------------
+'validPageLength' took 02:08.130,
+'isValidMonth' took 01:27.326,
+'malformedKey' took 31.995,
+'malformedURL' took 04.336,
+'isValidISBN' took 314,
+'activelyPublishingInIST' took 193,
+'publishedInIST' took 000,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 12512 MB
+Xmx: 29448 MB
+Starting execution at 15 Dec 2019, 18:15:33
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 04.958 (4958 ms), 0 MB
+execute(): 04:34.519 (274519 ms), 2250 MB
+
+Finished at 15 Dec 2019, 18:20:12
+-----------------------------------------------------
+'validPageLength' took 02:08.183,
+'isValidMonth' took 01:27.453,
+'malformedKey' took 31.728,
+'malformedURL' took 04.572,
+'isValidISBN' took 312,
+'activelyPublishingInIST' took 193,
+'publishedInIST' took 000,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 12536 MB
+Xmx: 29448 MB
+Starting execution at 15 Dec 2019, 18:20:15
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 04.900 (4900 ms), 0 MB
+execute(): 04:34.066 (274066 ms), 2250 MB
+
+Finished at 15 Dec 2019, 18:24:54
+-----------------------------------------------------
+'validPageLength' took 02:07.801,
+'isValidMonth' took 01:27.459,
+'malformedKey' took 31.667,
+'malformedURL' took 04.566,
+'isValidISBN' took 313,
+'activelyPublishingInIST' took 193,
+'publishedInIST' took 000,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 80 MB
+Xmx: 29448 MB
+Starting execution at 15 Dec 2019, 21:40:10
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 119 (119 ms), 13 MB
+Loading model(s): 39.556 (39556 ms), 4136 MB
+GARBAGE_COLLECTION: 09.628 (9628 ms), 0 MB
+execute(): 04:36.067 (276067 ms), 1832 MB
+
+Finished at 15 Dec 2019, 21:45:35
+-----------------------------------------------------
+'validPageLength' took 02:06.857,
+'isValidMonth' took 01:27.605,
+'malformedKey' took 31.714,
+'malformedURL' took 04.145,
+'isValidISBN' took 342,
+'activelyPublishingInIST' took 246,
+'publishedInIST' took 001,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 12616 MB
+Xmx: 29448 MB
+Starting execution at 15 Dec 2019, 21:45:38
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 05.050 (5050 ms), 0 MB
+execute(): 04:33.432 (273432 ms), 2250 MB
+
+Finished at 15 Dec 2019, 21:50:17
+-----------------------------------------------------
+'validPageLength' took 02:07.943,
+'isValidMonth' took 01:27.048,
+'malformedKey' took 31.751,
+'malformedURL' took 04.464,
+'isValidISBN' took 312,
+'activelyPublishingInIST' took 194,
+'publishedInIST' took 000,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 12480 MB
+Xmx: 29448 MB
+Starting execution at 15 Dec 2019, 21:50:19
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 04.751 (4751 ms), 0 MB
+execute(): 04:34.187 (274187 ms), 2250 MB
+
+Finished at 15 Dec 2019, 21:54:58
+-----------------------------------------------------
+'validPageLength' took 02:08.468,
+'isValidMonth' took 01:27.118,
+'malformedKey' took 31.825,
+'malformedURL' took 04.352,
+'isValidISBN' took 397,
+'activelyPublishingInIST' took 192,
+'publishedInIST' took 000,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 12512 MB
+Xmx: 29448 MB
+Starting execution at 15 Dec 2019, 21:55:01
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 05.056 (5056 ms), 0 MB
+execute(): 04:34.079 (274079 ms), 2250 MB
+
+Finished at 15 Dec 2019, 21:59:40
+-----------------------------------------------------
+'validPageLength' took 02:08.319,
+'isValidMonth' took 01:27.220,
+'malformedKey' took 31.936,
+'malformedURL' took 04.289,
+'isValidISBN' took 312,
+'activelyPublishingInIST' took 193,
+'publishedInIST' took 000,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 12480 MB
+Xmx: 29448 MB
+Starting execution at 15 Dec 2019, 21:59:43
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 04.787 (4787 ms), 0 MB
+execute(): 04:34.232 (274232 ms), 2250 MB
+
+Finished at 15 Dec 2019, 22:04:22
+-----------------------------------------------------
+'validPageLength' took 02:08.614,
+'isValidMonth' took 01:27.016,
+'malformedKey' took 31.957,
+'malformedURL' took 04.272,
+'isValidISBN' took 312,
+'activelyPublishingInIST' took 192,
+'publishedInIST' took 000,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------

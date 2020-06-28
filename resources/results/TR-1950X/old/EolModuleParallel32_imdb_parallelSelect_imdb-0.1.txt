@@ -1,0 +1,68 @@
+Linux 4.20.13-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 8 Mar 2019, 09:20:50
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 093 (93 ms), 7 MB
+Parsing model: 01.225 (1225 ms), 60 MB
+GARBAGE_COLLECTION: 586 (586 ms), 0 MB
+execute(): 09.763 (9763 ms), -6 MB
+
+Finished at 8 Mar 2019, 09:21:02
+-----------------------------------------------------
+Linux 4.20.13-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 9 Mar 2019, 05:33:03
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 093 (93 ms), 8 MB
+Parsing model: 01.270 (1270 ms), 58 MB
+GARBAGE_COLLECTION: 433 (433 ms), 0 MB
+execute(): 09.876 (9876 ms), -5 MB
+
+Finished at 9 Mar 2019, 05:33:14
+-----------------------------------------------------
+Linux 4.20.13-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 10 Mar 2019, 01:33:41
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 094 (94 ms), 8 MB
+Parsing model: 01.215 (1215 ms), 59 MB
+GARBAGE_COLLECTION: 452 (452 ms), 0 MB
+execute(): 09.585 (9585 ms), -6 MB
+
+Finished at 10 Mar 2019, 01:33:52
+-----------------------------------------------------
+Linux 4.20.13-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 10 Mar 2019, 21:31:56
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 096 (96 ms), 8 MB
+Parsing model: 01.285 (1285 ms), 59 MB
+GARBAGE_COLLECTION: 596 (596 ms), 0 MB
+execute(): 09.133 (9133 ms), -7 MB
+
+Finished at 10 Mar 2019, 21:32:07
+-----------------------------------------------------

@@ -1,0 +1,32 @@
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 3 Jan 2020, 14:58:49
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 067 (67 ms), 163 MB
+Loading model(s): 11.902 (11902 ms), 2260 MB
+GARBAGE_COLLECTION: 05.709 (5709 ms), 0 MB
+execute(): 05:52.377 (352377 ms), 5065 MB
+
+Finished at 3 Jan 2020, 15:04:59
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 14010 MB
+Xmx: 26176 MB
+Starting execution at 3 Jan 2020, 15:05:00
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 01.341 (1341 ms), 0 MB
+execute(): 05:52.279 (352279 ms), 6031 MB
+
+Finished at 3 Jan 2020, 15:10:54
+-----------------------------------------------------

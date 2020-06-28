@@ -1,0 +1,98 @@
+model name	: AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 736 MB
+Xmx: 25668 MB
+Starting execution at 5 Sep 2018, 15:33:22
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 133 (133 ms), 14 MB
+Parsing model: 37.701 (37701 ms), 2668 MB
+execute(): 06:57.274 (417274 ms), 2964 MB
+
+Finished at 5 Sep 2018, 15:40:57
+-----------------------------------------------------
+'noObscuredVariables' took 08.254,
+'parametersEffectivelyFinal' took 05.384,
+'variableIsUsed' took 03.243,
+'canBeLocal' took 03.027,
+'notReservedWord' took 02.793,
+'equalsNotOnLiterals' took 02.519,
+'equalsNotOnStrings' took 02.308,
+'noUselessControlFlow' took 01.716,
+'hashCodeAndEquals' took 01.415,
+'shouldStartWithLowerCase' took 01.232,
+'noDeadCode' took 01.073,
+'noRedundantInterfaceImpl' took 942,
+'doesNotCallExit' took 839,
+'publicFieldsOnlyInPOJO' took 837,
+'doesNotCallFinalize' took 829,
+'doesNotCallRunFinalizers' took 779,
+'shouldStartWithUpperCase' took 633,
+'noRedundantAssignments' took 523,
+'localMethodIsUsed' took 514,
+'noRedundantComparison' took 270,
+'emptyBlockIsDocumented' took 176,
+'serialUIDInSerializableClass' took 099,
+'exceptionIsUsed' took 078,
+'noCovariantEquals' took 047,
+'noRedundantSuperCall' took 035,
+'moreThan3Cases' took 033,
+'doesNotCatchDubiousExceptions' took 020,
+'cloneInCloneable' took 018,
+'equalsAndCompareTo' took 007,
+'noCovariantCompareTo' took 007,
+'hasStatements' took 005,
+'comparatorImplementsSerializable' took 000
+-----------------------------------------------------
+192608 constraints have not been satisfied.
+-----------------------------------------------------
+model name	: AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 736 MB
+Xmx: 25668 MB
+Starting execution at 5 Sep 2018, 15:40:58
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 122 (122 ms), 14 MB
+Parsing model: 37.765 (37765 ms), 2557 MB
+execute(): 06:48.215 (408215 ms), 7985 MB
+
+Finished at 5 Sep 2018, 15:48:24
+-----------------------------------------------------
+'noObscuredVariables' took 08.279,
+'parametersEffectivelyFinal' took 05.107,
+'notReservedWord' took 04.396,
+'variableIsUsed' took 03.246,
+'canBeLocal' took 02.609,
+'equalsNotOnLiterals' took 02.448,
+'equalsNotOnStrings' took 02.283,
+'noUselessControlFlow' took 01.750,
+'hashCodeAndEquals' took 01.388,
+'noDeadCode' took 01.123,
+'shouldStartWithLowerCase' took 01.099,
+'noRedundantInterfaceImpl' took 935,
+'publicFieldsOnlyInPOJO' took 835,
+'doesNotCallExit' took 817,
+'doesNotCallFinalize' took 800,
+'doesNotCallRunFinalizers' took 758,
+'shouldStartWithUpperCase' took 591,
+'localMethodIsUsed' took 524,
+'noRedundantAssignments' took 498,
+'noRedundantComparison' took 263,
+'serialUIDInSerializableClass' took 100,
+'emptyBlockIsDocumented' took 097,
+'exceptionIsUsed' took 072,
+'noCovariantEquals' took 047,
+'noRedundantSuperCall' took 033,
+'moreThan3Cases' took 032,
+'doesNotCatchDubiousExceptions' took 019,
+'cloneInCloneable' took 018,
+'equalsAndCompareTo' took 007,
+'noCovariantCompareTo' took 007,
+'hasStatements' took 005,
+'comparatorImplementsSerializable' took 000
+-----------------------------------------------------
+192608 constraints have not been satisfied.
+-----------------------------------------------------

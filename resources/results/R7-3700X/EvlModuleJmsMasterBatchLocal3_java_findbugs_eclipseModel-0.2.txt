@@ -1,0 +1,675 @@
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 14+36-1461
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 9279 MB
+Xmx: 26176 MB
+Starting execution at 14 Apr 2020, 00:56:21
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 14+36-1461
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 17 Apr 2020, 18:19:45
+-----------------------------------------------------
+[MASTER] 18:19:46.347519600 Connected to tcp://localhost:61616 session 746
+[MASTER] 18:19:46.383552800 Waiting for workers to load configuration...
+[MASTER] 18:19:50.182016100 Total number of jobs = 105457
+[MASTER] 18:19:55.918747400 Sent 19774 jobs to workers
+[MASTER] 18:19:55.923752800 Awaiting workers to signal completion...
+[MASTER] 18:19:58.328938 Finished processing 6591 master jobs
+[MASTER] 18:20:02.065859700 Worker finished (processed 6171 jobs)
+[MASTER] 18:20:02.444203300 Worker finished (processed 6171 jobs)
+[MASTER] 18:20:02.580327100 Worker finished (processed 7432 jobs)
+[MASTER] 18:20:02.580327100 All workers finished (19774 processed jobs)
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 097 (97 ms), 122 MB
+Loading model(s): 02.792 (2792 ms), 961 MB
+Sending configuration to workers: 03.944 (3944 ms), 159 MB
+GARBAGE_COLLECTION: 291 (291 ms), 0 MB
+GARBAGE_COLLECTION: 128 (128 ms), 0 MB
+execute(): 12.587 (12587 ms), 1087 MB
+
+Finished at 17 Apr 2020, 18:20:02
+-----------------------------------------------------
+'allImportsAreUsed' took 01:58.473,
+'noObscuredVariables' took 854,
+'parametersEffectivelyFinal' took 740,
+'canBeLocal' took 694,
+'variableIsUsed' took 558,
+'publicFieldsOnlyInPOJO' took 518,
+'hashCodeAndEquals' took 447,
+'notReservedWord' took 320,
+'localMethodIsUsed' took 317,
+'emptyBlockIsDocumented' took 288,
+'shouldStartWithLowerCase' took 269,
+'equalsNotOnLiterals' took 233,
+'equalsNotOnStrings' took 162,
+'noRedundantInterfaceImpl' took 149,
+'noDeadCode' took 120,
+'shouldStartWithUpperCase' took 111,
+'noUselessControlFlow' took 109,
+'equalsAndCompareTo' took 074,
+'publicVariableIsFinal' took 073,
+'doesNotCallFinalize' took 062,
+'serialUIDInSerializableClass' took 051,
+'noRedundantAssignments' took 046,
+'noCovariantEquals' took 043,
+'cloneInCloneable' took 039,
+'doesNotCallExit' took 038,
+'comparatorImplementsSerializable' took 033,
+'noCovariantCompareTo' took 028,
+'doesNotCallRunFinalizers' took 026,
+'noRedundantComparison' took 013,
+'exceptionIsUsed' took 008,
+'noRedundantSuperCall' took 007,
+'hasStatements' took 002,
+'moreThan3Cases' took 001,
+'doesNotCatchDubiousExceptions' took 001,
+'publicVariableIsFinal' took 000
+-----------------------------------------------------
+15553 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 14+36-1461
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 17 Apr 2020, 18:20:20
+-----------------------------------------------------
+[MASTER] 18:20:20.773407600 Connected to tcp://localhost:61616 session 746
+[MASTER] 18:20:20.807438800 Waiting for workers to load configuration...
+[MASTER] 18:20:24.559921600 Total number of jobs = 105457
+[MASTER] 18:20:30.592419 Sent 19774 jobs to workers
+[MASTER] 18:20:30.597423800 Awaiting workers to signal completion...
+[MASTER] 18:20:34.775237200 Finished processing 6591 master jobs
+[MASTER] 18:20:36.299622700 Worker finished (processed 6171 jobs)
+[MASTER] 18:20:36.661952700 Worker finished (processed 7432 jobs)
+[MASTER] 18:20:36.799076300 Worker finished (processed 6171 jobs)
+[MASTER] 18:20:36.800077300 All workers finished (19774 processed jobs)
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 096 (96 ms), 122 MB
+Loading model(s): 02.602 (2602 ms), 1014 MB
+Sending configuration to workers: 03.877 (3877 ms), 143 MB
+GARBAGE_COLLECTION: 216 (216 ms), 0 MB
+GARBAGE_COLLECTION: 142 (142 ms), 0 MB
+execute(): 12.633 (12633 ms), 580 MB
+
+Finished at 17 Apr 2020, 18:20:37
+-----------------------------------------------------
+'allImportsAreUsed' took 02:01.196,
+'noObscuredVariables' took 869,
+'parametersEffectivelyFinal' took 758,
+'canBeLocal' took 691,
+'variableIsUsed' took 618,
+'publicFieldsOnlyInPOJO' took 579,
+'hashCodeAndEquals' took 480,
+'localMethodIsUsed' took 331,
+'emptyBlockIsDocumented' took 317,
+'equalsNotOnLiterals' took 278,
+'shouldStartWithLowerCase' took 242,
+'notReservedWord' took 233,
+'equalsNotOnStrings' took 194,
+'noRedundantInterfaceImpl' took 149,
+'shouldStartWithUpperCase' took 134,
+'noDeadCode' took 124,
+'noUselessControlFlow' took 118,
+'publicVariableIsFinal' took 071,
+'equalsAndCompareTo' took 069,
+'doesNotCallFinalize' took 059,
+'noRedundantAssignments' took 049,
+'noCovariantEquals' took 044,
+'serialUIDInSerializableClass' took 043,
+'cloneInCloneable' took 041,
+'doesNotCallExit' took 034,
+'comparatorImplementsSerializable' took 032,
+'doesNotCallRunFinalizers' took 027,
+'noCovariantCompareTo' took 027,
+'noRedundantComparison' took 018,
+'exceptionIsUsed' took 010,
+'noRedundantSuperCall' took 008,
+'hasStatements' took 001,
+'moreThan3Cases' took 001,
+'publicVariableIsFinal' took 001,
+'doesNotCatchDubiousExceptions' took 000
+-----------------------------------------------------
+15553 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 14+36-1461
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 17 Apr 2020, 18:20:54
+-----------------------------------------------------
+[MASTER] 18:20:55.257258200 Connected to tcp://localhost:61616 session 746
+[MASTER] 18:20:55.293290700 Waiting for workers to load configuration...
+[MASTER] 18:20:59.066227800 Total number of jobs = 105457
+[MASTER] 18:21:04.897888800 Sent 19774 jobs to workers
+[MASTER] 18:21:04.905896100 Awaiting workers to signal completion...
+[MASTER] 18:21:07.836559600 Finished processing 6591 master jobs
+[MASTER] 18:21:11.072008900 Worker finished (processed 6171 jobs)
+[MASTER] 18:21:11.296211600 Worker finished (processed 6171 jobs)
+[MASTER] 18:21:11.306221100 Worker finished (processed 7432 jobs)
+[MASTER] 18:21:11.306221100 All workers finished (19774 processed jobs)
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 094 (94 ms), 122 MB
+Loading model(s): 02.766 (2766 ms), 961 MB
+Sending configuration to workers: 03.925 (3925 ms), 143 MB
+GARBAGE_COLLECTION: 453 (453 ms), 0 MB
+execute(): 12.620 (12620 ms), 124 MB
+
+Finished at 17 Apr 2020, 18:21:11
+-----------------------------------------------------
+'allImportsAreUsed' took 02:00.173,
+'noObscuredVariables' took 868,
+'parametersEffectivelyFinal' took 845,
+'canBeLocal' took 755,
+'publicFieldsOnlyInPOJO' took 572,
+'variableIsUsed' took 526,
+'hashCodeAndEquals' took 460,
+'localMethodIsUsed' took 341,
+'notReservedWord' took 304,
+'equalsNotOnLiterals' took 301,
+'emptyBlockIsDocumented' took 290,
+'shouldStartWithLowerCase' took 245,
+'equalsNotOnStrings' took 190,
+'noRedundantInterfaceImpl' took 156,
+'noDeadCode' took 156,
+'shouldStartWithUpperCase' took 128,
+'noUselessControlFlow' took 119,
+'publicVariableIsFinal' took 080,
+'equalsAndCompareTo' took 076,
+'doesNotCallFinalize' took 057,
+'noRedundantAssignments' took 057,
+'serialUIDInSerializableClass' took 045,
+'noCovariantEquals' took 043,
+'cloneInCloneable' took 043,
+'comparatorImplementsSerializable' took 040,
+'doesNotCallExit' took 035,
+'doesNotCallRunFinalizers' took 030,
+'noCovariantCompareTo' took 027,
+'noRedundantComparison' took 016,
+'exceptionIsUsed' took 008,
+'noRedundantSuperCall' took 008,
+'hasStatements' took 008,
+'moreThan3Cases' took 002,
+'doesNotCatchDubiousExceptions' took 000,
+'publicVariableIsFinal' took 000
+-----------------------------------------------------
+15553 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 14+36-1461
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 17 Apr 2020, 18:21:29
+-----------------------------------------------------
+[MASTER] 18:21:30.170194100 Connected to tcp://localhost:61616 session 746
+[MASTER] 18:21:30.206227600 Waiting for workers to load configuration...
+[MASTER] 18:21:34.072443100 Total number of jobs = 105457
+[MASTER] 18:21:39.784657700 Sent 19774 jobs to workers
+[MASTER] 18:21:39.790664 Awaiting workers to signal completion...
+[MASTER] 18:21:43.136720800 Finished processing 6591 master jobs
+[MASTER] 18:21:45.807148200 Worker finished (processed 6171 jobs)
+[MASTER] 18:21:46.439723300 Worker finished (processed 6171 jobs)
+[MASTER] 18:21:46.466747100 Worker finished (processed 7432 jobs)
+[MASTER] 18:21:46.466747100 All workers finished (19774 processed jobs)
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 097 (97 ms), 102 MB
+Loading model(s): 02.673 (2673 ms), 951 MB
+Sending configuration to workers: 03.975 (3975 ms), 149 MB
+GARBAGE_COLLECTION: 375 (375 ms), 0 MB
+execute(): 12.776 (12776 ms), 847 MB
+
+Finished at 17 Apr 2020, 18:21:46
+-----------------------------------------------------
+'allImportsAreUsed' took 02:00.936,
+'noObscuredVariables' took 899,
+'parametersEffectivelyFinal' took 784,
+'canBeLocal' took 727,
+'publicFieldsOnlyInPOJO' took 581,
+'variableIsUsed' took 509,
+'hashCodeAndEquals' took 489,
+'localMethodIsUsed' took 335,
+'emptyBlockIsDocumented' took 319,
+'equalsNotOnLiterals' took 256,
+'shouldStartWithLowerCase' took 253,
+'notReservedWord' took 212,
+'equalsNotOnStrings' took 172,
+'noRedundantInterfaceImpl' took 166,
+'noDeadCode' took 124,
+'equalsAndCompareTo' took 112,
+'shouldStartWithUpperCase' took 111,
+'noUselessControlFlow' took 099,
+'publicVariableIsFinal' took 068,
+'doesNotCallFinalize' took 058,
+'noCovariantEquals' took 048,
+'noRedundantAssignments' took 048,
+'cloneInCloneable' took 040,
+'serialUIDInSerializableClass' took 039,
+'noCovariantCompareTo' took 035,
+'doesNotCallExit' took 034,
+'doesNotCallRunFinalizers' took 031,
+'comparatorImplementsSerializable' took 028,
+'publicVariableIsFinal' took 022,
+'noRedundantComparison' took 015,
+'exceptionIsUsed' took 010,
+'noRedundantSuperCall' took 007,
+'moreThan3Cases' took 002,
+'hasStatements' took 001,
+'doesNotCatchDubiousExceptions' took 001
+-----------------------------------------------------
+15553 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 14+36-1461
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 17 Apr 2020, 18:22:04
+-----------------------------------------------------
+[MASTER] 18:22:04.977889800 Connected to tcp://localhost:61616 session 746
+[MASTER] 18:22:05.012921500 Waiting for workers to load configuration...
+[MASTER] 18:22:08.818804900 Total number of jobs = 105457
+[MASTER] 18:22:14.492098500 Sent 19774 jobs to workers
+[MASTER] 18:22:14.497103300 Awaiting workers to signal completion...
+[MASTER] 18:22:17.258119300 Finished processing 6591 master jobs
+[MASTER] 18:22:20.229327400 Worker finished (processed 6171 jobs)
+[MASTER] 18:22:20.907944300 Worker finished (processed 6171 jobs)
+[MASTER] 18:22:21.503990900 Worker finished (processed 7432 jobs)
+[MASTER] 18:22:21.503990900 All workers finished (19774 processed jobs)
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 097 (97 ms), 163 MB
+Loading model(s): 02.571 (2571 ms), 957 MB
+Sending configuration to workers: 03.916 (3916 ms), 174 MB
+GARBAGE_COLLECTION: 200 (200 ms), 0 MB
+GARBAGE_COLLECTION: 152 (152 ms), 0 MB
+execute(): 12.971 (12971 ms), 1080 MB
+
+Finished at 17 Apr 2020, 18:22:21
+-----------------------------------------------------
+'allImportsAreUsed' took 01:53.416,
+'noObscuredVariables' took 860,
+'canBeLocal' took 726,
+'parametersEffectivelyFinal' took 714,
+'publicFieldsOnlyInPOJO' took 596,
+'variableIsUsed' took 544,
+'hashCodeAndEquals' took 462,
+'emptyBlockIsDocumented' took 352,
+'localMethodIsUsed' took 338,
+'equalsNotOnLiterals' took 277,
+'shouldStartWithLowerCase' took 242,
+'notReservedWord' took 197,
+'equalsNotOnStrings' took 195,
+'noRedundantInterfaceImpl' took 163,
+'noUselessControlFlow' took 149,
+'noDeadCode' took 118,
+'shouldStartWithUpperCase' took 117,
+'publicVariableIsFinal' took 076,
+'equalsAndCompareTo' took 074,
+'doesNotCallFinalize' took 053,
+'noCovariantEquals' took 049,
+'noRedundantAssignments' took 048,
+'serialUIDInSerializableClass' took 046,
+'doesNotCallExit' took 036,
+'cloneInCloneable' took 035,
+'comparatorImplementsSerializable' took 035,
+'noCovariantCompareTo' took 026,
+'doesNotCallRunFinalizers' took 025,
+'noRedundantComparison' took 014,
+'exceptionIsUsed' took 010,
+'noRedundantSuperCall' took 006,
+'hasStatements' took 001,
+'doesNotCatchDubiousExceptions' took 000,
+'moreThan3Cases' took 000,
+'publicVariableIsFinal' took 000
+-----------------------------------------------------
+15553 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 14+36-1461
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 17 Apr 2020, 18:22:39
+-----------------------------------------------------
+[MASTER] 18:22:40.248584200 Connected to tcp://localhost:61616 session 746
+[MASTER] 18:22:40.282615200 Waiting for workers to load configuration...
+[MASTER] 18:22:44.115110900 Total number of jobs = 105457
+[MASTER] 18:22:49.450971300 Sent 19774 jobs to workers
+[MASTER] 18:22:49.455975300 Awaiting workers to signal completion...
+[MASTER] 18:22:52.997704800 Finished processing 6591 master jobs
+[MASTER] 18:22:55.766729500 Worker finished (processed 6171 jobs)
+[MASTER] 18:22:55.779741700 Worker finished (processed 6171 jobs)
+[MASTER] 18:22:56.508908 Worker finished (processed 7432 jobs)
+[MASTER] 18:22:56.509908800 All workers finished (19774 processed jobs)
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 096 (96 ms), 136 MB
+Loading model(s): 02.701 (2701 ms), 972 MB
+Sending configuration to workers: 03.936 (3936 ms), 131 MB
+GARBAGE_COLLECTION: 275 (275 ms), 0 MB
+GARBAGE_COLLECTION: 154 (154 ms), 0 MB
+execute(): 12.780 (12780 ms), 432 MB
+
+Finished at 17 Apr 2020, 18:22:56
+-----------------------------------------------------
+'allImportsAreUsed' took 01:57.501,
+'noObscuredVariables' took 880,
+'canBeLocal' took 808,
+'parametersEffectivelyFinal' took 758,
+'publicFieldsOnlyInPOJO' took 590,
+'variableIsUsed' took 560,
+'hashCodeAndEquals' took 554,
+'localMethodIsUsed' took 354,
+'emptyBlockIsDocumented' took 248,
+'shouldStartWithLowerCase' took 248,
+'equalsNotOnLiterals' took 246,
+'notReservedWord' took 230,
+'noRedundantInterfaceImpl' took 179,
+'equalsNotOnStrings' took 169,
+'shouldStartWithUpperCase' took 116,
+'noDeadCode' took 107,
+'noUselessControlFlow' took 096,
+'equalsAndCompareTo' took 080,
+'publicVariableIsFinal' took 073,
+'doesNotCallFinalize' took 056,
+'noCovariantEquals' took 054,
+'noRedundantAssignments' took 053,
+'serialUIDInSerializableClass' took 045,
+'comparatorImplementsSerializable' took 043,
+'cloneInCloneable' took 039,
+'doesNotCallExit' took 032,
+'noCovariantCompareTo' took 028,
+'doesNotCallRunFinalizers' took 027,
+'noRedundantComparison' took 015,
+'exceptionIsUsed' took 008,
+'noRedundantSuperCall' took 006,
+'moreThan3Cases' took 002,
+'hasStatements' took 001,
+'doesNotCatchDubiousExceptions' took 000,
+'publicVariableIsFinal' took 000
+-----------------------------------------------------
+15553 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 14+36-1461
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 17 Apr 2020, 18:23:15
+-----------------------------------------------------
+[MASTER] 18:23:16.004175400 Connected to tcp://localhost:61616 session 746
+[MASTER] 18:23:16.039207600 Waiting for workers to load configuration...
+[MASTER] 18:23:19.841572100 Total number of jobs = 105457
+[MASTER] 18:23:25.823033200 Sent 19774 jobs to workers
+[MASTER] 18:23:25.828037100 Awaiting workers to signal completion...
+[MASTER] 18:23:29.604254 Finished processing 6591 master jobs
+[MASTER] 18:23:32.135555900 Worker finished (processed 6171 jobs)
+[MASTER] 18:23:32.240650800 Worker finished (processed 7432 jobs)
+[MASTER] 18:23:32.269677 Worker finished (processed 6171 jobs)
+[MASTER] 18:23:32.269677 All workers finished (19774 processed jobs)
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 097 (97 ms), 122 MB
+Loading model(s): 02.679 (2679 ms), 961 MB
+Sending configuration to workers: 03.930 (3930 ms), 142 MB
+GARBAGE_COLLECTION: 367 (367 ms), 0 MB
+execute(): 12.693 (12693 ms), 1294 MB
+
+Finished at 17 Apr 2020, 18:23:32
+-----------------------------------------------------
+'allImportsAreUsed' took 02:04.168,
+'noObscuredVariables' took 877,
+'parametersEffectivelyFinal' took 760,
+'canBeLocal' took 685,
+'variableIsUsed' took 553,
+'publicFieldsOnlyInPOJO' took 548,
+'hashCodeAndEquals' took 547,
+'equalsNotOnLiterals' took 321,
+'localMethodIsUsed' took 309,
+'emptyBlockIsDocumented' took 291,
+'shouldStartWithLowerCase' took 250,
+'notReservedWord' took 211,
+'equalsNotOnStrings' took 187,
+'noRedundantInterfaceImpl' took 170,
+'noDeadCode' took 127,
+'shouldStartWithUpperCase' took 112,
+'noUselessControlFlow' took 111,
+'equalsAndCompareTo' took 078,
+'publicVariableIsFinal' took 071,
+'doesNotCallFinalize' took 059,
+'cloneInCloneable' took 057,
+'noRedundantAssignments' took 047,
+'noCovariantEquals' took 046,
+'serialUIDInSerializableClass' took 045,
+'doesNotCallExit' took 038,
+'doesNotCallRunFinalizers' took 033,
+'comparatorImplementsSerializable' took 032,
+'noCovariantCompareTo' took 028,
+'noRedundantComparison' took 019,
+'noRedundantSuperCall' took 013,
+'exceptionIsUsed' took 008,
+'hasStatements' took 001,
+'doesNotCatchDubiousExceptions' took 000,
+'moreThan3Cases' took 000,
+'publicVariableIsFinal' took 000
+-----------------------------------------------------
+15553 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 14+36-1461
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 17 Apr 2020, 18:23:49
+-----------------------------------------------------
+[MASTER] 18:23:50.487279 Connected to tcp://localhost:61616 session 746
+[MASTER] 18:23:50.522311 Waiting for workers to load configuration...
+[MASTER] 18:23:54.307269 Total number of jobs = 105457
+[MASTER] 18:24:00.879758600 Finished processing 6591 master jobs
+[MASTER] 18:24:01.260104400 Sent 19774 jobs to workers
+[MASTER] 18:24:01.264108200 Awaiting workers to signal completion...
+[MASTER] 18:24:05.693145 Worker finished (processed 6171 jobs)
+[MASTER] 18:24:06.601480600 Worker finished (processed 6171 jobs)
+[MASTER] 18:24:06.940788400 Worker finished (processed 7432 jobs)
+[MASTER] 18:24:06.941789100 All workers finished (19774 processed jobs)
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 091 (91 ms), 122 MB
+Loading model(s): 02.458 (2458 ms), 941 MB
+Sending configuration to workers: 03.918 (3918 ms), 185 MB
+GARBAGE_COLLECTION: 194 (194 ms), 0 MB
+GARBAGE_COLLECTION: 143 (143 ms), 0 MB
+execute(): 13.019 (13019 ms), 883 MB
+
+Finished at 17 Apr 2020, 18:24:07
+-----------------------------------------------------
+'allImportsAreUsed' took 01:44.213,
+'canBeLocal' took 766,
+'parametersEffectivelyFinal' took 753,
+'noObscuredVariables' took 739,
+'variableIsUsed' took 533,
+'publicFieldsOnlyInPOJO' took 487,
+'hashCodeAndEquals' took 452,
+'localMethodIsUsed' took 336,
+'emptyBlockIsDocumented' took 288,
+'shouldStartWithLowerCase' took 237,
+'notReservedWord' took 230,
+'equalsNotOnLiterals' took 223,
+'equalsNotOnStrings' took 164,
+'noRedundantInterfaceImpl' took 136,
+'shouldStartWithUpperCase' took 111,
+'noDeadCode' took 109,
+'noUselessControlFlow' took 091,
+'publicVariableIsFinal' took 074,
+'equalsAndCompareTo' took 059,
+'noRedundantAssignments' took 054,
+'doesNotCallFinalize' took 053,
+'noCovariantEquals' took 042,
+'serialUIDInSerializableClass' took 041,
+'cloneInCloneable' took 040,
+'comparatorImplementsSerializable' took 036,
+'doesNotCallExit' took 030,
+'doesNotCallRunFinalizers' took 028,
+'noCovariantCompareTo' took 023,
+'noRedundantComparison' took 014,
+'exceptionIsUsed' took 009,
+'noRedundantSuperCall' took 007,
+'hasStatements' took 001,
+'moreThan3Cases' took 001,
+'doesNotCatchDubiousExceptions' took 000,
+'publicVariableIsFinal' took 000
+-----------------------------------------------------
+15553 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 14+36-1461
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 17 Apr 2020, 18:24:25
+-----------------------------------------------------
+[MASTER] 18:24:25.592426 Connected to tcp://localhost:61616 session 746
+[MASTER] 18:24:25.626457600 Waiting for workers to load configuration...
+[MASTER] 18:24:29.444445 Total number of jobs = 105457
+[MASTER] 18:24:34.653827600 Sent 19774 jobs to workers
+[MASTER] 18:24:34.659832600 Awaiting workers to signal completion...
+[MASTER] 18:24:37.491283200 Finished processing 6591 master jobs
+[MASTER] 18:24:41.187149100 Worker finished (processed 6171 jobs)
+[MASTER] 18:24:41.380324900 Worker finished (processed 6171 jobs)
+[MASTER] 18:24:41.786198200 Worker finished (processed 7432 jobs)
+[MASTER] 18:24:41.787199300 All workers finished (19774 processed jobs)
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 096 (96 ms), 122 MB
+Loading model(s): 02.625 (2625 ms), 971 MB
+Sending configuration to workers: 03.968 (3968 ms), 167 MB
+GARBAGE_COLLECTION: 301 (301 ms), 0 MB
+GARBAGE_COLLECTION: 126 (126 ms), 0 MB
+execute(): 12.724 (12724 ms), 1623 MB
+
+Finished at 17 Apr 2020, 18:24:42
+-----------------------------------------------------
+'allImportsAreUsed' took 01:56.171,
+'noObscuredVariables' took 872,
+'canBeLocal' took 729,
+'parametersEffectivelyFinal' took 709,
+'variableIsUsed' took 579,
+'publicFieldsOnlyInPOJO' took 537,
+'hashCodeAndEquals' took 453,
+'localMethodIsUsed' took 314,
+'emptyBlockIsDocumented' took 294,
+'equalsNotOnLiterals' took 238,
+'shouldStartWithLowerCase' took 234,
+'notReservedWord' took 193,
+'equalsNotOnStrings' took 161,
+'noRedundantInterfaceImpl' took 152,
+'noDeadCode' took 114,
+'shouldStartWithUpperCase' took 102,
+'noUselessControlFlow' took 093,
+'publicVariableIsFinal' took 075,
+'equalsAndCompareTo' took 065,
+'doesNotCallFinalize' took 055,
+'serialUIDInSerializableClass' took 052,
+'noRedundantAssignments' took 050,
+'noCovariantEquals' took 041,
+'cloneInCloneable' took 039,
+'doesNotCallExit' took 036,
+'comparatorImplementsSerializable' took 030,
+'noCovariantCompareTo' took 025,
+'doesNotCallRunFinalizers' took 024,
+'noRedundantSuperCall' took 022,
+'noRedundantComparison' took 014,
+'exceptionIsUsed' took 010,
+'hasStatements' took 001,
+'moreThan3Cases' took 001,
+'doesNotCatchDubiousExceptions' took 000,
+'publicVariableIsFinal' took 000
+-----------------------------------------------------
+15553 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 14+36-1461
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 17 Apr 2020, 18:25:00
+-----------------------------------------------------
+[MASTER] 18:25:00.604370800 Connected to tcp://localhost:61616 session 746
+[MASTER] 18:25:00.638401500 Waiting for workers to load configuration...
+[MASTER] 18:25:04.454379600 Total number of jobs = 105457
+[MASTER] 18:25:09.703160800 Sent 19774 jobs to workers
+[MASTER] 18:25:09.707164400 Awaiting workers to signal completion...
+[MASTER] 18:25:12.677370600 Finished processing 6591 master jobs
+[MASTER] 18:25:15.932341100 Worker finished (processed 6171 jobs)
+[MASTER] 18:25:15.997400300 Worker finished (processed 6171 jobs)
+[MASTER] 18:25:16.866189700 Worker finished (processed 7432 jobs)
+[MASTER] 18:25:16.866189700 All workers finished (19774 processed jobs)
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 094 (94 ms), 122 MB
+Loading model(s): 02.874 (2874 ms), 1004 MB
+Sending configuration to workers: 03.970 (3970 ms), 102 MB
+GARBAGE_COLLECTION: 241 (241 ms), 0 MB
+GARBAGE_COLLECTION: 130 (130 ms), 0 MB
+execute(): 12.794 (12794 ms), 427 MB
+
+Finished at 17 Apr 2020, 18:25:17
+-----------------------------------------------------
+'allImportsAreUsed' took 01:54.283,
+'noObscuredVariables' took 806,
+'canBeLocal' took 693,
+'parametersEffectivelyFinal' took 688,
+'publicFieldsOnlyInPOJO' took 565,
+'variableIsUsed' took 525,
+'hashCodeAndEquals' took 497,
+'emptyBlockIsDocumented' took 355,
+'localMethodIsUsed' took 327,
+'equalsNotOnLiterals' took 248,
+'notReservedWord' took 232,
+'shouldStartWithLowerCase' took 223,
+'noDeadCode' took 219,
+'equalsNotOnStrings' took 178,
+'noRedundantInterfaceImpl' took 159,
+'shouldStartWithUpperCase' took 153,
+'noUselessControlFlow' took 099,
+'noRedundantComparison' took 082,
+'equalsAndCompareTo' took 072,
+'publicVariableIsFinal' took 063,
+'noRedundantAssignments' took 057,
+'doesNotCallFinalize' took 054,
+'serialUIDInSerializableClass' took 047,
+'cloneInCloneable' took 044,
+'noCovariantEquals' took 041,
+'doesNotCallExit' took 034,
+'comparatorImplementsSerializable' took 032,
+'doesNotCallRunFinalizers' took 027,
+'noCovariantCompareTo' took 025,
+'exceptionIsUsed' took 012,
+'noRedundantSuperCall' took 006,
+'moreThan3Cases' took 002,
+'hasStatements' took 001,
+'doesNotCatchDubiousExceptions' took 001,
+'publicVariableIsFinal' took 000
+-----------------------------------------------------
+15553 constraints have not been satisfied.
+-----------------------------------------------------

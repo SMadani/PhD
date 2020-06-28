@@ -1,0 +1,12 @@
+import java : '../metamodels/java.ecore'
+
+package javaMM
+
+context ImportDeclaration
+	inv allImportsAreUsed:
+		NamedElement.allInstances()->exists(ne |
+			ne = self.importedElement and
+			ne.originalCompilationUnit = self.originalCompilationUnit
+		)
+
+endpackage

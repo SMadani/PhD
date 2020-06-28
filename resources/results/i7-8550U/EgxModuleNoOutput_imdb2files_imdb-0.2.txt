@@ -1,0 +1,126 @@
+Linux 5.3.0-42-generic
+OpenJDK 64-Bit Server VM 11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 1874 MB
+Xmx: 6258 MB
+Starting execution at 31 Mar 2020, 16:39:49
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 135 (135 ms), 19 MB
+Loading model(s): 03.309 (3309 ms), 284 MB
+GARBAGE_COLLECTION: 02.000 (2000 ms), 0 MB
+execute(): 59.422 (59422 ms), 392 MB
+
+Finished at 31 Mar 2020, 16:40:54
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 59.115,
+'post' took 030,
+'pre' took 001
+-----------------------------------------------------
+Linux 5.3.0-42-generic
+OpenJDK 64-Bit Server VM 11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 1874 MB
+Xmx: 6258 MB
+Starting execution at 31 Mar 2020, 16:52:09
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 109 (109 ms), 19 MB
+Loading model(s): 02.609 (2609 ms), 294 MB
+GARBAGE_COLLECTION: 01.792 (1792 ms), 0 MB
+execute(): 01:01.935 (61935 ms), 240 MB
+
+Finished at 31 Mar 2020, 16:53:15
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 01:01.640,
+'post' took 026,
+'pre' took 001
+-----------------------------------------------------
+Linux 5.3.0-42-generic
+OpenJDK 64-Bit Server VM 11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 1874 MB
+Xmx: 6258 MB
+Starting execution at 31 Mar 2020, 17:04:37
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 102 (102 ms), 19 MB
+Loading model(s): 02.693 (2693 ms), 299 MB
+GARBAGE_COLLECTION: 01.740 (1740 ms), 0 MB
+execute(): 01:00.076 (60076 ms), 147 MB
+
+Finished at 31 Mar 2020, 17:05:41
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 59.775,
+'post' took 037,
+'pre' took 001
+-----------------------------------------------------
+Linux 5.3.0-42-generic
+OpenJDK 64-Bit Server VM 11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 1874 MB
+Xmx: 6258 MB
+Starting execution at 31 Mar 2020, 17:16:56
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 099 (99 ms), 19 MB
+Loading model(s): 02.656 (2656 ms), 309 MB
+GARBAGE_COLLECTION: 01.496 (1496 ms), 0 MB
+execute(): 01:01.616 (61616 ms), 248 MB
+
+Finished at 31 Mar 2020, 17:18:02
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 01:01.325,
+'post' took 035,
+'pre' took 001
+-----------------------------------------------------
+Linux 5.3.0-42-generic
+OpenJDK 64-Bit Server VM 11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 1874 MB
+Xmx: 6258 MB
+Starting execution at 31 Mar 2020, 17:29:25
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 129 (129 ms), 19 MB
+Loading model(s): 02.985 (2985 ms), 299 MB
+GARBAGE_COLLECTION: 01.821 (1821 ms), 0 MB
+execute(): 59.256 (59256 ms), 117 MB
+
+Finished at 31 Mar 2020, 17:30:30
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 58.970,
+'post' took 027,
+'pre' took 001
+-----------------------------------------------------
+Linux 5.3.0-42-generic
+OpenJDK 64-Bit Server VM 11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 1874 MB
+Xmx: 6258 MB
+Starting execution at 31 Mar 2020, 17:41:44
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 096 (96 ms), 19 MB
+Loading model(s): 02.649 (2649 ms), 299 MB
+GARBAGE_COLLECTION: 01.661 (1661 ms), 0 MB
+execute(): 58.114 (58114 ms), 288 MB
+
+Finished at 31 Mar 2020, 17:42:47
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 57.846,
+'post' took 024,
+'pre' took 001
+-----------------------------------------------------

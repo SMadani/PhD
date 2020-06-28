@@ -1,0 +1,62 @@
+Windows 10
+OpenJDK 64-Bit Server VM 11.0.3+7
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 4096 MB
+Xmx: 14336 MB
+Starting execution at 22 Nov 2019, 16:31:38
+-----------------------------------------------------
+[MASTER] 16:31:39.279806700 Connected to tcp://144.32.179.145:61616 session 746
+[MASTER] 16:31:39.326664500 Waiting for workers to load configuration...
+[MASTER] 16:31:57.569982200 Total number of jobs = 45699
+[MASTER] 16:32:00.350215400 Sent 3809 jobs to workers
+[MASTER] 16:32:00.381455300 Awaiting workers to signal completion...
+[MASTER] 16:40:55.787505900 Worker finished (processed 3809 jobs)
+[MASTER] 16:40:55.787505900 All workers finished (3809 processed jobs)
+[MASTER] 16:41:37.821585300 Finished processing 3808 master jobs
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 064 (64 ms), 6 MB
+Loading model(s): 15.708 (15708 ms), 650 MB
+Sending configuration to workers: 17.114 (17114 ms), 652 MB
+GARBAGE_COLLECTION: 01.642 (1642 ms), 0 MB
+GARBAGE_COLLECTION: 01.748 (1748 ms), 0 MB
+execute(): 09:40.424 (580424 ms), 24 MB
+
+Finished at 22 Nov 2019, 16:41:38
+-----------------------------------------------------
+'allImportsAreUsed' took 1:50:29.512
+-----------------------------------------------------
+45699 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 11.0.3+7
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 4096 MB
+Xmx: 14336 MB
+Starting execution at 22 Nov 2019, 16:51:40
+-----------------------------------------------------
+[MASTER] 16:51:40.791970700 Connected to tcp://144.32.179.145:61616 session 746
+[MASTER] 16:51:40.838832700 Waiting for workers to load configuration...
+[MASTER] 16:51:58.302840100 Total number of jobs = 45699
+[MASTER] 16:52:01.130161500 Sent 3809 jobs to workers
+[MASTER] 16:52:01.177023300 Awaiting workers to signal completion...
+[MASTER] 17:00:56.802291300 Worker finished (processed 3809 jobs)
+[MASTER] 17:00:56.880397400 All workers finished (3809 processed jobs)
+[MASTER] 17:02:13.719963400 Finished processing 3808 master jobs
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 059 (59 ms), 6 MB
+Loading model(s): 15.393 (15393 ms), 651 MB
+Sending configuration to workers: 16.425 (16425 ms), 653 MB
+GARBAGE_COLLECTION: 01.613 (1613 ms), 0 MB
+GARBAGE_COLLECTION: 01.666 (1666 ms), 0 MB
+execute(): 10:15.550 (615550 ms), 24 MB
+
+Finished at 22 Nov 2019, 17:02:14
+-----------------------------------------------------
+'allImportsAreUsed' took 1:54:10.772
+-----------------------------------------------------
+45699 constraints have not been satisfied.
+-----------------------------------------------------

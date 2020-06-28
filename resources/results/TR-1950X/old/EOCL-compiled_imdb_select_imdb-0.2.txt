@@ -1,0 +1,114 @@
+Linux 4.20.13-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 15 Mar 2019, 05:14:46
+-----------------------------------------------------
+
+Profiled processes:
+Prepare model: 01.435 (1435 ms), 66 MB
+setup: 378 (378 ms), -3 MB
+Prepare validator: 001 (1 ms), 0 MB
+execute: 04:44.300 (284300 ms), 9 MB
+GARBAGE_COLLECTION: 502 (502 ms), 0 MB
+dispose: 000 (0 ms), 0 MB
+
+Finished at 15 Mar 2019, 05:19:33
+-----------------------------------------------------
+Linux 5.0.5-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 23 Apr 2019, 17:30:37
+-----------------------------------------------------
+
+Profiled processes:
+Prepare model: 01.458 (1458 ms), 66 MB
+setup: 365 (365 ms), -3 MB
+Prepare validator: 001 (1 ms), 0 MB
+execute: 04:43.805 (283805 ms), 10 MB
+GARBAGE_COLLECTION: 531 (531 ms), 0 MB
+dispose: 000 (0 ms), 0 MB
+
+Finished at 23 Apr 2019, 17:35:23
+-----------------------------------------------------
+Linux 5.0.5-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 24 Apr 2019, 05:45:50
+-----------------------------------------------------
+
+Profiled processes:
+Prepare model: 01.401 (1401 ms), 66 MB
+setup: 366 (366 ms), -11 MB
+Prepare validator: 001 (1 ms), 0 MB
+execute: 04:42.861 (282861 ms), 17 MB
+GARBAGE_COLLECTION: 493 (493 ms), 0 MB
+dispose: 000 (0 ms), 0 MB
+
+Finished at 24 Apr 2019, 05:50:36
+-----------------------------------------------------
+Linux 5.0.5-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 24 Apr 2019, 17:51:48
+-----------------------------------------------------
+
+Profiled processes:
+Prepare model: 01.408 (1408 ms), 66 MB
+setup: 364 (364 ms), -3 MB
+Prepare validator: 001 (1 ms), 0 MB
+execute: 04:40.547 (280547 ms), 7 MB
+GARBAGE_COLLECTION: 510 (510 ms), 0 MB
+dispose: 000 (0 ms), 0 MB
+
+Finished at 24 Apr 2019, 17:56:31
+-----------------------------------------------------
+Linux 5.0.5-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 25 Apr 2019, 05:59:24
+-----------------------------------------------------
+
+Profiled processes:
+Prepare model: 01.368 (1368 ms), 66 MB
+setup: 372 (372 ms), -11 MB
+Prepare validator: 001 (1 ms), 0 MB
+execute: 04:41.544 (281544 ms), 15 MB
+GARBAGE_COLLECTION: 493 (493 ms), 0 MB
+dispose: 000 (0 ms), 0 MB
+
+Finished at 25 Apr 2019, 06:04:08
+-----------------------------------------------------
+Linux 5.0.5-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 25 Apr 2019, 17:54:57
+-----------------------------------------------------
+
+Profiled processes:
+Prepare model: 01.481 (1481 ms), 66 MB
+setup: 376 (376 ms), -12 MB
+Prepare validator: 001 (1 ms), 0 MB
+execute: 04:45.472 (285472 ms), 17 MB
+GARBAGE_COLLECTION: 481 (481 ms), 0 MB
+dispose: 000 (0 ms), 0 MB
+
+Finished at 25 Apr 2019, 17:59:45
+-----------------------------------------------------

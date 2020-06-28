@@ -1,0 +1,62 @@
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 09-Jan-2020 12:44:47
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Loading model(s): 26.767 (26767 ms), 3476 MB
+GARBAGE_COLLECTION: 20.133 (20133 ms), 0 MB
+execute(): 02:26.040 (146040 ms), 1296 MB
+
+Finished at 09-Jan-2020 12:48:00
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 27968 MB
+Xmx: 27968 MB
+Starting execution at 09-Jan-2020 12:48:07
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 04.355 (4355 ms), 0 MB
+execute(): 02:21.338 (141338 ms), 435 MB
+
+Finished at 09-Jan-2020 12:50:33
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 09-Jan-2020 12:52:10
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Loading model(s): 26.312 (26312 ms), 3476 MB
+GARBAGE_COLLECTION: 19.745 (19745 ms), 0 MB
+execute(): 02:26.111 (146111 ms), 3327 MB
+
+Finished at 09-Jan-2020 12:55:22
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 09-Jan-2020 12:55:26
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 04.785 (4785 ms), 0 MB
+execute(): 02:23.141 (143141 ms), 425 MB
+
+Finished at 09-Jan-2020 12:57:54
+-----------------------------------------------------

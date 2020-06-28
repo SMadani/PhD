@@ -1,0 +1,54 @@
+Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+Logical processors: 4
+Xms: 768 MB
+Xmx: 11008 MB
+Starting execution at 17 Jul 2018, 16:14:22
+-----------------------------------------------------
+
+Profiled processes:
+Parsing model: 11.563 (11563 ms), 934 MB
+execute(): 12:57.491 (777491 ms), 5504 MB
+
+Finished at 17 Jul 2018, 16:27:31
+-----------------------------------------------------
+Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+Logical processors: 4
+Xms: 768 MB
+Xmx: 11008 MB
+Starting execution at 17 Jul 2018, 16:33:04
+-----------------------------------------------------
+
+Profiled processes:
+Parsing model: 10.300 (10300 ms), 942 MB
+execute(): 12:35.326 (755326 ms), 4386 MB
+
+Finished at 17 Jul 2018, 16:45:50
+-----------------------------------------------------
+Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+Logical processors: 4
+Xms: 768 MB
+Xmx: 11008 MB
+Starting execution at 17 Jul 2018, 16:51:27
+-----------------------------------------------------
+
+Profiled processes:
+Parsing model: 10.351 (10351 ms), 950 MB
+execute(): 12:38.890 (758890 ms), 4388 MB
+
+Finished at 17 Jul 2018, 17:04:16
+-----------------------------------------------------
+Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+Logical processors: 4
+Xms: 736 MB
+Xmx: 9561 MB
+Starting execution at 21 Jan 2019, 16:00:49
+-----------------------------------------------------
+Manjaro
+Profiled processes:
+Parsing script: 096 (96 ms), 7 MB
+Parsing model: 08.201 (8201 ms), 479 MB
+GARBAGE_COLLECTION: 03.508 (3508 ms), 0 MB
+execute(): 06:47.999 (407999 ms), -28 MB
+
+Finished at 21 Jan 2019, 16:07:49
+-----------------------------------------------------

@@ -1,0 +1,32 @@
+Linux 4.20.11-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 736 MB
+Xmx: 25666 MB
+Starting execution at 5 Mar 2019, 13:57:02
+-----------------------------------------------------
+
+Profiled processes:
+Parsing model: 07.988 (7988 ms), 484 MB
+GARBAGE_COLLECTION: 03.237 (3237 ms), 0 MB
+execute(): 29.816 (29816 ms), -63 MB
+
+Finished at 5 Mar 2019, 13:57:43
+-----------------------------------------------------
+Linux 4.20.11-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 736 MB
+Xmx: 25666 MB
+Starting execution at 7 Mar 2019, 07:20:35
+-----------------------------------------------------
+
+Profiled processes:
+Parsing model: 08.324 (8324 ms), 467 MB
+GARBAGE_COLLECTION: 02.696 (2696 ms), 0 MB
+execute(): 30.267 (30267 ms), -44 MB
+
+Finished at 7 Mar 2019, 07:21:16
+-----------------------------------------------------

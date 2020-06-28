@@ -1,0 +1,20 @@
+# binaries
+bin/
+target/
+
+# Ignore IntelliJ files
+*.iml
+*.idea/
+
+# Maven version bump artifacts
+*.versionsBackup
+
+# Debug files
+*.phd
+*.trc
+
+# Ignore Mac OS index files
+.DS_Store
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*

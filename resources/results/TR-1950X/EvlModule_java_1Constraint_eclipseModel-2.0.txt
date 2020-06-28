@@ -1,0 +1,105 @@
+Linux 5.3.8-300.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.5+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8016 MB
+Xmx: 29472 MB
+Starting execution at 11 Nov 2019, 18:35:17
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 064 (64 ms), 6 MB
+Loading model(s): 14.405 (14405 ms), 656 MB
+GARBAGE_COLLECTION: 01.628 (1628 ms), 0 MB
+execute(): 1:33:04.604 (5584604 ms), 23 MB
+
+Finished at 11 Nov 2019, 20:08:38
+-----------------------------------------------------
+'allImportsAreUsed' took 1:33:04.166
+-----------------------------------------------------
+45699 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.3.8-300.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.5+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8016 MB
+Xmx: 29472 MB
+Starting execution at 11 Nov 2019, 20:44:50
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 063 (63 ms), 6 MB
+Loading model(s): 14.455 (14455 ms), 654 MB
+GARBAGE_COLLECTION: 01.984 (1984 ms), 0 MB
+execute(): 1:33:00.712 (5580712 ms), 25 MB
+
+Finished at 11 Nov 2019, 22:18:08
+-----------------------------------------------------
+'allImportsAreUsed' took 1:33:00.251
+-----------------------------------------------------
+45699 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.3.8-300.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.5+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8016 MB
+Xmx: 29472 MB
+Starting execution at 11 Nov 2019, 22:56:41
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 062 (62 ms), 6 MB
+Loading model(s): 14.375 (14375 ms), 653 MB
+GARBAGE_COLLECTION: 01.642 (1642 ms), 0 MB
+execute(): 1:36:08.256 (5768256 ms), 26 MB
+
+Finished at 12 Nov 2019, 00:33:05
+-----------------------------------------------------
+'allImportsAreUsed' took 1:36:07.818
+-----------------------------------------------------
+45699 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.3.8-300.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.5+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8016 MB
+Xmx: 29472 MB
+Starting execution at 12 Nov 2019, 01:12:46
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 069 (69 ms), 6 MB
+Loading model(s): 14.353 (14353 ms), 654 MB
+GARBAGE_COLLECTION: 01.912 (1912 ms), 0 MB
+execute(): 1:38:35.863 (5915863 ms), 24 MB
+
+Finished at 12 Nov 2019, 02:51:39
+-----------------------------------------------------
+'allImportsAreUsed' took 1:38:35.416
+-----------------------------------------------------
+45699 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.3.8-300.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.5+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8016 MB
+Xmx: 29472 MB
+Starting execution at 12 Nov 2019, 03:30:50
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 065 (65 ms), 6 MB
+Loading model(s): 14.924 (14924 ms), 653 MB
+GARBAGE_COLLECTION: 01.952 (1952 ms), 0 MB
+execute(): 1:32:43.955 (5563955 ms), 26 MB
+
+Finished at 12 Nov 2019, 05:03:50
+-----------------------------------------------------
+'allImportsAreUsed' took 1:32:43.527
+-----------------------------------------------------
+45699 constraints have not been satisfied.
+-----------------------------------------------------

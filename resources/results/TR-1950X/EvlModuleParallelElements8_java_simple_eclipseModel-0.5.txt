@@ -1,0 +1,486 @@
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 18 Mar 2020, 20:00:46
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 115 (115 ms), 106 MB
+Loading model(s): 04.000 (4000 ms), 1201 MB
+GARBAGE_COLLECTION: 01.558 (1558 ms), 0 MB
+execute(): 02.810 (2810 ms), 181 MB
+
+Finished at 18 Mar 2020, 20:00:54
+-----------------------------------------------------
+'noObscuredVariables' took 02.307,
+'parametersEffectivelyFinal' took 01.863,
+'canBeLocal' took 01.364,
+'localMethodIsUsed' took 01.135,
+'hashCodeAndEquals' took 01.103,
+'publicFieldsOnlyInPOJO' took 941,
+'shouldStartWithUpperCase' took 905,
+'notReservedWord' took 807,
+'shouldStartWithLowerCase' took 511,
+'equalsNotOnLiterals' took 428,
+'variableIsUsed' took 425,
+'equalsNotOnStrings' took 407,
+'emptyBlockIsDocumented' took 396,
+'noRedundantInterfaceImpl' took 366,
+'equalsAndCompareTo' took 242,
+'noUselessControlFlow' took 123,
+'noCovariantEquals' took 096,
+'comparatorImplementsSerializable' took 096,
+'serialUIDInSerializableClass' took 087,
+'doesNotCallFinalize' took 087,
+'publicVariableIsFinal' took 077,
+'noDeadCode' took 076,
+'cloneInCloneable' took 074,
+'doesNotCallExit' took 067,
+'noCovariantCompareTo' took 067,
+'doesNotCallRunFinalizers' took 065,
+'noRedundantAssignments' took 053,
+'noRedundantComparison' took 016,
+'exceptionIsUsed' took 013,
+'moreThan3Cases' took 013,
+'noRedundantSuperCall' took 007,
+'publicVariableIsFinal' took 006,
+'doesNotCatchDubiousExceptions' took 002,
+'hasStatements' took 001
+-----------------------------------------------------
+28502 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 18 Mar 2020, 21:40:27
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 100 (100 ms), 133 MB
+Loading model(s): 04.013 (4013 ms), 1228 MB
+GARBAGE_COLLECTION: 01.393 (1393 ms), 0 MB
+execute(): 02.604 (2604 ms), 298 MB
+
+Finished at 18 Mar 2020, 21:40:35
+-----------------------------------------------------
+'noObscuredVariables' took 02.004,
+'parametersEffectivelyFinal' took 01.636,
+'canBeLocal' took 01.531,
+'localMethodIsUsed' took 01.344,
+'notReservedWord' took 948,
+'publicFieldsOnlyInPOJO' took 898,
+'hashCodeAndEquals' took 868,
+'shouldStartWithUpperCase' took 653,
+'shouldStartWithLowerCase' took 519,
+'equalsNotOnLiterals' took 418,
+'variableIsUsed' took 404,
+'emptyBlockIsDocumented' took 350,
+'equalsNotOnStrings' took 330,
+'noRedundantInterfaceImpl' took 291,
+'equalsAndCompareTo' took 171,
+'noUselessControlFlow' took 113,
+'noCovariantEquals' took 075,
+'publicVariableIsFinal' took 075,
+'doesNotCallFinalize' took 074,
+'serialUIDInSerializableClass' took 071,
+'noDeadCode' took 071,
+'cloneInCloneable' took 060,
+'doesNotCallExit' took 058,
+'doesNotCallRunFinalizers' took 057,
+'noCovariantCompareTo' took 056,
+'comparatorImplementsSerializable' took 055,
+'noRedundantAssignments' took 050,
+'noRedundantComparison' took 015,
+'exceptionIsUsed' took 012,
+'moreThan3Cases' took 011,
+'noRedundantSuperCall' took 007,
+'publicVariableIsFinal' took 004,
+'doesNotCatchDubiousExceptions' took 002,
+'hasStatements' took 001
+-----------------------------------------------------
+28502 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 18 Mar 2020, 23:20:38
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 107 (107 ms), 133 MB
+Loading model(s): 04.017 (4017 ms), 1241 MB
+GARBAGE_COLLECTION: 01.525 (1525 ms), 0 MB
+execute(): 02.666 (2666 ms), 182 MB
+
+Finished at 18 Mar 2020, 23:20:47
+-----------------------------------------------------
+'noObscuredVariables' took 01.915,
+'parametersEffectivelyFinal' took 01.683,
+'canBeLocal' took 01.287,
+'shouldStartWithUpperCase' took 01.170,
+'localMethodIsUsed' took 01.130,
+'hashCodeAndEquals' took 01.029,
+'notReservedWord' took 967,
+'publicFieldsOnlyInPOJO' took 834,
+'shouldStartWithLowerCase' took 470,
+'equalsNotOnLiterals' took 456,
+'variableIsUsed' took 442,
+'emptyBlockIsDocumented' took 409,
+'noRedundantInterfaceImpl' took 331,
+'equalsNotOnStrings' took 296,
+'equalsAndCompareTo' took 181,
+'noUselessControlFlow' took 115,
+'serialUIDInSerializableClass' took 077,
+'noCovariantEquals' took 076,
+'doesNotCallFinalize' took 074,
+'noDeadCode' took 073,
+'publicVariableIsFinal' took 072,
+'cloneInCloneable' took 065,
+'doesNotCallExit' took 061,
+'comparatorImplementsSerializable' took 060,
+'doesNotCallRunFinalizers' took 059,
+'noCovariantCompareTo' took 057,
+'noRedundantComparison' took 048,
+'noRedundantAssignments' took 046,
+'exceptionIsUsed' took 012,
+'moreThan3Cases' took 010,
+'noRedundantSuperCall' took 008,
+'publicVariableIsFinal' took 004,
+'hasStatements' took 003,
+'doesNotCatchDubiousExceptions' took 002
+-----------------------------------------------------
+28502 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 19 Mar 2020, 00:58:46
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 103 (103 ms), 133 MB
+Loading model(s): 03.977 (3977 ms), 1241 MB
+GARBAGE_COLLECTION: 01.514 (1514 ms), 0 MB
+execute(): 02.627 (2627 ms), 182 MB
+
+Finished at 19 Mar 2020, 00:58:54
+-----------------------------------------------------
+'noObscuredVariables' took 02.242,
+'parametersEffectivelyFinal' took 01.698,
+'canBeLocal' took 01.201,
+'localMethodIsUsed' took 01.038,
+'hashCodeAndEquals' took 01.010,
+'publicFieldsOnlyInPOJO' took 884,
+'notReservedWord' took 758,
+'shouldStartWithUpperCase' took 688,
+'shouldStartWithLowerCase' took 481,
+'emptyBlockIsDocumented' took 445,
+'variableIsUsed' took 437,
+'equalsNotOnStrings' took 397,
+'equalsNotOnLiterals' took 386,
+'noRedundantInterfaceImpl' took 350,
+'equalsAndCompareTo' took 222,
+'noUselessControlFlow' took 134,
+'doesNotCallFinalize' took 090,
+'comparatorImplementsSerializable' took 089,
+'noCovariantEquals' took 087,
+'publicVariableIsFinal' took 087,
+'noDeadCode' took 082,
+'serialUIDInSerializableClass' took 082,
+'doesNotCallExit' took 075,
+'doesNotCallRunFinalizers' took 073,
+'cloneInCloneable' took 067,
+'noCovariantCompareTo' took 061,
+'noRedundantAssignments' took 051,
+'noRedundantComparison' took 016,
+'moreThan3Cases' took 013,
+'exceptionIsUsed' took 012,
+'noRedundantSuperCall' took 008,
+'publicVariableIsFinal' took 004,
+'hasStatements' took 002,
+'doesNotCatchDubiousExceptions' took 002
+-----------------------------------------------------
+28502 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 19 Mar 2020, 14:59:51
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 109 (109 ms), 133 MB
+Loading model(s): 04.067 (4067 ms), 1267 MB
+GARBAGE_COLLECTION: 01.324 (1324 ms), 0 MB
+execute(): 02.454 (2454 ms), 182 MB
+
+Finished at 19 Mar 2020, 14:59:59
+-----------------------------------------------------
+'noObscuredVariables' took 01.815,
+'parametersEffectivelyFinal' took 01.781,
+'canBeLocal' took 01.228,
+'localMethodIsUsed' took 01.049,
+'hashCodeAndEquals' took 811,
+'notReservedWord' took 733,
+'publicFieldsOnlyInPOJO' took 713,
+'shouldStartWithUpperCase' took 657,
+'variableIsUsed' took 464,
+'shouldStartWithLowerCase' took 442,
+'equalsNotOnLiterals' took 411,
+'emptyBlockIsDocumented' took 408,
+'equalsNotOnStrings' took 349,
+'noRedundantInterfaceImpl' took 295,
+'equalsAndCompareTo' took 151,
+'noUselessControlFlow' took 129,
+'serialUIDInSerializableClass' took 091,
+'publicVariableIsFinal' took 085,
+'noDeadCode' took 080,
+'doesNotCallFinalize' took 072,
+'noCovariantEquals' took 068,
+'doesNotCallExit' took 061,
+'doesNotCallRunFinalizers' took 058,
+'noRedundantAssignments' took 056,
+'cloneInCloneable' took 054,
+'noCovariantCompareTo' took 050,
+'noRedundantComparison' took 050,
+'comparatorImplementsSerializable' took 050,
+'exceptionIsUsed' took 012,
+'moreThan3Cases' took 012,
+'noRedundantSuperCall' took 007,
+'publicVariableIsFinal' took 005,
+'doesNotCatchDubiousExceptions' took 002,
+'hasStatements' took 001
+-----------------------------------------------------
+28502 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 19 Mar 2020, 16:39:30
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 107 (107 ms), 133 MB
+Loading model(s): 04.049 (4049 ms), 1280 MB
+GARBAGE_COLLECTION: 01.410 (1410 ms), 0 MB
+execute(): 02.682 (2682 ms), 181 MB
+
+Finished at 19 Mar 2020, 16:39:38
+-----------------------------------------------------
+'noObscuredVariables' took 01.907,
+'parametersEffectivelyFinal' took 01.644,
+'canBeLocal' took 01.481,
+'localMethodIsUsed' took 01.305,
+'shouldStartWithUpperCase' took 01.002,
+'hashCodeAndEquals' took 856,
+'notReservedWord' took 849,
+'publicFieldsOnlyInPOJO' took 830,
+'shouldStartWithLowerCase' took 528,
+'variableIsUsed' took 413,
+'equalsNotOnLiterals' took 402,
+'equalsNotOnStrings' took 381,
+'emptyBlockIsDocumented' took 377,
+'noRedundantInterfaceImpl' took 286,
+'equalsAndCompareTo' took 167,
+'noUselessControlFlow' took 116,
+'serialUIDInSerializableClass' took 099,
+'cloneInCloneable' took 088,
+'doesNotCallFinalize' took 086,
+'noCovariantEquals' took 078,
+'publicVariableIsFinal' took 072,
+'noDeadCode' took 071,
+'doesNotCallExit' took 071,
+'doesNotCallRunFinalizers' took 069,
+'noCovariantCompareTo' took 059,
+'comparatorImplementsSerializable' took 056,
+'noRedundantAssignments' took 051,
+'noRedundantComparison' took 017,
+'exceptionIsUsed' took 014,
+'moreThan3Cases' took 013,
+'noRedundantSuperCall' took 008,
+'publicVariableIsFinal' took 004,
+'doesNotCatchDubiousExceptions' took 002,
+'hasStatements' took 002
+-----------------------------------------------------
+28502 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 19 Mar 2020, 18:19:18
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 104 (104 ms), 93 MB
+Loading model(s): 04.031 (4031 ms), 1208 MB
+GARBAGE_COLLECTION: 01.334 (1334 ms), 0 MB
+execute(): 02.685 (2685 ms), 273 MB
+
+Finished at 19 Mar 2020, 18:19:26
+-----------------------------------------------------
+'noObscuredVariables' took 02.102,
+'canBeLocal' took 01.552,
+'parametersEffectivelyFinal' took 01.504,
+'localMethodIsUsed' took 01.437,
+'publicFieldsOnlyInPOJO' took 01.002,
+'hashCodeAndEquals' took 970,
+'notReservedWord' took 795,
+'shouldStartWithUpperCase' took 789,
+'shouldStartWithLowerCase' took 451,
+'variableIsUsed' took 447,
+'equalsNotOnLiterals' took 446,
+'emptyBlockIsDocumented' took 410,
+'equalsNotOnStrings' took 357,
+'noRedundantInterfaceImpl' took 329,
+'equalsAndCompareTo' took 197,
+'noUselessControlFlow' took 128,
+'noCovariantEquals' took 087,
+'serialUIDInSerializableClass' took 085,
+'noDeadCode' took 082,
+'publicVariableIsFinal' took 082,
+'doesNotCallFinalize' took 077,
+'cloneInCloneable' took 073,
+'comparatorImplementsSerializable' took 067,
+'noCovariantCompareTo' took 065,
+'doesNotCallExit' took 061,
+'doesNotCallRunFinalizers' took 060,
+'noRedundantAssignments' took 057,
+'noRedundantComparison' took 016,
+'exceptionIsUsed' took 013,
+'moreThan3Cases' took 010,
+'noRedundantSuperCall' took 006,
+'publicVariableIsFinal' took 005,
+'doesNotCatchDubiousExceptions' took 002,
+'hasStatements' took 002
+-----------------------------------------------------
+28502 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 19 Mar 2020, 19:59:52
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 105 (105 ms), 120 MB
+Loading model(s): 04.043 (4043 ms), 1228 MB
+GARBAGE_COLLECTION: 01.325 (1325 ms), 0 MB
+execute(): 02.890 (2890 ms), 298 MB
+
+Finished at 19 Mar 2020, 20:00:01
+-----------------------------------------------------
+'noObscuredVariables' took 02.169,
+'canBeLocal' took 01.959,
+'parametersEffectivelyFinal' took 01.926,
+'localMethodIsUsed' took 01.797,
+'hashCodeAndEquals' took 01.100,
+'shouldStartWithUpperCase' took 01.005,
+'notReservedWord' took 997,
+'publicFieldsOnlyInPOJO' took 916,
+'equalsNotOnLiterals' took 455,
+'emptyBlockIsDocumented' took 445,
+'variableIsUsed' took 432,
+'shouldStartWithLowerCase' took 432,
+'equalsNotOnStrings' took 430,
+'noRedundantInterfaceImpl' took 310,
+'equalsAndCompareTo' took 196,
+'publicVariableIsFinal' took 173,
+'noUselessControlFlow' took 112,
+'noRedundantAssignments' took 101,
+'noCovariantEquals' took 090,
+'doesNotCallFinalize' took 078,
+'serialUIDInSerializableClass' took 076,
+'noDeadCode' took 070,
+'doesNotCallExit' took 065,
+'cloneInCloneable' took 064,
+'doesNotCallRunFinalizers' took 063,
+'noCovariantCompareTo' took 062,
+'comparatorImplementsSerializable' took 059,
+'noRedundantComparison' took 016,
+'moreThan3Cases' took 015,
+'exceptionIsUsed' took 013,
+'publicVariableIsFinal' took 011,
+'noRedundantSuperCall' took 006,
+'hasStatements' took 003,
+'doesNotCatchDubiousExceptions' took 002
+-----------------------------------------------------
+28502 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 19 Mar 2020, 21:39:04
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 104 (104 ms), 93 MB
+Loading model(s): 04.006 (4006 ms), 1229 MB
+GARBAGE_COLLECTION: 01.369 (1369 ms), 0 MB
+execute(): 02.693 (2693 ms), 214 MB
+
+Finished at 19 Mar 2020, 21:39:12
+-----------------------------------------------------
+'noObscuredVariables' took 01.931,
+'canBeLocal' took 01.756,
+'parametersEffectivelyFinal' took 01.719,
+'localMethodIsUsed' took 01.567,
+'hashCodeAndEquals' took 976,
+'notReservedWord' took 841,
+'publicFieldsOnlyInPOJO' took 804,
+'shouldStartWithUpperCase' took 767,
+'variableIsUsed' took 545,
+'emptyBlockIsDocumented' took 461,
+'shouldStartWithLowerCase' took 459,
+'equalsNotOnStrings' took 459,
+'equalsNotOnLiterals' took 350,
+'noRedundantInterfaceImpl' took 300,
+'equalsAndCompareTo' took 176,
+'noUselessControlFlow' took 123,
+'serialUIDInSerializableClass' took 105,
+'noCovariantEquals' took 103,
+'comparatorImplementsSerializable' took 088,
+'publicVariableIsFinal' took 082,
+'noDeadCode' took 075,
+'doesNotCallFinalize' took 074,
+'cloneInCloneable' took 065,
+'doesNotCallExit' took 062,
+'doesNotCallRunFinalizers' took 059,
+'noCovariantCompareTo' took 056,
+'noRedundantAssignments' took 054,
+'exceptionIsUsed' took 018,
+'noRedundantComparison' took 015,
+'moreThan3Cases' took 012,
+'publicVariableIsFinal' took 006,
+'noRedundantSuperCall' took 006,
+'hasStatements' took 003,
+'doesNotCatchDubiousExceptions' took 002
+-----------------------------------------------------
+28502 constraints have not been satisfied.
+-----------------------------------------------------

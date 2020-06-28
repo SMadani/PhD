@@ -1,0 +1,175 @@
+Linux 3.10.0-862.3.3.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 10-Jan-2020 00:00:49
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Prepare model: 21.271 (21271 ms), 2942 MB
+setup: 864 (864 ms), 384 MB
+Check for query: 01.612 (1612 ms), 384 MB
+GARBAGE_COLLECTION: 22.230 (22230 ms), 0 MB
+execute: 1:40:36.606 (6036606 ms), 21025 MB
+
+Finished at 10-Jan-2020 01:42:04
+-----------------------------------------------------
+Linux 3.10.0-862.3.3.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 25272 MB
+Xmx: 27305 MB
+Starting execution at 10-Jan-2020 01:42:06
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Check for query: 117 (117 ms), 95 MB
+execute: 1:40:05.279 (6005279 ms), 17987 MB
+GARBAGE_COLLECTION: 05.132 (5132 ms), 0 MB
+dispose: 031 (31 ms), 70 MB
+
+Finished at 10-Jan-2020 03:22:15
+-----------------------------------------------------
+Linux 3.10.0-862.3.3.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 10-Jan-2020 03:22:18
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Prepare model: 22.018 (22018 ms), 2788 MB
+setup: 742 (742 ms), 422 MB
+Check for query: 01.652 (1652 ms), 422 MB
+GARBAGE_COLLECTION: 18.456 (18456 ms), 0 MB
+execute: 1:42:06.354 (6126354 ms), 18690 MB
+
+Finished at 10-Jan-2020 05:05:01
+-----------------------------------------------------
+Linux 3.10.0-862.3.3.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 23845 MB
+Xmx: 27305 MB
+Starting execution at 10-Jan-2020 05:05:04
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Check for query: 119 (119 ms), 93 MB
+execute: 1:41:06.767 (6066767 ms), 19164 MB
+GARBAGE_COLLECTION: 05.327 (5327 ms), 0 MB
+dispose: 030 (30 ms), 111 MB
+
+Finished at 10-Jan-2020 06:46:15
+-----------------------------------------------------
+Linux 3.10.0-862.3.3.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 10-Jan-2020 06:46:17
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Prepare model: 22.023 (22023 ms), 2942 MB
+setup: 668 (668 ms), 345 MB
+Check for query: 01.548 (1548 ms), 345 MB
+GARBAGE_COLLECTION: 20.766 (20766 ms), 0 MB
+execute: 1:40:55.880 (6055880 ms), 17073 MB
+
+Finished at 10-Jan-2020 08:27:53
+-----------------------------------------------------
+Linux 3.10.0-862.3.3.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 26689 MB
+Xmx: 27305 MB
+Starting execution at 10-Jan-2020 08:27:57
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Check for query: 125 (125 ms), 182 MB
+execute: 1:39:09.440 (5949440 ms), 17300 MB
+GARBAGE_COLLECTION: 05.276 (5276 ms), 0 MB
+dispose: 028 (28 ms), 38 MB
+
+Finished at 10-Jan-2020 10:07:11
+-----------------------------------------------------
+Linux 3.10.0-862.3.3.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 10-Jan-2020 10:07:13
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Prepare model: 21.163 (21163 ms), 2942 MB
+setup: 656 (656 ms), 385 MB
+Check for query: 01.594 (1594 ms), 385 MB
+GARBAGE_COLLECTION: 22.674 (22674 ms), 0 MB
+execute: 1:35:28.868 (5728868 ms), 19270 MB
+
+Finished at 10-Jan-2020 11:43:23
+-----------------------------------------------------
+Linux 3.10.0-862.3.3.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 27606 MB
+Xmx: 27606 MB
+Starting execution at 10-Jan-2020 11:43:25
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Check for query: 191 (191 ms), 269 MB
+execute: 1:35:13.049 (5713049 ms), 20765 MB
+GARBAGE_COLLECTION: 07.369 (7369 ms), 0 MB
+dispose: 028 (28 ms), 161 MB
+
+Finished at 10-Jan-2020 13:18:45
+-----------------------------------------------------
+Linux 3.10.0-862.3.3.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 10-Jan-2020 13:18:47
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Prepare model: 20.243 (20243 ms), 2788 MB
+setup: 717 (717 ms), 345 MB
+Check for query: 01.531 (1531 ms), 422 MB
+GARBAGE_COLLECTION: 18.707 (18707 ms), 0 MB
+execute: 1:39:00.572 (5940572 ms), 16737 MB
+
+Finished at 10-Jan-2020 14:58:22
+-----------------------------------------------------
+Linux 3.10.0-862.3.3.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 24457 MB
+Xmx: 27305 MB
+Starting execution at 10-Jan-2020 14:58:24
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Check for query: 136 (136 ms), 34 MB
+execute: 1:39:23.043 (5963043 ms), 18404 MB
+GARBAGE_COLLECTION: 05.279 (5279 ms), 0 MB
+dispose: 028 (28 ms), 130 MB
+
+Finished at 10-Jan-2020 16:37:52
+-----------------------------------------------------

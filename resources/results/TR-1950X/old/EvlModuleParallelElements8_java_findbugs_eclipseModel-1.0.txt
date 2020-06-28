@@ -1,0 +1,110 @@
+Linux 5.1.12-300.fc30.x86_64
+OpenJDK 64-Bit Server VM 11.0.3+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8032 MB
+Xmx: 28880 MB
+Starting execution at 30 Jun 2019, 23:57:22
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 126 (126 ms), 10 MB
+Parsing model: 08.906 (8906 ms), 324 MB
+GARBAGE_COLLECTION: 01.054 (1054 ms), 0 MB
+execute(): 08:54.158 (534158 ms), 152 MB
+
+Finished at 1 Jul 2019, 00:06:26
+-----------------------------------------------------
+'allImportsAreUsed' took 1:10:37.728,
+'noObscuredVariables' took 04.540,
+'parametersEffectivelyFinal' took 03.260,
+'canBeLocal' took 02.144,
+'localMethodIsUsed' took 01.961,
+'hashCodeAndEquals' took 01.926,
+'publicFieldsOnlyInPOJO' took 01.868,
+'variableIsUsed' took 01.549,
+'notReservedWord' took 01.324,
+'shouldStartWithLowerCase' took 891,
+'equalsNotOnLiterals' took 849,
+'equalsNotOnStrings' took 806,
+'emptyBlockIsDocumented' took 652,
+'noRedundantInterfaceImpl' took 526,
+'doesNotCallFinalize' took 513,
+'noUselessControlFlow' took 489,
+'doesNotCallExit' took 388,
+'doesNotCallRunFinalizers' took 375,
+'shouldStartWithUpperCase' took 373,
+'equalsAndCompareTo' took 358,
+'noDeadCode' took 336,
+'publicVariableIsFinal' took 192,
+'serialUIDInSerializableClass' took 175,
+'noCovariantEquals' took 145,
+'noRedundantAssignments' took 142,
+'cloneInCloneable' took 119,
+'noCovariantCompareTo' took 112,
+'comparatorImplementsSerializable' took 112,
+'noRedundantComparison' took 083,
+'exceptionIsUsed' took 031,
+'moreThan3Cases' took 018,
+'publicVariableIsFinal' took 016,
+'noRedundantSuperCall' took 016,
+'doesNotCatchDubiousExceptions' took 005,
+'hasStatements' took 003
+-----------------------------------------------------
+72966 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.1.12-300.fc30.x86_64
+OpenJDK 64-Bit Server VM 11.0.3+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8032 MB
+Xmx: 28880 MB
+Starting execution at 7 Jul 2019, 15:52:17
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 127 (127 ms), 10 MB
+Parsing model: 09.049 (9049 ms), 326 MB
+GARBAGE_COLLECTION: 01.167 (1167 ms), 0 MB
+execute(): 12:06.402 (726402 ms), 150 MB
+
+Finished at 7 Jul 2019, 16:04:34
+-----------------------------------------------------
+'allImportsAreUsed' took 1:36:17.751,
+'noObscuredVariables' took 03.906,
+'parametersEffectivelyFinal' took 02.950,
+'canBeLocal' took 01.976,
+'hashCodeAndEquals' took 01.829,
+'localMethodIsUsed' took 01.771,
+'notReservedWord' took 01.767,
+'publicFieldsOnlyInPOJO' took 01.721,
+'variableIsUsed' took 01.467,
+'shouldStartWithLowerCase' took 915,
+'equalsNotOnLiterals' took 783,
+'equalsNotOnStrings' took 761,
+'emptyBlockIsDocumented' took 618,
+'doesNotCallFinalize' took 545,
+'noRedundantInterfaceImpl' took 459,
+'doesNotCallRunFinalizers' took 444,
+'noUselessControlFlow' took 438,
+'doesNotCallExit' took 409,
+'shouldStartWithUpperCase' took 343,
+'equalsAndCompareTo' took 341,
+'noDeadCode' took 306,
+'publicVariableIsFinal' took 178,
+'noRedundantAssignments' took 157,
+'noCovariantEquals' took 139,
+'serialUIDInSerializableClass' took 131,
+'cloneInCloneable' took 114,
+'comparatorImplementsSerializable' took 111,
+'noCovariantCompareTo' took 110,
+'noRedundantComparison' took 088,
+'exceptionIsUsed' took 030,
+'moreThan3Cases' took 019,
+'publicVariableIsFinal' took 018,
+'noRedundantSuperCall' took 014,
+'doesNotCatchDubiousExceptions' took 007,
+'hasStatements' took 003
+-----------------------------------------------------
+72966 constraints have not been satisfied.
+-----------------------------------------------------

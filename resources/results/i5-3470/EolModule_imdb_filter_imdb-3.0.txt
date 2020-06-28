@@ -1,0 +1,62 @@
+Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+Logical processors: 4
+Xms: 736 MB
+Xmx: 9785 MB
+Starting execution at 19 Jan 2019, 14:21:40
+-----------------------------------------------------
+toCollection()
+Profiled processes:
+Parsing script: 104 (104 ms), 7 MB
+Parsing model: 31.071 (31071 ms), 1176 MB
+GARBAGE_COLLECTION: 09.200 (9200 ms), 0 MB
+execute(): 1:10:45.387 (4245387 ms), 37 MB
+
+Finished at 19 Jan 2019, 15:33:05
+-----------------------------------------------------
+Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+Logical processors: 4
+Xms: 736 MB
+Xmx: 9785 MB
+Starting execution at 20 Jan 2019, 19:07:48
+-----------------------------------------------------
+count()
+Profiled processes:
+Parsing script: 108 (108 ms), 7 MB
+Parsing model: 30.710 (30710 ms), 1161 MB
+GARBAGE_COLLECTION: 10.069 (10069 ms), 0 MB
+execute(): 1:08:51.700 (4131700 ms), 52 MB
+
+Finished at 20 Jan 2019, 20:17:21
+-----------------------------------------------------
+Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+Logical processors: 4
+Xms: 736 MB
+Xmx: 9561 MB
+Starting execution at 21 Jan 2019, 14:20:47
+-----------------------------------------------------
+Manjaro
+Profiled processes:
+Parsing script: 097 (97 ms), 7 MB
+Parsing model: 29.490 (29490 ms), 1162 MB
+GARBAGE_COLLECTION: 08.576 (8576 ms), 0 MB
+execute(): 1:09:09.104 (4149104 ms), 52 MB
+
+Finished at 21 Jan 2019, 15:30:34
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 11.0.1+13-LTS
+Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+Logical processors: 4
+Xms: 736 MB
+Xmx: 9785 MB
+Starting execution at 3 Feb 2019, 20:27:44
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 102 (102 ms), 3 MB
+Parsing model: 31.995 (31995 ms), 1228 MB
+GARBAGE_COLLECTION: 11.956 (11956 ms), 0 MB
+execute(): 55:19.307 (3319307 ms), 16 MB
+
+Finished at 3 Feb 2019, 21:23:47
+-----------------------------------------------------

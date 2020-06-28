@@ -1,0 +1,24 @@
+Linux 5.2.18-200.fc30.x86_64
+OpenJDK 64-Bit Server VM 11.0.4+11
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8032 MB
+Xmx: 29512 MB
+Starting execution at 17 Oct 2019, 01:14:58
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 108 (108 ms), 7 MB
+Loading model: 14.140 (14140 ms), 657 MB
+GARBAGE_COLLECTION: 02.049 (2049 ms), 0 MB
+execute(): 21:05.344 (1265344 ms), 307 MB
+
+Finished at 17 Oct 2019, 01:36:20
+-----------------------------------------------------
+'notReservedWord' took 02.839,
+'doesNotCallFinalize' took 01.285,
+'doesNotCallExit' took 927,
+'doesNotCallRunFinalizers' took 743
+
+143023 constraints have not been satisfied.
+-----------------------------------------------------

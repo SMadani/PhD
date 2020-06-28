@@ -1,0 +1,127 @@
+import "utils.eol";
+
+pre {
+	var IST : String = 'Information & Software Technology';
+}
+
+operation Article publishingIn(inPublication : Boolean, publication : String) : Boolean {
+	return self.journal.isDefined() and (
+			(inIST and self.journal.name.indexOf(publication) < 0) or
+			self.journal.name.indexOf(publication) >= 0
+		) and
+		self.year() > 2005;
+}
+
+operation Author articles() : Collection(Article) {
+	return self.records->select(r | r.isTypeOf(Article));
+}
+
+operation Author nowPublishingIn(publishing : Boolean) : Sequence(Article) {
+	return self.articles()->select(a | a.publishingIn(publishing, IST))->asSequence();
+}
+
+operation Article publishedInIST() : Boolean {
+	if (self.journal.isUndefined()) return false;
+	else return self.journal.name.indexOf(IST) >= 0;
+}
+
+@parallel
+context Author {
+	guard : self.records.exists(r : InProceedings | r.year >= 2008 and r.bootitle.indexOf('ICMT') >= 0)
+	
+	@lazy
+	constraint publishedInIST {
+		check: self.articles()->exists(a | a.publishedInIST())
+	}
+	
+	constraint activelyPublishingInIST {
+		guard: self.satisfies("publishedInIST")
+		check: self.articles()->nMatch(a | a.publishingIn(true, IST), nowPublishingIn(true)->size())
+	}
+}
+
+$parallel Record.all.size() > 100000
+context Record {
+	constraint isValidMonth {
+		guard: self.month.isDefined()
+		check: self.month.isValidMonth()
+	}
+	constraint validPageLength {
+		guard {
+			switch (self.type().asString()) {
+				case Article: continue;
+				case InCollection: continue;
+				case InProceedings: continue;
+				case Book: return self.fromPage.isDefined() and self.toPage.isDefined();
+				default: return false;
+			}
+		}
+		check: self.fromPage <= self.toPage
+	}
+}
+
+context Www {
+	critique malformedURL {
+		guard: self.url.isDefined() and self.url.length() > 0
+		check: self.url.startsWith("http://dx.doi.org/10.")
+	}
+	critique malformedKey {
+		guard: self.key.isDefined() and self.key.length() > 0
+		check: self.key.startsWith("www/")
+	}
+}
+
+context Book {
+	$parallel Book.all.size() > 10000
+	constraint isValidISBN {
+		guard: self.isbn.isDefined() and self.isbn.length() > 0
+		check {
+			var isbn = self.isbn.replace("-", "").replace(" ", "");
+			var length = isbn.length();
+			
+			if (length <> 10 or length <> 13)
+				return false;
+			
+			if (not isbn.substring(0, length-1).matches("[0-9]+"))
+				return false;
+			
+			var lastCharacter = isbn.substring(length-1, length);
+			
+			var s = 0;
+			var i = 0;
+			
+			if (length == 13) {
+				if (not (isbn.startsWith("978") or isbn.startsWith("979")))
+					return false;
+				if (not lastCharacter.matches("[0-9]"))
+					return false;
+					
+				var flag = false;
+				while (i < 12) {
+					i++;
+					flag = not flag;
+					if (flag)
+						s += isbn.characterAt(i)*1;
+					else
+						s += isbn.characterAt(i)*3;
+				}
+				if (not (10 - s.mod(10)).asString().equals(lastCharacter))
+					return false;
+			}
+			
+			if (length == 10) {
+				if (not (lastCharacter.matches("[0-9]") or lastCharacter.toUpperCase().matches("X")))
+					return false;
+				
+		        while (i < 10) {
+		        	i++;
+		        	s += isbn.characterAt(i);
+		        }
+		        if (not s.isDivisibleBy(11))
+		        	return false;
+			}
+			
+			return true;
+		}
+	}
+}

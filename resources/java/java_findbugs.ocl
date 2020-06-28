@@ -1,0 +1,294 @@
+/*
+* @see http://findbugs.sourceforge.net/bugDescriptions.html
+*/
+
+import java : '../metamodels/java.ecore'
+
+package javaMM
+
+context Modifier
+	def: isLocal : Boolean = self.visibility = VisibilityKind::none or self.visibility = VisibilityKind::private
+
+context AbstractTypeDeclaration
+	def: implements(type : String) : Boolean = self.superInterfaces->exists(si | si.type.name = type)
+
+context ImportDeclaration
+	inv allImportsAreUsed:
+		NamedElement.allInstances()->exists(ne |
+			ne = self.importedElement and
+			ne.originalCompilationUnit = self.originalCompilationUnit
+		)
+
+context NamedElement
+	inv notReservedWord:
+		self.name <> 'var' and
+			self.name <> '_' and
+			self.name <> 'strictfp' and
+			self.name <> 'assert' and
+			self.name <> 'enum'
+
+context TypeDeclaration
+	inv shouldStartWithUpperCase:
+		self.name.at(1) = self.name.at(1).toUpperCase()
+
+context MethodDeclaration
+	def: isEquals : Boolean = self.name = 'equals' and
+		self.parameters->size() = 1 and
+		self.parameters->first().type.type.name = 'Object' and
+		self.thrownExceptions->isEmpty() and
+		self.returnType <> null and
+		self.returnType.type.oclIsTypeOf(PrimitiveTypeBoolean) and
+		self.modifier <> null and
+		self.modifier.visibility = VisibilityKind::public
+
+	def: isHashcode : Boolean = self.name = 'hashCode' and
+		self.parameters->isEmpty() and
+		self.thrownExceptions->isEmpty() and
+		self.returnType <> null and
+		self.returnType.type.oclIsTypeOf(PrimitiveTypeInt) and
+		self.modifier <> null and
+		self.modifier.visibility = VisibilityKind::public
+
+	def: isToString : Boolean = self.name = 'toString' and
+		self.parameters->isEmpty() and
+		self.thrownExceptions->isEmpty() and
+		self.returnType <> null and
+		(self.returnType.type.name = 'String' or
+		self.returnType.type.name = 'java.lang.String') and
+		self.modifier <> null and
+		self.modifier.visibility = VisibilityKind::public
+
+	def: isFinalize : Boolean = self.name = 'finalize' and
+		self.parameters->isEmpty() and
+		self.thrownExceptions->size() = 1 and
+		self.thrownExceptions->first().type.name = 'Throwable' and
+		(self.returnType = null or self.returnType.type.oclIsTypeOf(PrimitiveTypeVoid)) and
+		self.modifier <> null and
+		(self.modifier.visibility = VisibilityKind::public or
+		self.modifier.visibility = VisibilityKind::protected)
+
+	def: isClone : Boolean = self.name = 'clone' and
+		self.parameters->isEmpty() and
+		self.thrownExceptions->size() = 1 and
+		self.thrownExceptions->first().type.name = 'CloneNotSupportedException' and
+		self.returnType <> null and
+		self.modifier <> null and
+		self.modifier.visibility = VisibilityKind::public
+
+	def: isCompareTo : Boolean =
+		self.name = 'compareTo' and
+			self.parameters->size() = 1 and
+			self.parameters->first().type.type.name = 'Object' and
+			self.modifier <> null and
+			self.modifier.visibility = VisibilityKind::public and
+			self.thrownExceptions->isEmpty() and
+			self.returnType <> null and
+			self.returnType.type.oclIsTypeOf(PrimitiveTypeInt)
+
+	inv shouldStartWithLowerCase:
+		self.name.at(1).toLowerCase() = self.name.at(1)
+
+context MethodInvocation
+	inv doesNotCallFinalize:
+		self.method <> null implies not (
+			self.method.name = 'finalize' and
+			self.method.parameters->isEmpty()
+		)
+	
+	inv doesNotCallExit:
+		self.method <> null implies not (
+			self.method.name = 'exit' and
+			self.method.parameters->size() = 1 and
+			self.method.parameters->first().type.type.oclIsTypeOf(PrimitiveTypeInt)
+		)
+	
+	inv doesNotCallRunFinalizers:
+		self.method <> null implies not (
+			self.method.name = 'runFinalizersOnExit' and
+			self.method.parameters->size() = 1 and
+			self.method.parameters->first().type.type.oclIsTypeOf(PrimitiveTypeBoolean)
+		)
+
+context AbstractMethodDeclaration
+	inv canBeLocal:
+		self.modifier <> null and not self.modifier.isLocal implies
+		self.usages->exists(m | m.originalClassFile <> self.originalClassFile)
+	
+	inv localMethodIsUsed:
+		(self.modifier <> null and self.modifier.isLocal) implies self.usages->notEmpty()
+		
+	inv parametersEffectivelyFinal:
+		(self._'body' <> null and self.parameters->notEmpty()) implies (
+			self._'body'.statements ->
+			selectByKind(ExpressionStatement) ->
+			collect(expression) ->
+			selectByKind(Assignment) ->
+			select(assignment |
+				assignment.leftHandSide.oclIsKindOf(SingleVariableAccess) and
+				assignment.operator = AssignmentKind::ASSIGN and
+				assignment.leftHandSide.oclIsKindOf(SingleVariableAccess) and
+				self.parameters->excludes(assignment.leftHandSide.oclAsType(SingleVariableAccess).variable)
+			) ->
+			isEmpty()
+		)
+
+context Assignment
+	inv noRedundantAssignment:
+		self.operator = AssignmentKind::ASSIGN implies self.leftHandSide <> self.rightHandSide
+
+context VariableDeclaration
+	inv variableIsUsed:
+		self.usageInVariableAccess->notEmpty()
+
+context VariableDeclarationStatement
+	inv publicVariableIsFinal:
+		self.modifier.visibility = VisibilityKind::public implies self.modifier.inheritance = InheritanceKind::final
+
+context VariableDeclarationExpression
+	inv publicVariableIsFinal:
+		self.modifier.visibility = VisibilityKind::public implies self.modifier.inheritance = InheritanceKind::final
+
+context CatchClause
+	inv exceptionIsUsed:
+		self.exception.usageInVariableAccess->notEmpty()
+	
+	inv doesNotCatchDubiousExceptions:
+		self.exception.type.type.name <> 'IllegalMonitorStateException'
+
+context Block
+	inv emptyBlockIsDocumented:
+		self.statements->isEmpty() implies self.comments->notEmpty()
+
+context SwitchStatement
+	inv moreThan3Cases:
+		self.statements->size() > 3
+		
+context SuperConstructorInvocation
+	inv noRedundantSuperCall:
+		self.arguments->notEmpty()
+
+context IfStatement
+	inv noDeadCode:
+		not self.expression.oclIsKindOf(TypeLiteral)
+	
+	inv noUselessControlFlow:
+		not self.thenStatement.oclIsTypeOf(EmptyStatement) and
+		(self.elseStatement <> null implies not self.elseStatement.oclIsTypeOf(EmptyStatement))
+
+context ClassDeclaration
+	def: getMethods : Collection(MethodDeclaration) = self.bodyDeclarations->selectByKind(MethodDeclaration)
+	
+	def: getPublicFields : Collection(FieldDeclaration) = self.bodyDeclarations
+		->select(oclIsKindOf(FieldDeclaration))
+		->collect(oclAsType(FieldDeclaration))
+		->select(modifier <> null and modifier.visibility = VisibilityKind::public
+	)
+	
+	inv publicFieldsOnlyInPOJO:
+		self.getPublicFields->notEmpty() implies self.bodyDeclarations
+			->select(oclIsKindOf(MethodDeclaration))
+			->collect(oclAsType(MethodDeclaration))
+			->select(md | (md.modifier = null or md.modifier._'static') and not (
+				md.isEquals or md.isHashcode or md.isToString
+				or md.isFinalize or md.isClone or md.isCompareTo
+			)
+			)->isEmpty()
+	
+	inv hashCodeAndEquals:
+		let hasEq : Boolean = getMethods->exists(isEquals),
+			hasHc : Boolean = getMethods->exists(isHashcode)
+		in
+			(hasEq implies hasHc) and
+			(hasHc implies hasEq)
+
+	inv noCovariantEquals:
+		getMethods->exists(method |
+			method.name = 'equals' and
+			method.modifier <> null and
+			method.modifier.visibility = VisibilityKind::public and
+			method.returnType.type.oclIsTypeOf(PrimitiveTypeBoolean)
+		) implies getMethods->exists(isEquals)
+
+	inv noCovariantCompareTo:
+		getMethods->exists(method | 
+			method.name = 'compareTo' and
+			method.modifier <> null and
+			method.modifier.visibility = VisibilityKind::public and
+			method.returnType.type.oclIsTypeOf(PrimitiveTypeInt)
+		) implies getMethods->exists(isCompareTo)
+
+	inv equalsAndCompareTo:
+		getMethods->exists(isCompareTo) implies getMethods->exists(isEquals)
+
+	inv cloneInCloneable:
+		self.implements('Cloneable') implies self.getMethods->exists(isClone)
+
+	inv serialUIDInSerializableClass:
+		self.implements('Serializable') implies (
+			self.bodyDeclarations->selectByKind(FieldDeclaration) ->
+			exists(bd |
+				bd.name = 'serialVersionUID' and
+				bd.modifier._'static' and
+				bd.modifier.inheritance = InheritanceKind::final and
+				bd.type.type.oclIsTypeOf(PrimitiveTypeLong)
+			)
+		)
+	
+	inv noRedundantInterfaceImpl:
+		(
+			self.superInterfaces <> null and
+			self.superClass <> null and
+			self.superClass.type.oclIsKindOf(ClassDeclaration) and
+			self.superClass.type.oclAsType(ClassDeclaration).superInterfaces <> null
+		) implies (
+			self.superInterfaces->exists(tIface |
+				self.superClass.type.oclIsKindOf(AbstractTypeDeclaration) implies (
+					self.superClass.type.oclAsType(AbstractTypeDeclaration)
+					.superInterfaces->includes(tIface)		
+				)	
+			)
+		)
+		
+	inv comparatorImplementsSerializable:
+		self.implements('Comparator') implies self.implements('Serializable')
+	
+	inv noObscuredVariables:
+		let fields = self.bodyDeclarations->selectByKind(FieldDeclaration) in
+			self.bodyDeclarations->
+				selectByKind(AbstractMethodDeclaration) ->
+				forAll(md | md._'body' <> null implies md._'body'.statements ->
+					selectByKind(VariableDeclaration) ->
+					forAll(vd | fields->forAll(fd | fd.name <> vd.name))
+				)
+
+context InfixExpression
+	def: operatorIsEquality : Boolean = (self.operator = InfixExpressionKind::EQUALS or self.operator = InfixExpressionKind::NOT_EQUALS)
+
+	inv noRedundantComparison:
+		self.leftOperand <> self.rightOperand
+	
+	inv equalsNotOnLiterals:
+		operatorIsEquality implies (
+			self.leftOperand.oclIsTypeOf(self.rightOperand.oclType()) and
+				(not (
+					self.leftOperand.oclIsTypeOf(StringLiteral) or
+					self.leftOperand.oclIsTypeOf(NumberLiteral) or
+					self.leftOperand.oclIsTypeOf(CharacterLiteral) or
+					self.leftOperand.oclIsTypeOf(BooleanLiteral) or
+					self.leftOperand.oclIsTypeOf(NullLiteral) or
+					self.leftOperand.oclIsTypeOf(TypeLiteral)	
+				)
+			)
+		)
+
+	inv equalsNotOnStrings:
+		operatorIsEquality implies (not
+			(self.leftOperand.oclIsTypeOf(StringLiteral) or
+			self.rightOperand.oclIsTypeOf(StringLiteral))
+		)
+
+context SynchronizedStatement
+	inv hasStatements:
+		self._'body'.statements->notEmpty()
+
+endpackage

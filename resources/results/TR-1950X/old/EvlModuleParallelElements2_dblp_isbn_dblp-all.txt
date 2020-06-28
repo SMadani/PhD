@@ -1,0 +1,25 @@
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 736 MB
+Xmx: 25668 MB
+Starting execution at 9 Jan 2019, 18:12:29
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 187 (187 ms), 14 MB
+Parsing model: 01:27.627 (87627 ms), 3350 MB
+GARBAGE_COLLECTION: 12.964 (12964 ms), 0 MB
+execute(): 04:20.275 (260275 ms), 3889 MB
+
+Finished at 9 Jan 2019, 18:18:30
+-----------------------------------------------------
+'validPageLength' took 03:32.425,
+'isValidMonth' took 02:47.044,
+'malformedKey' took 52.452,
+'malformedURL' took 11.497,
+'activelyPublishingInIST' took 01.149,
+'isValidISBN' took 617,
+'publishedInIST' took 002
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------

@@ -1,0 +1,4 @@
+import "imdb_foop.eol";
+
+return Person.allInstances()
+	.parallelCount(a | a.hasCoupleCoactors());

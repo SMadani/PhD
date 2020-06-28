@@ -1,0 +1,96 @@
+Linux 5.3.0-24-generic
+OpenJDK 64-Bit Server VM 11.0.5+10-post-Ubuntu-0ubuntu1.1
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 1874 MB
+Xmx: 6258 MB
+Starting execution at 6 Jan 2020, 20:20:25
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 090 (90 ms), 9 MB
+Loading model(s): 05.797 (5797 ms), 1111 MB
+GARBAGE_COLLECTION: 06.052 (6052 ms), 0 MB
+execute(): 07:17.714 (437714 ms), 1869 MB
+
+Finished at 6 Jan 2020, 20:27:55
+-----------------------------------------------------
+Linux 5.3.0-24-generic
+OpenJDK 64-Bit Server VM 11.0.5+10-post-Ubuntu-0ubuntu1.1
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 3650 MB
+Xmx: 6258 MB
+Starting execution at 6 Jan 2020, 20:27:56
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 01.913 (1913 ms), 0 MB
+execute(): 08:15.275 (495275 ms), 474 MB
+
+Finished at 6 Jan 2020, 20:36:14
+-----------------------------------------------------
+Linux 5.3.0-26-generic
+OpenJDK 64-Bit Server VM 11.0.5+10-post-Ubuntu-0ubuntu1.1
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 1874 MB
+Xmx: 6258 MB
+Starting execution at 8 Jan 2020, 14:50:29
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 123 (123 ms), 9 MB
+Loading model(s): 08.190 (8190 ms), 1122 MB
+GARBAGE_COLLECTION: 06.857 (6857 ms), 0 MB
+execute(): 07:50.528 (470528 ms), 1172 MB
+
+Finished at 8 Jan 2020, 14:58:35
+-----------------------------------------------------
+Linux 5.3.0-26-generic
+OpenJDK 64-Bit Server VM 11.0.5+10-post-Ubuntu-0ubuntu1.1
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 3650 MB
+Xmx: 6258 MB
+Starting execution at 8 Jan 2020, 14:58:36
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 01.752 (1752 ms), 0 MB
+execute(): 07:53.591 (473591 ms), 294 MB
+
+Finished at 8 Jan 2020, 15:06:31
+-----------------------------------------------------
+Linux 5.3.0-26-generic
+OpenJDK 64-Bit Server VM 11.0.5+10-post-Ubuntu-0ubuntu1.1
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 1874 MB
+Xmx: 6258 MB
+Starting execution at 8 Jan 2020, 20:41:05
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 143 (143 ms), 9 MB
+Loading model(s): 08.967 (8967 ms), 1111 MB
+GARBAGE_COLLECTION: 07.233 (7233 ms), 0 MB
+execute(): 07:48.181 (468181 ms), 1415 MB
+
+Finished at 8 Jan 2020, 20:49:09
+-----------------------------------------------------
+Linux 5.3.0-26-generic
+OpenJDK 64-Bit Server VM 11.0.5+10-post-Ubuntu-0ubuntu1.1
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 3650 MB
+Xmx: 6258 MB
+Starting execution at 8 Jan 2020, 20:49:11
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 01.828 (1828 ms), 0 MB
+execute(): 07:50.497 (470497 ms), 1429 MB
+
+Finished at 8 Jan 2020, 20:57:04
+-----------------------------------------------------

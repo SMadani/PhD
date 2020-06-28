@@ -1,0 +1,140 @@
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 1 Mar 2020, 13:32:08
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 147 (147 ms), 120 MB
+Loading model(s): 49.039 (49039 ms), 7485 MB
+GARBAGE_COLLECTION: 18.324 (18324 ms), 0 MB
+execute(): 01:03.115 (63115 ms), 3387 MB
+
+Finished at 1 Mar 2020, 13:34:18
+-----------------------------------------------------
+'isValidMonth' took 05:24.795,
+'validPageLength' took 05:12.569,
+'malformedKey' took 02:05.726,
+'malformedURL' took 27.215,
+'isValidISBN' took 01.856,
+'activelyPublishingInIST' took 564,
+'publishedInIST' took 004,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 1 Mar 2020, 14:45:39
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 143 (143 ms), 146 MB
+Loading model(s): 50.202 (50202 ms), 7330 MB
+GARBAGE_COLLECTION: 17.874 (17874 ms), 0 MB
+execute(): 59.553 (59553 ms), 4498 MB
+
+Finished at 1 Mar 2020, 14:47:47
+-----------------------------------------------------
+'validPageLength' took 05:13.905,
+'isValidMonth' took 04:46.111,
+'malformedKey' took 02:04.508,
+'malformedURL' took 23.830,
+'isValidISBN' took 02.314,
+'activelyPublishingInIST' took 587,
+'publishedInIST' took 004,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 1 Mar 2020, 15:58:29
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 143 (143 ms), 146 MB
+Loading model(s): 50.021 (50021 ms), 7476 MB
+GARBAGE_COLLECTION: 17.738 (17738 ms), 0 MB
+execute(): 01:03.169 (63169 ms), 4017 MB
+
+Finished at 1 Mar 2020, 16:00:40
+-----------------------------------------------------
+'isValidMonth' took 05:38.791,
+'validPageLength' took 05:10.484,
+'malformedKey' took 01:59.055,
+'malformedURL' took 26.056,
+'isValidISBN' took 02.637,
+'activelyPublishingInIST' took 605,
+'publishedInIST' took 004,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 1 Mar 2020, 17:10:39
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 143 (143 ms), 133 MB
+Loading model(s): 48.901 (48901 ms), 7824 MB
+GARBAGE_COLLECTION: 19.449 (19449 ms), 0 MB
+execute(): 01:07.272 (67272 ms), 4275 MB
+
+Finished at 1 Mar 2020, 17:12:55
+-----------------------------------------------------
+'validPageLength' took 06:17.901,
+'isValidMonth' took 05:39.245,
+'malformedKey' took 02:04.714,
+'malformedURL' took 25.310,
+'isValidISBN' took 02.459,
+'activelyPublishingInIST' took 555,
+'publishedInIST' took 003,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 1 Mar 2020, 18:24:01
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 156 (156 ms), 133 MB
+Loading model(s): 48.866 (48866 ms), 7246 MB
+GARBAGE_COLLECTION: 17.535 (17535 ms), 0 MB
+execute(): 01:02.490 (62490 ms), 4318 MB
+
+Finished at 1 Mar 2020, 18:26:10
+-----------------------------------------------------
+'isValidMonth' took 05:39.458,
+'validPageLength' took 05:04.131,
+'malformedKey' took 02:02.546,
+'malformedURL' took 22.936,
+'isValidISBN' took 02.920,
+'activelyPublishingInIST' took 521,
+'publishedInIST' took 004,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------

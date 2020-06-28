@@ -1,0 +1,52 @@
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 736 MB
+Xmx: 25668 MB
+Starting execution at 9 Jan 2019, 02:22:40
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 135 (135 ms), 7 MB
+Parsing model: 39.853 (39853 ms), 1321 MB
+GARBAGE_COLLECTION: 05.584 (5584 ms), 0 MB
+execute(): 25.467 (25467 ms), 580 MB
+
+Finished at 9 Jan 2019, 02:23:51
+-----------------------------------------------------
+'noObscuredVariables' took 12.401,
+'parametersEffectivelyFinal' took 07.989,
+'hashCodeAndEquals' took 05.063,
+'publicFieldsOnlyInPOJO' took 05.063,
+'canBeLocal' took 04.881,
+'equalsNotOnStrings' took 04.530,
+'equalsNotOnLiterals' took 04.243,
+'variableIsUsed' took 04.205,
+'notReservedWord' took 04.009,
+'localMethodIsUsed' took 03.929,
+'shouldStartWithLowerCase' took 02.637,
+'shouldStartWithUpperCase' took 02.466,
+'noUselessControlFlow' took 02.271,
+'doesNotCallFinalize' took 02.090,
+'doesNotCallExit' took 01.999,
+'emptyBlockIsDocumented' took 01.958,
+'noDeadCode' took 01.598,
+'noRedundantInterfaceImpl' took 01.564,
+'doesNotCallRunFinalizers' took 01.263,
+'publicVariableIsFinal' took 01.188,
+'equalsAndCompareTo' took 01.070,
+'serialUIDInSerializableClass' took 648,
+'noRedundantAssignments' took 624,
+'noRedundantComparison' took 522,
+'cloneInCloneable' took 418,
+'noCovariantEquals' took 311,
+'noCovariantCompareTo' took 251,
+'comparatorImplementsSerializable' took 235,
+'exceptionIsUsed' took 094,
+'publicVariableIsFinal' took 064,
+'noRedundantSuperCall' took 045,
+'moreThan3Cases' took 044,
+'doesNotCatchDubiousExceptions' took 021,
+'hasStatements' took 007
+-----------------------------------------------------
+192608 constraints have not been satisfied.
+-----------------------------------------------------

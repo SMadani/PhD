@@ -1,0 +1,55 @@
+/**
+ * @see http://atenea.lcc.uma.es/Descargas/LinTra/casestudies/imdb/transformations/FindCouples.etl
+**/
+
+operation Movie nestedActors() : Boolean {
+	var actors = Person.allInstances().asSequence();
+	var n = getN();
+	var toIndex = actors.size() / n;
+	var subActors = actors.subList(0, toIndex);
+	return self.persons
+		.exists(ac |
+			subActors.exists(mp |
+				ac.hashCode() == mp.hashCode() and
+				mp.movies.size() == ac.movies.size()
+			)
+		);
+}
+
+operation getN() : Integer {
+	return 32;
+}
+
+operation Person hasCoupleCoactorsRare() : Boolean {
+	var nTarget = self.movies.size() + getN();
+	return self.coactors().count(co | co.areCoupleCoactors(self)) == nTarget;
+}
+
+operation Person hasCoupleCoactors() : Boolean {
+	return self.coactors().exists(co | co.areCoupleCoactors(self));
+}
+
+operation Person areCoupleCoactors(co : Person) : Boolean {
+	return
+		self.name.compareTo(co.name) < 0 and
+		co.movies.size() >= 3 and
+		self.areCouple(co);
+}
+
+@cached
+operation Person coactorsCached() : Set(Person) {
+	return self.coactors();
+}
+
+operation Person coactors() : Set(Person) {
+	return self.movies.collect(m | m.persons).flatten().asSet();
+}
+
+@cached
+operation Person areCouple(p : Person) : Boolean {
+	return self.movies.excludingAll(p.movies).size() <= (self.movies.size() - 3);
+}
+
+operation toList() {
+	return Native("java.util.stream.Collectors").toList();
+}

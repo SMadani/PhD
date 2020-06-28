@@ -1,0 +1,44 @@
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 3 Feb 2020, 21:34:26
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 069 (69 ms), 81 MB
+Loading model(s): 05.510 (5510 ms), 1575 MB
+GARBAGE_COLLECTION: 02.832 (2832 ms), 0 MB
+execute(): 03:17.456 (197456 ms), 1207 MB
+
+Finished at 3 Feb 2020, 21:37:52
+-----------------------------------------------------
+'AllActorsReferencedInMovies' took 51:17.956,
+'ReferencedInActors' took 58.174,
+'pre' took 01.350
+-----------------------------------------------------
+41547 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 3 Feb 2020, 21:37:52
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 668 (668 ms), 0 MB
+execute(): 03:14.035 (194035 ms), 1023 MB
+
+Finished at 3 Feb 2020, 21:41:07
+-----------------------------------------------------
+'AllActorsReferencedInMovies' took 50:30.335,
+'ReferencedInActors' took 57.854,
+'pre' took 967
+-----------------------------------------------------
+41547 constraints have not been satisfied.
+-----------------------------------------------------

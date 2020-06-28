@@ -1,0 +1,9 @@
+rule Author
+	transform a : DBLP!Author
+	to out : DBLP2!Author {
+	
+	guard : a.records.exists(r : DBLP!InProceedings | r.bootitle.contains("ICMT"))
+	
+	out.name = a.name;				
+	out.numOfPapers = a.records.count(r : DBLP!InProceedings | r.bootitle.contains("ICMT"));
+}

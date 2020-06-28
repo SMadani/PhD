@@ -1,0 +1,56 @@
+operation String replaceIllegalChars() : String {
+	return self
+		.replaceLiteral("%", "")
+		.replaceLiteral(":", "")
+		.replaceLiteral(";", "")
+		.replaceLiteral(",", " ")
+		.replaceLiteral("'", "")
+		.replaceLiteral("`", "")
+		.replaceLiteral('"', "")
+		.replaceLiteral("\\", "/")
+		.replaceLiteral("/", "_")
+		.replaceLiteral("<", "[")
+		.replaceLiteral(">", "]")
+		.replaceLiteral("{", "[")
+		.replaceLiteral("}", "]")
+		.replaceLiteral("*", "")
+		.replaceLiteral("?", "")
+		.replaceLiteral("|", "_")
+		.replaceLiteral("#", "")
+		.replaceLiteral("&", "and")
+		.replaceLiteral("@", "at")
+		.replaceLiteral("=", "")
+		.replaceLiteral("+", "plus")
+		.replaceLiteral("~", "-")
+		.replaceLiteral("$", "£")
+		.replaceLiteral("^", "");
+}
+
+/*rule Movies2Persons transform movie : Movie {
+	parameters : Map{"movie" = movie}
+	template : "moviePersons.egl"
+	target : "movies/"+movie.title.replaceIllegalChars()+" ("+movie.year+").txt"
+}*/
+
+pre {
+	var lengths = new ConcurrentMap;
+}
+
+@greedy
+rule People2MovieFiles transform person : Person {
+	parameters : Map{"person" = person}
+	template : "personMovies.egl"
+	target : "actors/"+person.name.replaceIllegalChars()+".csv"
+	post {
+		lengths.put(person.name, generated.length());
+	}
+}
+
+post {
+	var keys = lengths.keySet().size();
+	keys.println("Number of files: ");
+	var values = lengths.values().sum();
+	values.println("Sum of characters in all files: ");
+	var average = (values / keys).asInteger();
+	average.println("Average characters per file: ");
+}

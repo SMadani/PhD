@@ -1,0 +1,68 @@
+Linux 4.20.13-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 8 Mar 2019, 07:00:24
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 093 (93 ms), 8 MB
+Parsing model: 08.315 (8315 ms), 504 MB
+GARBAGE_COLLECTION: 01.433 (1433 ms), 0 MB
+execute(): 01:30.188 (90188 ms), -83 MB
+
+Finished at 8 Mar 2019, 07:02:04
+-----------------------------------------------------
+Linux 4.20.13-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 9 Mar 2019, 03:12:38
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 095 (95 ms), 8 MB
+Parsing model: 08.344 (8344 ms), 505 MB
+GARBAGE_COLLECTION: 01.534 (1534 ms), 0 MB
+execute(): 01:26.402 (86402 ms), -84 MB
+
+Finished at 9 Mar 2019, 03:14:15
+-----------------------------------------------------
+Linux 4.20.13-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 9 Mar 2019, 23:13:55
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 096 (96 ms), 7 MB
+Parsing model: 08.472 (8472 ms), 506 MB
+GARBAGE_COLLECTION: 01.384 (1384 ms), 0 MB
+execute(): 01:31.762 (91762 ms), -82 MB
+
+Finished at 9 Mar 2019, 23:15:37
+-----------------------------------------------------
+Linux 4.20.13-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 10 Mar 2019, 19:10:40
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 094 (94 ms), 8 MB
+Parsing model: 08.134 (8134 ms), 507 MB
+GARBAGE_COLLECTION: 01.383 (1383 ms), 0 MB
+execute(): 01:26.657 (86657 ms), -87 MB
+
+Finished at 10 Mar 2019, 19:12:16
+-----------------------------------------------------

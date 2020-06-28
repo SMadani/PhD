@@ -1,0 +1,108 @@
+Linux 5.3.0-26-generic
+OpenJDK 64-Bit Server VM 11.0.5+10-post-Ubuntu-0ubuntu1.1
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 1874 MB
+Xmx: 6258 MB
+Starting execution at 8 Jan 2020, 21:36:17
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 171 (171 ms), 19 MB
+Loading model(s): 04.217 (4217 ms), 250 MB
+GARBAGE_COLLECTION: 01.057 (1057 ms), 0 MB
+execute(): 13.595 (13595 ms), 425 MB
+
+Finished at 8 Jan 2020, 21:36:36
+-----------------------------------------------------
+'allImportsAreUsed' took 01:23.655,
+'parametersEffectivelyFinal' took 03.823,
+'noObscuredVariables' took 02.624,
+'canBeLocal' took 02.202,
+'localMethodIsUsed' took 01.934,
+'hashCodeAndEquals' took 01.421,
+'publicFieldsOnlyInPOJO' took 01.125,
+'equalsNotOnLiterals' took 671,
+'equalsNotOnStrings' took 647,
+'variableIsUsed' took 640,
+'noRedundantInterfaceImpl' took 389,
+'emptyBlockIsDocumented' took 319,
+'shouldStartWithLowerCase' took 291,
+'noUselessControlFlow' took 284,
+'notReservedWord' took 274,
+'equalsAndCompareTo' took 229,
+'shouldStartWithUpperCase' took 186,
+'noRedundantAssignments' took 177,
+'noDeadCode' took 176,
+'noCovariantEquals' took 168,
+'doesNotCallRunFinalizers' took 141,
+'publicVariableIsFinal' took 137,
+'serialUIDInSerializableClass' took 118,
+'comparatorImplementsSerializable' took 082,
+'cloneInCloneable' took 080,
+'noCovariantCompareTo' took 072,
+'doesNotCallExit' took 068,
+'doesNotCallFinalize' took 060,
+'publicVariableIsFinal' took 023,
+'noRedundantComparison' took 015,
+'noRedundantSuperCall' took 009,
+'exceptionIsUsed' took 006,
+'moreThan3Cases' took 004,
+'hasStatements' took 001,
+'doesNotCatchDubiousExceptions' took 000
+-----------------------------------------------------
+7280 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.3.0-26-generic
+OpenJDK 64-Bit Server VM 11.0.5+10-post-Ubuntu-0ubuntu1.1
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 1850 MB
+Xmx: 6258 MB
+Starting execution at 8 Jan 2020, 21:36:37
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 425 (425 ms), 0 MB
+execute(): 14.372 (14372 ms), 478 MB
+
+Finished at 8 Jan 2020, 21:36:51
+-----------------------------------------------------
+'allImportsAreUsed' took 01:42.147,
+'parametersEffectivelyFinal' took 01.634,
+'canBeLocal' took 01.534,
+'noObscuredVariables' took 01.418,
+'localMethodIsUsed' took 01.248,
+'variableIsUsed' took 377,
+'equalsNotOnLiterals' took 353,
+'shouldStartWithLowerCase' took 340,
+'hashCodeAndEquals' took 262,
+'equalsNotOnStrings' took 256,
+'emptyBlockIsDocumented' took 210,
+'noUselessControlFlow' took 186,
+'equalsAndCompareTo' took 159,
+'noRedundantInterfaceImpl' took 156,
+'noRedundantAssignments' took 149,
+'notReservedWord' took 141,
+'publicFieldsOnlyInPOJO' took 135,
+'publicVariableIsFinal' took 132,
+'noDeadCode' took 097,
+'serialUIDInSerializableClass' took 086,
+'comparatorImplementsSerializable' took 076,
+'noCovariantEquals' took 059,
+'shouldStartWithUpperCase' took 056,
+'cloneInCloneable' took 050,
+'doesNotCallFinalize' took 046,
+'doesNotCallExit' took 042,
+'doesNotCallRunFinalizers' took 032,
+'noCovariantCompareTo' took 029,
+'publicVariableIsFinal' took 022,
+'noRedundantComparison' took 009,
+'noRedundantSuperCall' took 008,
+'exceptionIsUsed' took 004,
+'hasStatements' took 001,
+'doesNotCatchDubiousExceptions' took 000,
+'moreThan3Cases' took 000
+-----------------------------------------------------
+7280 constraints have not been satisfied.
+-----------------------------------------------------

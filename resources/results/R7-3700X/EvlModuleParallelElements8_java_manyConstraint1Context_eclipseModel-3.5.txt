@@ -1,0 +1,58 @@
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 10 Jan 2020, 14:41:02
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 071 (71 ms), 102 MB
+Loading model(s): 21.717 (21717 ms), 3428 MB
+GARBAGE_COLLECTION: 05.822 (5822 ms), 0 MB
+execute(): 02.755 (2755 ms), 3000 MB
+
+Finished at 10 Jan 2020, 14:41:33
+-----------------------------------------------------
+'noObscuredVariables' took 09.120,
+'publicFieldsOnlyInPOJO' took 04.557,
+'hashCodeAndEquals' took 03.775,
+'noRedundantInterfaceImpl' took 01.086,
+'equalsAndCompareTo' took 694,
+'noCovariantEquals' took 286,
+'serialUIDInSerializableClass' took 257,
+'cloneInCloneable' took 203,
+'noCovariantCompareTo' took 199,
+'comparatorImplementsSerializable' took 187
+-----------------------------------------------------
+11858 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 14131 MB
+Xmx: 26176 MB
+Starting execution at 10 Jan 2020, 14:41:35
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 01.953 (1953 ms), 0 MB
+execute(): 01.333 (1333 ms), 4892 MB
+
+Finished at 10 Jan 2020, 14:41:38
+-----------------------------------------------------
+'noObscuredVariables' took 06.622,
+'publicFieldsOnlyInPOJO' took 01.034,
+'hashCodeAndEquals' took 965,
+'noRedundantInterfaceImpl' took 734,
+'equalsAndCompareTo' took 441,
+'noCovariantEquals' took 163,
+'serialUIDInSerializableClass' took 157,
+'noCovariantCompareTo' took 128,
+'cloneInCloneable' took 123,
+'comparatorImplementsSerializable' took 110
+-----------------------------------------------------
+11858 constraints have not been satisfied.
+-----------------------------------------------------

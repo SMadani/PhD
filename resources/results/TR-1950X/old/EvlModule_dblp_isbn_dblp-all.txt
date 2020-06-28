@@ -1,0 +1,50 @@
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 736 MB
+Xmx: 25668 MB
+Starting execution at 9 Jan 2019, 01:51:56
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 175 (175 ms), 17 MB
+Parsing model: 01:22.285 (82285 ms), 3355 MB
+GARBAGE_COLLECTION: 10.976 (10976 ms), 0 MB
+execute(): 896 (896 ms), 11 MB
+
+Finished at 9 Jan 2019, 01:53:30
+-----------------------------------------------------
+'isValidISBN' took 599
+-----------------------------------------------------
+10342 constraints have not been satisfied.
+-----------------------------------------------------
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 736 MB
+Xmx: 25668 MB
+Starting execution at 9 Jan 2019, 14:42:12
+-----------------------------------------------------
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 736 MB
+Xmx: 25668 MB
+Starting execution at 9 Jan 2019, 14:45:49
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 182 (182 ms), 18 MB
+Parsing model: 01:13.345 (73345 ms), 3402 MB
+GARBAGE_COLLECTION: 11.420 (11420 ms), 0 MB
+execute(): 07:21.245 (441245 ms), 3749 MB
+
+Finished at 9 Jan 2019, 14:54:35
+-----------------------------------------------------
+'validPageLength' took 03:24.780,
+'isValidMonth' took 02:17.550,
+'malformedKey' took 47.788,
+'malformedURL' took 13.545,
+'activelyPublishingInIST' took 01.048,
+'isValidISBN' took 549,
+'publishedInIST' took 002
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------

@@ -1,0 +1,77 @@
+Linux 5.3.6-200.fc30.x86_64
+OpenJDK 64-Bit Server VM 11.0.5+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8016 MB
+Xmx: 29472 MB
+Starting execution at 24 Oct 2019, 16:47:25
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 117 (117 ms), 7 MB
+Loading model(s): 30.825 (30825 ms), 1380 MB
+GARBAGE_COLLECTION: 02.601 (2601 ms), 0 MB
+execute(): 5:41:51.805 (20511805 ms), 583 MB
+
+Finished at 24 Oct 2019, 22:29:50
+-----------------------------------------------------
+'notReservedWord' took 01.717,
+'doesNotCallFinalize' took 991,
+'doesNotCallExit' took 549,
+'doesNotCallRunFinalizers' took 535
+-----------------------------------------------------
+267812 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.3.6-200.fc30.x86_64
+OpenJDK 64-Bit Server VM 11.0.5+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8016 MB
+Xmx: 29472 MB
+Starting execution at 26 Oct 2019, 10:38:16
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 106 (106 ms), 7 MB
+Loading model(s): 29.900 (29900 ms), 1397 MB
+GARBAGE_COLLECTION: 03.204 (3204 ms), 0 MB
+execute(): 5:38:51.188 (20331188 ms), 566 MB
+
+Finished at 26 Oct 2019, 16:17:41
+-----------------------------------------------------
+'allImportsAreUsed' took 5:37:05.514,
+'hashCodeAndEquals' took 13.739,
+'canBeLocal' took 10.260,
+'noObscuredVariables' took 08.339,
+'publicFieldsOnlyInPOJO' took 06.990,
+'parametersEffectivelyFinal' took 06.516,
+'noCovariantEquals' took 04.307,
+'noCovariantCompareTo' took 03.723,
+'equalsAndCompareTo' took 03.685,
+'variableIsUsed' took 03.580,
+'noRedundantInterfaceImpl' took 03.288,
+'equalsNotOnLiterals' took 03.198,
+'equalsNotOnStrings' took 03.121,
+'localMethodIsUsed' took 02.735,
+'serialUIDInSerializableClass' took 02.684,
+'cloneInCloneable' took 02.352,
+'comparatorImplementsSerializable' took 02.286,
+'noUselessControlFlow' took 01.800,
+'notReservedWord' took 01.690,
+'emptyBlockIsDocumented' took 01.648,
+'noDeadCode' took 01.233,
+'shouldStartWithLowerCase' took 01.164,
+'doesNotCallFinalize' took 01.033,
+'doesNotCallExit' took 528,
+'doesNotCallRunFinalizers' took 511,
+'shouldStartWithUpperCase' took 468,
+'publicVariableIsFinal' took 445,
+'noRedundantAssignments' took 404,
+'noRedundantComparison' took 238,
+'exceptionIsUsed' took 078,
+'publicVariableIsFinal' took 042,
+'noRedundantSuperCall' took 038,
+'moreThan3Cases' took 033,
+'doesNotCatchDubiousExceptions' took 017,
+'hasStatements' took 005
+-----------------------------------------------------
+267812 constraints have not been satisfied.
+-----------------------------------------------------

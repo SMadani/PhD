@@ -1,0 +1,56 @@
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 30-Oct-2019 14:55:04
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 077 (77 ms), -13 MB
+Loading model(s): 14.893 (14893 ms), 0 MB
+GARBAGE_COLLECTION: 15.697 (15697 ms), 0 MB
+execute(): 08:27.953 (507953 ms), 5468 MB
+
+Finished at 30-Oct-2019 15:04:03
+-----------------------------------------------------
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 01:25.587,
+'PropertyCheck_BlockNameIsLowerCase' took 01:08.683,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 01:05.219,
+'VertexConnectivity_AllOutportsConnected' took 52.033,
+'LoopAbsence' took 47.106,
+'NavigationAndFilter_InportsAreGreen' took 39.138,
+'PropertyCheck_HasDescription' took 14.477,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 12.565,
+'PropertyCheck_TagVisibility' took 224
+-----------------------------------------------------
+5961 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 30-Oct-2019 15:11:15
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 077 (77 ms), -13 MB
+Loading model(s): 13.406 (13406 ms), 0 MB
+GARBAGE_COLLECTION: 19.890 (19890 ms), 0 MB
+execute(): 08:26.901 (506901 ms), 5467 MB
+
+Finished at 30-Oct-2019 15:20:15
+-----------------------------------------------------
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 01:24.952,
+'PropertyCheck_BlockNameIsLowerCase' took 01:07.293,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 01:05.610,
+'VertexConnectivity_AllOutportsConnected' took 52.367,
+'LoopAbsence' took 47.144,
+'NavigationAndFilter_InportsAreGreen' took 38.735,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 11.511,
+'PropertyCheck_HasDescription' took 10.720,
+'PropertyCheck_TagVisibility' took 222
+-----------------------------------------------------
+5961 constraints have not been satisfied.
+-----------------------------------------------------

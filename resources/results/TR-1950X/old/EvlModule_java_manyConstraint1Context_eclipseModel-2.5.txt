@@ -1,0 +1,112 @@
+model name	: AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 736 MB
+Xmx: 25668 MB
+Starting execution at 23 Oct 2018, 02:49:10
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 110 (110 ms), 10 MB
+Parsing model: 23.464 (23464 ms), 782 MB
+GARBAGE_COLLECTION: 03.210 (3210 ms), 0 MB
+execute(): 14.422 (14422 ms), 36 MB
+
+Finished at 23 Oct 2018, 02:49:51
+-----------------------------------------------------
+'noObscuredVariables' took 06.459,
+'publicFieldsOnlyInPOJO' took 02.884,
+'hashCodeAndEquals' took 02.722,
+'noRedundantInterfaceImpl' took 879,
+'equalsAndCompareTo' took 447,
+'serialUIDInSerializableClass' took 191,
+'noCovariantEquals' took 182,
+'noCovariantCompareTo' took 140,
+'cloneInCloneable' took 135,
+'comparatorImplementsSerializable' took 128
+-----------------------------------------------------
+11310 constraints have not been satisfied.
+-----------------------------------------------------
+model name	: AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 736 MB
+Xmx: 25668 MB
+Starting execution at 13 Nov 2018, 04:15:39
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 111 (111 ms), 11 MB
+Parsing model: 22.189 (22189 ms), 777 MB
+GARBAGE_COLLECTION: 02.943 (2943 ms), 0 MB
+execute(): 14.283 (14283 ms), 32 MB
+
+Finished at 13 Nov 2018, 04:16:19
+-----------------------------------------------------
+'noObscuredVariables' took 06.396,
+'publicFieldsOnlyInPOJO' took 02.837,
+'hashCodeAndEquals' took 02.688,
+'noRedundantInterfaceImpl' took 879,
+'equalsAndCompareTo' took 451,
+'serialUIDInSerializableClass' took 181,
+'noCovariantEquals' took 172,
+'cloneInCloneable' took 136,
+'noCovariantCompareTo' took 136,
+'comparatorImplementsSerializable' took 127
+-----------------------------------------------------
+11310 constraints have not been satisfied.
+-----------------------------------------------------
+model name	: AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 736 MB
+Xmx: 25668 MB
+Starting execution at 14 Nov 2018, 07:54:50
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 115 (115 ms), 11 MB
+Parsing model: 21.582 (21582 ms), 776 MB
+GARBAGE_COLLECTION: 03.016 (3016 ms), 0 MB
+execute(): 13.343 (13343 ms), 33 MB
+
+Finished at 14 Nov 2018, 07:55:28
+-----------------------------------------------------
+'noObscuredVariables' took 05.950,
+'publicFieldsOnlyInPOJO' took 02.710,
+'hashCodeAndEquals' took 02.479,
+'noRedundantInterfaceImpl' took 828,
+'equalsAndCompareTo' took 393,
+'serialUIDInSerializableClass' took 178,
+'noCovariantEquals' took 160,
+'cloneInCloneable' took 129,
+'noCovariantCompareTo' took 125,
+'comparatorImplementsSerializable' took 115
+-----------------------------------------------------
+11310 constraints have not been satisfied.
+-----------------------------------------------------
+model name	: AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 736 MB
+Xmx: 25668 MB
+Starting execution at 15 Nov 2018, 10:38:07
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 112 (112 ms), 10 MB
+Parsing model: 22.314 (22314 ms), 777 MB
+GARBAGE_COLLECTION: 03.038 (3038 ms), 0 MB
+execute(): 13.613 (13613 ms), 36 MB
+
+Finished at 15 Nov 2018, 10:38:46
+-----------------------------------------------------
+'noObscuredVariables' took 06.074,
+'publicFieldsOnlyInPOJO' took 02.713,
+'hashCodeAndEquals' took 02.566,
+'noRedundantInterfaceImpl' took 834,
+'equalsAndCompareTo' took 426,
+'serialUIDInSerializableClass' took 173,
+'noCovariantEquals' took 165,
+'cloneInCloneable' took 135,
+'noCovariantCompareTo' took 130,
+'comparatorImplementsSerializable' took 120
+-----------------------------------------------------
+11310 constraints have not been satisfied.
+-----------------------------------------------------

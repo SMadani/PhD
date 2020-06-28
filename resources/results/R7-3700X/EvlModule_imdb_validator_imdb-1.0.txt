@@ -1,0 +1,154 @@
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 2 Jan 2020, 13:19:31
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 108 (108 ms), 122 MB
+Loading model(s): 04.799 (4799 ms), 1534 MB
+GARBAGE_COLLECTION: 02.681 (2681 ms), 0 MB
+execute(): 31.461 (31461 ms), 208 MB
+
+Finished at 2 Jan 2020, 13:20:10
+-----------------------------------------------------
+'isValidName' took 20.380,
+'hasMovies' took 05.160,
+'hasPeople' took 01.347,
+'isValidYear' took 659,
+'isValidRating' took 144,
+'someCode' took 097,
+'isValidTitle' took 014
+-----------------------------------------------------
+56137 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 12741 MB
+Xmx: 26176 MB
+Starting execution at 2 Jan 2020, 13:20:11
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 746 (746 ms), 0 MB
+execute(): 29.324 (29324 ms), 947 MB
+
+Finished at 2 Jan 2020, 13:20:41
+-----------------------------------------------------
+'isValidName' took 19.386,
+'hasMovies' took 04.810,
+'hasPeople' took 01.292,
+'isValidYear' took 570,
+'isValidRating' took 128,
+'someCode' took 089,
+'isValidTitle' took 013
+-----------------------------------------------------
+56137 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 9104 MB
+Xmx: 26176 MB
+Starting execution at 2 Jan 2020, 13:20:42
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 368 (368 ms), 0 MB
+execute(): 29.466 (29466 ms), 64 MB
+
+Finished at 2 Jan 2020, 13:21:11
+-----------------------------------------------------
+'isValidName' took 19.511,
+'hasMovies' took 04.833,
+'hasPeople' took 01.250,
+'isValidYear' took 600,
+'isValidRating' took 127,
+'someCode' took 084,
+'isValidTitle' took 013
+-----------------------------------------------------
+56137 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 80 MB
+Xmx: 29448 MB
+Starting execution at 2 Jan 2020, 13:23:22
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 114 (114 ms), 14 MB
+Loading model(s): 05.468 (5468 ms), 974 MB
+GARBAGE_COLLECTION: 01.653 (1653 ms), 0 MB
+execute(): 40.141 (40141 ms), 3157 MB
+
+Finished at 2 Jan 2020, 13:24:09
+-----------------------------------------------------
+'isValidName' took 26.083,
+'hasMovies' took 06.703,
+'hasPeople' took 01.788,
+'isValidYear' took 866,
+'isValidRating' took 156,
+'someCode' took 108,
+'isValidTitle' took 015
+-----------------------------------------------------
+56137 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 1632 MB
+Xmx: 29448 MB
+Starting execution at 2 Jan 2020, 13:24:10
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 832 (832 ms), 0 MB
+execute(): 39.284 (39284 ms), 1736 MB
+
+Finished at 2 Jan 2020, 13:24:50
+-----------------------------------------------------
+'isValidName' took 25.473,
+'hasMovies' took 06.625,
+'hasPeople' took 01.892,
+'isValidYear' took 868,
+'isValidRating' took 143,
+'someCode' took 099,
+'isValidTitle' took 013
+-----------------------------------------------------
+56137 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 1600 MB
+Xmx: 29448 MB
+Starting execution at 2 Jan 2020, 13:24:51
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 829 (829 ms), 0 MB
+execute(): 38.910 (38910 ms), 2476 MB
+
+Finished at 2 Jan 2020, 13:25:31
+-----------------------------------------------------
+'isValidName' took 25.379,
+'hasMovies' took 06.569,
+'hasPeople' took 01.841,
+'isValidYear' took 836,
+'isValidRating' took 137,
+'someCode' took 095,
+'isValidTitle' took 012
+-----------------------------------------------------
+56137 constraints have not been satisfied.
+-----------------------------------------------------

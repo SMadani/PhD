@@ -1,0 +1,46 @@
+model name	: AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 736 MB
+Xmx: 25668 MB
+Starting execution at 7 Sep 2018, 21:10:56
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 167 (167 ms), 27 MB
+Parsing model: 39.829 (39829 ms), 2290 MB
+execute(): 12:20.638 (740638 ms), 6323 MB
+
+Finished at 7 Sep 2018, 21:23:56
+-----------------------------------------------------
+'isValidName' took 01:49.980,
+'hasPeople' took 42.445,
+'hasMovies' took 31.082,
+'isValidYear' took 18.440,
+'isValidRating' took 09.834,
+'someCode' took 01.454
+-----------------------------------------------------
+252322 constraints have not been satisfied.
+-----------------------------------------------------
+model name	: AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 736 MB
+Xmx: 25668 MB
+Starting execution at 7 Sep 2018, 21:23:57
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 162 (162 ms), 27 MB
+Parsing model: 37.736 (37736 ms), 2621 MB
+execute(): 12:30.628 (750628 ms), 1215 MB
+
+Finished at 7 Sep 2018, 21:37:06
+-----------------------------------------------------
+'isValidName' took 01:48.270,
+'hasPeople' took 34.509,
+'hasMovies' took 30.597,
+'isValidYear' took 14.982,
+'isValidRating' took 02.826,
+'someCode' took 822
+-----------------------------------------------------
+252322 constraints have not been satisfied.
+-----------------------------------------------------

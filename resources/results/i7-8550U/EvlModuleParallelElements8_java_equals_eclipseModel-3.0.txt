@@ -1,0 +1,102 @@
+Windows 10
+Eclipse OpenJ9 VM openj9-0.16.0
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 2013 MB
+Xmx: 7408 MB
+Starting execution at 8 Jan 2020, 13:37:17
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 121 (121 ms), 10 MB
+Loading model(s): 37.541 (37541 ms), 2466 MB
+GARBAGE_COLLECTION: 06.737 (6737 ms), 0 MB
+execute(): 03.300 (3300 ms), 695 MB
+
+Finished at 8 Jan 2020, 13:38:04
+-----------------------------------------------------
+'hasEquals' took 24.197,
+'hasHashCode' took 019
+-----------------------------------------------------
+14102 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Eclipse OpenJ9 VM openj9-0.16.0
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 3545 MB
+Xmx: 7408 MB
+Starting execution at 8 Jan 2020, 13:38:08
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 02.546 (2546 ms), 0 MB
+execute(): 189 (189 ms), 550 MB
+
+Finished at 8 Jan 2020, 13:38:11
+-----------------------------------------------------
+'hasEquals' took 01.255,
+'hasHashCode' took 004
+-----------------------------------------------------
+14102 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Eclipse OpenJ9 VM openj9-0.16.0
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 3545 MB
+Xmx: 7408 MB
+Starting execution at 8 Jan 2020, 13:38:12
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 02.243 (2243 ms), 0 MB
+execute(): 150 (150 ms), 700 MB
+
+Finished at 8 Jan 2020, 13:38:14
+-----------------------------------------------------
+'hasEquals' took 791,
+'hasHashCode' took 004
+-----------------------------------------------------
+14102 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Eclipse OpenJ9 VM openj9-0.16.0
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 3545 MB
+Xmx: 7408 MB
+Starting execution at 8 Jan 2020, 13:38:16
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 03.250 (3250 ms), 0 MB
+execute(): 174 (174 ms), 700 MB
+
+Finished at 8 Jan 2020, 13:38:19
+-----------------------------------------------------
+'hasEquals' took 01.124,
+'hasHashCode' took 005
+-----------------------------------------------------
+14102 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Eclipse OpenJ9 VM openj9-0.16.0
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Logical processors: 8
+Xms: 3545 MB
+Xmx: 7408 MB
+Starting execution at 8 Jan 2020, 13:38:22
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 03.086 (3086 ms), 0 MB
+execute(): 149 (149 ms), 700 MB
+
+Finished at 8 Jan 2020, 13:38:25
+-----------------------------------------------------
+'hasEquals' took 812,
+'hasHashCode' took 004
+-----------------------------------------------------
+14102 constraints have not been satisfied.
+-----------------------------------------------------

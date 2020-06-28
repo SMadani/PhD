@@ -1,0 +1,266 @@
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 23-Jan-2020 16:38:25
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Prepare model: 55.559 (55559 ms), 3852 MB
+setup: 722 (722 ms), 255 MB
+Prepare validator: 008 (8 ms), 0 MB
+GARBAGE_COLLECTION: 22.029 (22029 ms), 0 MB
+execute: 05:35.915 (335915 ms), 2670 MB
+
+Finished at 23-Jan-2020 16:45:14
+-----------------------------------------------------
+192601 unsatisfied constraints.
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 25235 MB
+Xmx: 27305 MB
+Starting execution at 23-Jan-2020 16:45:17
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+execute: 05:30.760 (330760 ms), 689 MB
+GARBAGE_COLLECTION: 05.364 (5364 ms), 0 MB
+dispose: 099 (99 ms), 45 MB
+
+Finished at 23-Jan-2020 16:50:53
+-----------------------------------------------------
+192601 unsatisfied constraints.
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 23-Jan-2020 17:22:59
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Prepare model: 01:20.244 (80244 ms), 3713 MB
+setup: 668 (668 ms), 328 MB
+Prepare validator: 017 (17 ms), 0 MB
+GARBAGE_COLLECTION: 20.814 (20814 ms), 0 MB
+execute: 04:56.147 (296147 ms), 1566 MB
+
+Finished at 23-Jan-2020 17:29:32
+-----------------------------------------------------
+192601 unsatisfied constraints.
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 28552 MB
+Xmx: 28552 MB
+Starting execution at 23-Jan-2020 17:29:35
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+execute: 05:19.840 (319840 ms), 3152 MB
+GARBAGE_COLLECTION: 05.302 (5302 ms), 0 MB
+dispose: 095 (95 ms), 114 MB
+
+Finished at 23-Jan-2020 17:35:00
+-----------------------------------------------------
+192601 unsatisfied constraints.
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 24-Jan-2020 01:40:06
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Prepare model: 01:06.631 (66631 ms), 4756 MB
+setup: 697 (697 ms), 291 MB
+Prepare validator: 009 (9 ms), 0 MB
+GARBAGE_COLLECTION: 16.167 (16167 ms), 0 MB
+execute: 04:37.247 (277247 ms), 596 MB
+
+Finished at 24-Jan-2020 01:46:02
+-----------------------------------------------------
+192601 unsatisfied constraints.
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 28459 MB
+Xmx: 28459 MB
+Starting execution at 24-Jan-2020 01:46:06
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+execute: 04:33.211 (273211 ms), 8811 MB
+GARBAGE_COLLECTION: 05.019 (5019 ms), 0 MB
+dispose: 102 (102 ms), 69 MB
+
+Finished at 24-Jan-2020 01:50:44
+-----------------------------------------------------
+192601 unsatisfied constraints.
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 24-Jan-2020 02:06:54
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Prepare model: 52.343 (52343 ms), 2554 MB
+setup: 642 (642 ms), 315 MB
+Prepare validator: 008 (8 ms), 0 MB
+GARBAGE_COLLECTION: 18.173 (18173 ms), 0 MB
+execute: 05:51.534 (351534 ms), 1659 MB
+
+Finished at 24-Jan-2020 02:13:53
+-----------------------------------------------------
+192601 unsatisfied constraints.
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 26157 MB
+Xmx: 27305 MB
+Starting execution at 24-Jan-2020 02:13:56
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+execute: 04:23.219 (263219 ms), 727 MB
+GARBAGE_COLLECTION: 05.368 (5368 ms), 0 MB
+dispose: 083 (83 ms), 66 MB
+
+Finished at 24-Jan-2020 02:18:25
+-----------------------------------------------------
+192601 unsatisfied constraints.
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 24-Jan-2020 02:33:39
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Prepare model: 54.350 (54350 ms), 5334 MB
+setup: 715 (715 ms), 279 MB
+Prepare validator: 010 (10 ms), 0 MB
+GARBAGE_COLLECTION: 19.366 (19366 ms), 0 MB
+execute: 05:28.855 (328855 ms), 1669 MB
+
+Finished at 24-Jan-2020 02:40:17
+-----------------------------------------------------
+192601 unsatisfied constraints.
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 26092 MB
+Xmx: 27305 MB
+Starting execution at 24-Jan-2020 02:40:21
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+execute: 06:11.890 (371890 ms), 788 MB
+GARBAGE_COLLECTION: 05.101 (5101 ms), 0 MB
+dispose: 082 (82 ms), 63 MB
+
+Finished at 24-Jan-2020 02:46:38
+-----------------------------------------------------
+192601 unsatisfied constraints.
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 24-Jan-2020 03:02:08
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Prepare model: 01:13.918 (73918 ms), 2487 MB
+setup: 736 (736 ms), 328 MB
+Prepare validator: 008 (8 ms), 0 MB
+GARBAGE_COLLECTION: 20.743 (20743 ms), 0 MB
+execute: 05:42.537 (342537 ms), 282 MB
+
+Finished at 24-Jan-2020 03:09:23
+-----------------------------------------------------
+192601 unsatisfied constraints.
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 25190 MB
+Xmx: 27305 MB
+Starting execution at 24-Jan-2020 03:09:26
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+execute: 04:41.827 (281827 ms), 3011 MB
+GARBAGE_COLLECTION: 04.789 (4789 ms), 0 MB
+dispose: 086 (86 ms), 33 MB
+
+Finished at 24-Jan-2020 03:14:13
+-----------------------------------------------------
+192601 unsatisfied constraints.
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 24-Jan-2020 03:29:50
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Prepare model: 57.322 (57322 ms), 2088 MB
+setup: 746 (746 ms), 291 MB
+Prepare validator: 009 (9 ms), 0 MB
+GARBAGE_COLLECTION: 15.733 (15733 ms), 0 MB
+execute: 05:17.647 (317647 ms), 944 MB
+
+Finished at 24-Jan-2020 03:36:18
+-----------------------------------------------------
+192601 unsatisfied constraints.
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 25333 MB
+Xmx: 27305 MB
+Starting execution at 24-Jan-2020 03:36:21
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+execute: 04:52.919 (292919 ms), 1854 MB
+GARBAGE_COLLECTION: 05.296 (5296 ms), 0 MB
+dispose: 094 (94 ms), 30 MB
+
+Finished at 24-Jan-2020 03:41:19
+-----------------------------------------------------
+192601 unsatisfied constraints.
+-----------------------------------------------------

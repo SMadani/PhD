@@ -1,0 +1,18 @@
+Linux 5.3.7-301.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.5+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8016 MB
+Xmx: 29472 MB
+Starting execution at 4 Nov 2019, 15:14:18
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 102 (102 ms), 7 MB
+Loading model(s): 07.485 (7485 ms), 329 MB
+GARBAGE_COLLECTION: 01.017 (1017 ms), 0 MB
+execute(): 27:22.740 (1642740 ms), 38 MB
+
+Finished at 4 Nov 2019, 15:41:50
+-----------------------------------------------------
+72966 constraints have not been satisfied.
+-----------------------------------------------------

@@ -1,0 +1,62 @@
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 09-Jan-2020 12:50:34
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Loading model(s): 29.140 (29140 ms), 3476 MB
+GARBAGE_COLLECTION: 15.270 (15270 ms), 0 MB
+execute(): 20.733 (20733 ms), 257 MB
+
+Finished at 09-Jan-2020 12:51:39
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 09-Jan-2020 12:51:43
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 04.556 (4556 ms), 0 MB
+execute(): 20.881 (20881 ms), 7124 MB
+
+Finished at 09-Jan-2020 12:52:09
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 09-Jan-2020 12:57:55
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Loading model(s): 26.524 (26524 ms), 3476 MB
+GARBAGE_COLLECTION: 19.217 (19217 ms), 0 MB
+execute(): 20.718 (20718 ms), 38 MB
+
+Finished at 09-Jan-2020 12:59:02
+-----------------------------------------------------
+Linux 3.10.0-862.3.2.el7.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 09-Jan-2020 12:59:08
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 04.482 (4482 ms), 0 MB
+execute(): 19.134 (19134 ms), 7101 MB
+
+Finished at 09-Jan-2020 12:59:32
+-----------------------------------------------------

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: EVL Kafka
+Bundle-SymbolicName: org.eclipse.epsilon.evl.engine.distributed.kafka
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Epsilon
+Automatic-Module-Name: org.eclipse.epsilon.evl.engine.distributed.kafka
+Main-Class: org.eclipse.epsilon.evl.distributed.kafka.launch.KafkaEvlMasterConfigParser
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.eclipse.epsilon.evl.distributed.kafka,
+ org.eclipse.epsilon.evl.distributed.kafka.execute.context,
+ org.eclipse.epsilon.evl.distributed.kafka.launch
+Require-Bundle: org.eclipse.epsilon.evl.engine.distributed;visibility:=reexport

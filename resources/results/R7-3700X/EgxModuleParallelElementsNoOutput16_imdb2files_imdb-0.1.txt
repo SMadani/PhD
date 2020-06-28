@@ -1,0 +1,29 @@
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 28 Feb 2020, 23:10:39
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 064 (64 ms), 81 MB
+Loading model(s): 834 (834 ms), 286 MB
+GARBAGE_COLLECTION: 383 (383 ms), 0 MB
+execute(): 03.844 (3844 ms), 7456 MB
+
+Finished at 28 Feb 2020, 23:10:44
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 56.685,
+'post' took 025,
+'pre' took 000
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 15231 MB
+Xmx: 26176 MB
+Starting execution at 28 Feb 2020, 23:10:45
+-----------------------------------------------------

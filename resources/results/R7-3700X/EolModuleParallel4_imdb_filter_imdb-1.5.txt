@@ -1,0 +1,64 @@
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 80 MB
+Xmx: 29448 MB
+Starting execution at 20 Dec 2019, 15:10:43
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 064 (64 ms), 5 MB
+Loading model(s): 08.250 (8250 ms), 763 MB
+GARBAGE_COLLECTION: 02.332 (2332 ms), 0 MB
+execute(): 06:37.735 (397735 ms), -119 MB
+
+Finished at 20 Dec 2019, 15:17:31
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 2320 MB
+Xmx: 29448 MB
+Starting execution at 20 Dec 2019, 15:17:32
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 01.197 (1197 ms), 0 MB
+execute(): 06:41.229 (401229 ms), 1 MB
+
+Finished at 20 Dec 2019, 15:24:14
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 80 MB
+Xmx: 29448 MB
+Starting execution at 20 Dec 2019, 16:51:35
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 065 (65 ms), 5 MB
+Loading model(s): 08.499 (8499 ms), 745 MB
+GARBAGE_COLLECTION: 02.211 (2211 ms), 0 MB
+execute(): 06:43.767 (403767 ms), -100 MB
+
+Finished at 20 Dec 2019, 16:58:30
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 2296 MB
+Xmx: 29448 MB
+Starting execution at 20 Dec 2019, 16:58:31
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 01.231 (1231 ms), 0 MB
+execute(): 06:49.867 (409867 ms), 7 MB
+
+Finished at 20 Dec 2019, 17:05:22
+-----------------------------------------------------

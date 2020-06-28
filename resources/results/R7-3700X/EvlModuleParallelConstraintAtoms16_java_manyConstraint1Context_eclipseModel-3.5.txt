@@ -1,0 +1,58 @@
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 7839 MB
+Xmx: 26176 MB
+Starting execution at 10 Jan 2020, 14:38:09
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 074 (74 ms), 122 MB
+Loading model(s): 21.962 (21962 ms), 3495 MB
+GARBAGE_COLLECTION: 06.215 (6215 ms), 0 MB
+execute(): 03.392 (3392 ms), 4845 MB
+
+Finished at 10 Jan 2020, 14:38:41
+-----------------------------------------------------
+'noObscuredVariables' took 16.461,
+'publicFieldsOnlyInPOJO' took 08.078,
+'hashCodeAndEquals' took 07.369,
+'noCovariantEquals' took 05.050,
+'equalsAndCompareTo' took 05.035,
+'noCovariantCompareTo' took 04.439,
+'noRedundantInterfaceImpl' took 01.883,
+'serialUIDInSerializableClass' took 499,
+'cloneInCloneable' took 419,
+'comparatorImplementsSerializable' took 348
+-----------------------------------------------------
+11858 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 13.0.1+9
+AMD Ryzen 7 3700X 8-Core Processor
+Logical processors: 16
+Xms: 12799 MB
+Xmx: 26176 MB
+Starting execution at 10 Jan 2020, 14:38:43
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 01.949 (1949 ms), 0 MB
+execute(): 01.300 (1300 ms), 5409 MB
+
+Finished at 10 Jan 2020, 14:38:47
+-----------------------------------------------------
+'noObscuredVariables' took 12.574,
+'publicFieldsOnlyInPOJO' took 01.954,
+'hashCodeAndEquals' took 01.843,
+'noRedundantInterfaceImpl' took 01.373,
+'equalsAndCompareTo' took 877,
+'noCovariantEquals' took 336,
+'serialUIDInSerializableClass' took 294,
+'noCovariantCompareTo' took 248,
+'cloneInCloneable' took 220,
+'comparatorImplementsSerializable' took 200
+-----------------------------------------------------
+11858 constraints have not been satisfied.
+-----------------------------------------------------

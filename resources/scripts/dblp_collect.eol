@@ -1,0 +1,3 @@
+return Author.allInstances()
+	.collect(a | a.records.select(r | r.authors.size() == 1))
+	.size();

@@ -1,0 +1,62 @@
+Linux 5.4.10-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.5+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7674 MB
+Xmx: 25620 MB
+Starting execution at 25 Jan 2020, 10:55:27
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Loading model(s): 28.632 (28632 ms), 4021 MB
+GARBAGE_COLLECTION: 09.985 (9985 ms), 0 MB
+execute(): 1:28:15.165 (5295165 ms), 2993 MB
+
+Finished at 25 Jan 2020, 12:24:20
+-----------------------------------------------------
+Linux 5.4.10-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.5+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 14767 MB
+Xmx: 25620 MB
+Starting execution at 25 Jan 2020, 12:24:24
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 03.729 (3729 ms), 0 MB
+execute(): 1:27:12.737 (5232737 ms), 3690 MB
+
+Finished at 25 Jan 2020, 13:51:41
+-----------------------------------------------------
+Linux 5.4.10-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.5+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7674 MB
+Xmx: 25620 MB
+Starting execution at 26 Jan 2020, 11:31:08
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Loading model(s): 29.287 (29287 ms), 4487 MB
+GARBAGE_COLLECTION: 10.017 (10017 ms), 0 MB
+execute(): 1:26:13.574 (5173574 ms), 5363 MB
+
+Finished at 26 Jan 2020, 12:58:01
+-----------------------------------------------------
+Linux 5.4.10-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.5+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 14753 MB
+Xmx: 25620 MB
+Starting execution at 26 Jan 2020, 12:58:05
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 03.626 (3626 ms), 0 MB
+execute(): 1:27:11.782 (5231782 ms), 9201 MB
+
+Finished at 26 Jan 2020, 14:25:20
+-----------------------------------------------------

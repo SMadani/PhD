@@ -1,0 +1,90 @@
+Linux 5.3.13-300.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.5+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 136 MB
+Xmx: 29472 MB
+Starting execution at 6 Dec 2019, 14:01:50
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 097 (97 ms), 7 MB
+Loading model(s): 18.030 (18030 ms), 817 MB
+GARBAGE_COLLECTION: 02.780 (2780 ms), 0 MB
+execute(): 06.628 (6628 ms), 14 MB
+
+Finished at 6 Dec 2019, 14:02:17
+-----------------------------------------------------
+'hashCodeAndEquals' took 31.674,
+'noObscuredVariables' took 18.643,
+'noRedundantInterfaceImpl' took 07.628,
+'equalsAndCompareTo' took 05.946,
+'publicFieldsOnlyInPOJO' took 02.918,
+'noCovariantEquals' took 288,
+'cloneInCloneable' took 208,
+'serialUIDInSerializableClass' took 191,
+'noCovariantCompareTo' took 190,
+'comparatorImplementsSerializable' took 123
+-----------------------------------------------------
+11310 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.3.13-300.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.5+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 136 MB
+Xmx: 29472 MB
+Starting execution at 7 Dec 2019, 23:19:35
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 099 (99 ms), 7 MB
+Loading model(s): 17.754 (17754 ms), 818 MB
+GARBAGE_COLLECTION: 02.550 (2550 ms), 0 MB
+execute(): 06.627 (6627 ms), 13 MB
+
+Finished at 7 Dec 2019, 23:20:02
+-----------------------------------------------------
+'hashCodeAndEquals' took 31.737,
+'noObscuredVariables' took 17.912,
+'noRedundantInterfaceImpl' took 06.414,
+'equalsAndCompareTo' took 06.231,
+'publicFieldsOnlyInPOJO' took 02.968,
+'noCovariantEquals' took 283,
+'cloneInCloneable' took 191,
+'serialUIDInSerializableClass' took 181,
+'noCovariantCompareTo' took 181,
+'comparatorImplementsSerializable' took 175
+-----------------------------------------------------
+11310 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 5.3.13-300.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.5+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 136 MB
+Xmx: 29472 MB
+Starting execution at 9 Dec 2019, 08:26:32
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 097 (97 ms), 7 MB
+Loading model(s): 18.170 (18170 ms), 816 MB
+GARBAGE_COLLECTION: 02.871 (2871 ms), 0 MB
+execute(): 06.563 (6563 ms), 15 MB
+
+Finished at 9 Dec 2019, 08:27:00
+-----------------------------------------------------
+'hashCodeAndEquals' took 32.383,
+'noObscuredVariables' took 19.297,
+'equalsAndCompareTo' took 06.264,
+'noRedundantInterfaceImpl' took 06.024,
+'publicFieldsOnlyInPOJO' took 02.897,
+'noCovariantEquals' took 301,
+'noCovariantCompareTo' took 181,
+'serialUIDInSerializableClass' took 180,
+'cloneInCloneable' took 175,
+'comparatorImplementsSerializable' took 148
+-----------------------------------------------------
+11310 constraints have not been satisfied.
+-----------------------------------------------------

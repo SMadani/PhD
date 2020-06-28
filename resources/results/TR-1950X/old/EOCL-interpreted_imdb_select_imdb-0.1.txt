@@ -1,0 +1,80 @@
+Linux 4.20.13-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 8 Mar 2019, 09:23:30
+-----------------------------------------------------
+
+Profiled processes:
+Prepare model: 819 (819 ms), 42 MB
+setup: 364 (364 ms), -1 MB
+Parse script: 522 (522 ms), 12 MB
+Check for query: 100 (100 ms), 2 MB
+execute: 02:40.432 (160432 ms), 1 MB
+GARBAGE_COLLECTION: 416 (416 ms), 0 MB
+dispose: 013 (13 ms), 0 MB
+
+Finished at 8 Mar 2019, 09:26:13
+-----------------------------------------------------
+Linux 4.20.13-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 9 Mar 2019, 05:35:41
+-----------------------------------------------------
+
+Profiled processes:
+Prepare model: 840 (840 ms), 42 MB
+setup: 361 (361 ms), -2 MB
+Parse script: 551 (551 ms), 12 MB
+Check for query: 101 (101 ms), 2 MB
+execute: 02:40.906 (160906 ms), 0 MB
+GARBAGE_COLLECTION: 415 (415 ms), 0 MB
+dispose: 013 (13 ms), 0 MB
+
+Finished at 9 Mar 2019, 05:38:24
+-----------------------------------------------------
+Linux 4.20.13-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 10 Mar 2019, 01:36:26
+-----------------------------------------------------
+
+Profiled processes:
+Prepare model: 829 (829 ms), 42 MB
+setup: 356 (356 ms), -1 MB
+Parse script: 512 (512 ms), 12 MB
+Check for query: 094 (94 ms), 2 MB
+execute: 02:39.476 (159476 ms), 1 MB
+GARBAGE_COLLECTION: 437 (437 ms), 0 MB
+dispose: 013 (13 ms), 2 MB
+
+Finished at 10 Mar 2019, 01:39:08
+-----------------------------------------------------
+Linux 4.20.13-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 772 MB
+Xmx: 28876 MB
+Starting execution at 10 Mar 2019, 21:34:28
+-----------------------------------------------------
+
+Profiled processes:
+Prepare model: 821 (821 ms), 42 MB
+setup: 377 (377 ms), -1 MB
+Parse script: 535 (535 ms), 10 MB
+Check for query: 101 (101 ms), 2 MB
+execute: 02:40.064 (160064 ms), 1 MB
+GARBAGE_COLLECTION: 431 (431 ms), 0 MB
+dispose: 013 (13 ms), 2 MB
+
+Finished at 10 Mar 2019, 21:37:10
+-----------------------------------------------------

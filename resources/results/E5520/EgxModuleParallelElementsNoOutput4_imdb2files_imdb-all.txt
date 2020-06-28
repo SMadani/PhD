@@ -1,0 +1,200 @@
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 02-Mar-2020 15:31:03
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 202 (202 ms), 307 MB
+Loading model(s): 52.002 (52002 ms), 4354 MB
+GARBAGE_COLLECTION: 24.929 (24929 ms), 0 MB
+execute(): 06:55.500 (415500 ms), 6795 MB
+
+Finished at 02-Mar-2020 15:39:16
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 27:27.061,
+'post' took 167,
+'pre' took 001
+-----------------------------------------------------
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 30708 MB
+Xmx: 30708 MB
+Starting execution at 02-Mar-2020 15:39:26
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 14.340 (14340 ms), 0 MB
+execute(): 07:45.935 (465935 ms), 8982 MB
+
+Finished at 02-Mar-2020 15:47:27
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 30:51.960,
+'post' took 044,
+'pre' took 000
+-----------------------------------------------------
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 02-Mar-2020 17:42:01
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 230 (230 ms), 307 MB
+Loading model(s): 44.717 (44717 ms), 6099 MB
+GARBAGE_COLLECTION: 28.191 (28191 ms), 0 MB
+execute(): 07:01.560 (421560 ms), 8766 MB
+
+Finished at 02-Mar-2020 17:50:16
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 27:52.146,
+'post' took 202,
+'pre' took 001
+-----------------------------------------------------
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 30708 MB
+Xmx: 30708 MB
+Starting execution at 02-Mar-2020 17:50:30
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 14.379 (14379 ms), 0 MB
+execute(): 07:42.803 (462803 ms), 9854 MB
+
+Finished at 02-Mar-2020 17:58:27
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 30:39.109,
+'post' took 045,
+'pre' took 000
+-----------------------------------------------------
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 02-Mar-2020 19:53:19
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 186 (186 ms), 307 MB
+Loading model(s): 53.295 (53295 ms), 4240 MB
+GARBAGE_COLLECTION: 25.641 (25641 ms), 0 MB
+execute(): 07:27.148 (447148 ms), 9752 MB
+
+Finished at 02-Mar-2020 20:02:05
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 29:33.876,
+'post' took 173,
+'pre' took 001
+-----------------------------------------------------
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 30703 MB
+Xmx: 30703 MB
+Starting execution at 02-Mar-2020 20:02:18
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 13.772 (13772 ms), 0 MB
+execute(): 07:42.165 (462165 ms), 1604 MB
+
+Finished at 02-Mar-2020 20:10:14
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 30:35.797,
+'post' took 089,
+'pre' took 000
+-----------------------------------------------------
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 02-Mar-2020 22:05:19
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 181 (181 ms), 384 MB
+Loading model(s): 44.944 (44944 ms), 6098 MB
+GARBAGE_COLLECTION: 29.709 (29709 ms), 0 MB
+execute(): 06:54.947 (414947 ms), 11001 MB
+
+Finished at 02-Mar-2020 22:13:29
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 27:25.509,
+'post' took 187,
+'pre' took 002
+-----------------------------------------------------
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 30704 MB
+Xmx: 30704 MB
+Starting execution at 02-Mar-2020 22:13:37
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 14.259 (14259 ms), 0 MB
+execute(): 07:23.399 (443399 ms), 4385 MB
+
+Finished at 02-Mar-2020 22:21:14
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 29:21.260,
+'post' took 046,
+'pre' took 000
+-----------------------------------------------------
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 03-Mar-2020 00:16:51
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 202 (202 ms), 307 MB
+Loading model(s): 50.147 (50147 ms), 4179 MB
+GARBAGE_COLLECTION: 30.511 (30511 ms), 0 MB
+execute(): 06:43.485 (403485 ms), 5251 MB
+
+Finished at 03-Mar-2020 00:24:55
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 26:37.996,
+'post' took 174,
+'pre' took 001
+-----------------------------------------------------
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 30708 MB
+Xmx: 30708 MB
+Starting execution at 03-Mar-2020 00:25:03
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 13.768 (13768 ms), 0 MB
+execute(): 07:24.295 (444295 ms), 3372 MB
+
+Finished at 03-Mar-2020 00:32:41
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 29:25.342,
+'post' took 047,
+'pre' took 000
+-----------------------------------------------------

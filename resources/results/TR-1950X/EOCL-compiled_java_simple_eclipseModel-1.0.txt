@@ -1,0 +1,105 @@
+Linux 5.2.17-200.fc30.x86_64
+OpenJDK 64-Bit Server VM 11.0.4+11
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7686 MB
+Xmx: 26233 MB
+Starting execution at 4 Oct 2019, 10:31:37
+-----------------------------------------------------
+
+Profiled processes:
+Prepare model: 06.582 (6582 ms), 142 MB
+setup: 299 (299 ms), -23 MB
+Prepare validator: 000 (0 ms), 0 MB
+execute: 07.576 (7576 ms), 31 MB
+GARBAGE_COLLECTION: 01.739 (1739 ms), 0 MB
+dispose: 026 (26 ms), 0 MB
+
+Finished at 4 Oct 2019, 10:31:53
+-----------------------------------------------------
+28914 unsatisfied constraints.
+-----------------------------------------------------
+Linux 5.2.18-200.fc30.x86_64
+OpenJDK 64-Bit Server VM 11.0.4+11
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8032 MB
+Xmx: 29512 MB
+Starting execution at 16 Oct 2019, 18:08:01
+-----------------------------------------------------
+
+Profiled processes:
+Prepare model: 06.703 (6703 ms), 116 MB
+setup: 309 (309 ms), 0 MB
+Prepare validator: 000 (0 ms), 0 MB
+execute: 07.844 (7844 ms), 3 MB
+GARBAGE_COLLECTION: 840 (840 ms), 0 MB
+dispose: 024 (24 ms), 0 MB
+
+Finished at 16 Oct 2019, 18:08:16
+-----------------------------------------------------
+28914 unsatisfied constraints.
+-----------------------------------------------------
+Linux 5.3.13-300.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.5+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 376 MB
+Xmx: 29472 MB
+Starting execution at 5 Dec 2019, 18:49:45
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Prepare model: 06.815 (6815 ms), 110 MB
+setup: 302 (302 ms), -7 MB
+Prepare validator: 000 (0 ms), 0 MB
+execute: 07.661 (7661 ms), 17 MB
+GARBAGE_COLLECTION: 776 (776 ms), 0 MB
+dispose: 023 (23 ms), 0 MB
+
+Finished at 5 Dec 2019, 18:50:00
+-----------------------------------------------------
+28914 unsatisfied constraints.
+-----------------------------------------------------
+Linux 5.3.13-300.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.5+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 376 MB
+Xmx: 29472 MB
+Starting execution at 7 Dec 2019, 04:22:47
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Prepare model: 06.648 (6648 ms), 118 MB
+setup: 329 (329 ms), -14 MB
+Prepare validator: 000 (0 ms), 0 MB
+execute: 07.877 (7877 ms), 17 MB
+GARBAGE_COLLECTION: 778 (778 ms), 0 MB
+dispose: 024 (24 ms), 0 MB
+
+Finished at 7 Dec 2019, 04:23:03
+-----------------------------------------------------
+28914 unsatisfied constraints.
+-----------------------------------------------------
+Linux 5.3.13-300.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.5+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 376 MB
+Xmx: 29472 MB
+Starting execution at 8 Dec 2019, 13:26:42
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Prepare model: 06.958 (6958 ms), 113 MB
+setup: 323 (323 ms), -8 MB
+Prepare validator: 000 (0 ms), 0 MB
+execute: 07.967 (7967 ms), 17 MB
+GARBAGE_COLLECTION: 763 (763 ms), 0 MB
+dispose: 026 (26 ms), 0 MB
+
+Finished at 8 Dec 2019, 13:26:58
+-----------------------------------------------------
+28914 unsatisfied constraints.
+-----------------------------------------------------

@@ -1,0 +1,270 @@
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 07-Mar-2020 01:30:28
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 336 (336 ms), 307 MB
+Loading model(s): 01:21.403 (81403 ms), 9650 MB
+GARBAGE_COLLECTION: 57.564 (57564 ms), 0 MB
+execute(): 02:38.960 (158960 ms), 5604 MB
+
+Finished at 07-Mar-2020 01:35:26
+-----------------------------------------------------
+'validPageLength' took 08:04.383,
+'isValidMonth' took 06:24.889,
+'malformedKey' took 02:07.978,
+'malformedURL' took 37.277,
+'isValidISBN' took 02.185,
+'activelyPublishingInIST' took 01.373,
+'publishedInIST' took 009,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 30292 MB
+Xmx: 30292 MB
+Starting execution at 07-Mar-2020 01:35:43
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 21.320 (21320 ms), 0 MB
+execute(): 02:12.500 (132500 ms), 5133 MB
+
+Finished at 07-Mar-2020 01:38:17
+-----------------------------------------------------
+'validPageLength' took 07:19.609,
+'isValidMonth' took 05:47.379,
+'malformedKey' took 02:01.564,
+'malformedURL' took 24.723,
+'activelyPublishingInIST' took 23.686,
+'isValidISBN' took 02.886,
+'publishedInIST' took 000,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 07-Mar-2020 06:02:15
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 412 (412 ms), 307 MB
+Loading model(s): 01:42.341 (102341 ms), 8344 MB
+GARBAGE_COLLECTION: 47.440 (47440 ms), 0 MB
+execute(): 02:42.466 (162466 ms), 11295 MB
+
+Finished at 07-Mar-2020 06:07:28
+-----------------------------------------------------
+'validPageLength' took 08:21.046,
+'isValidMonth' took 06:36.660,
+'malformedKey' took 02:13.426,
+'malformedURL' took 36.636,
+'isValidISBN' took 01.821,
+'activelyPublishingInIST' took 01.619,
+'publishedInIST' took 010,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 30394 MB
+Xmx: 30394 MB
+Starting execution at 07-Mar-2020 06:07:52
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 22.223 (22223 ms), 0 MB
+execute(): 02:15.374 (135374 ms), 7315 MB
+
+Finished at 07-Mar-2020 06:10:30
+-----------------------------------------------------
+'validPageLength' took 07:27.795,
+'isValidMonth' took 06:00.631,
+'malformedKey' took 01:58.402,
+'malformedURL' took 30.456,
+'activelyPublishingInIST' took 23.924,
+'isValidISBN' took 01.167,
+'publishedInIST' took 000,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 07-Mar-2020 10:38:57
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 349 (349 ms), 307 MB
+Loading model(s): 01:28.726 (88726 ms), 9520 MB
+GARBAGE_COLLECTION: 57.194 (57194 ms), 0 MB
+execute(): 02:40.575 (160575 ms), 5536 MB
+
+Finished at 07-Mar-2020 10:44:04
+-----------------------------------------------------
+'validPageLength' took 08:12.285,
+'isValidMonth' took 06:31.041,
+'malformedKey' took 02:18.446,
+'malformedURL' took 24.420,
+'isValidISBN' took 01.855,
+'activelyPublishingInIST' took 01.809,
+'publishedInIST' took 009,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 30295 MB
+Xmx: 30295 MB
+Starting execution at 07-Mar-2020 10:44:30
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 21.597 (21597 ms), 0 MB
+execute(): 02:11.955 (131955 ms), 13879 MB
+
+Finished at 07-Mar-2020 10:47:04
+-----------------------------------------------------
+'validPageLength' took 07:17.457,
+'isValidMonth' took 05:46.053,
+'malformedKey' took 02:01.983,
+'malformedURL' took 23.463,
+'activelyPublishingInIST' took 23.203,
+'isValidISBN' took 01.090,
+'publishedInIST' took 000,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 07-Mar-2020 15:22:26
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 362 (362 ms), 307 MB
+Loading model(s): 01:35.805 (95805 ms), 8426 MB
+GARBAGE_COLLECTION: 49.107 (49107 ms), 0 MB
+execute(): 02:35.425 (155425 ms), 12897 MB
+
+Finished at 07-Mar-2020 15:27:27
+-----------------------------------------------------
+'validPageLength' took 07:49.550,
+'isValidMonth' took 06:18.652,
+'malformedKey' took 02:17.099,
+'malformedURL' took 24.506,
+'isValidISBN' took 02.135,
+'activelyPublishingInIST' took 01.584,
+'publishedInIST' took 010,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 30395 MB
+Xmx: 30395 MB
+Starting execution at 07-Mar-2020 15:27:40
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 20.876 (20876 ms), 0 MB
+execute(): 02:11.003 (131003 ms), 8832 MB
+
+Finished at 07-Mar-2020 15:30:12
+-----------------------------------------------------
+'validPageLength' took 07:13.664,
+'isValidMonth' took 05:43.253,
+'malformedKey' took 01:59.319,
+'malformedURL' took 24.838,
+'activelyPublishingInIST' took 23.535,
+'isValidISBN' took 01.186,
+'publishedInIST' took 000,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 29438 MB
+Xmx: 29438 MB
+Starting execution at 07-Mar-2020 19:57:34
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 378 (378 ms), 307 MB
+Loading model(s): 01:42.727 (102727 ms), 7371 MB
+GARBAGE_COLLECTION: 44.026 (44026 ms), 0 MB
+execute(): 02:37.661 (157661 ms), 8057 MB
+
+Finished at 07-Mar-2020 20:02:39
+-----------------------------------------------------
+'validPageLength' took 08:06.580,
+'isValidMonth' took 06:21.470,
+'malformedKey' took 02:23.900,
+'malformedURL' took 24.645,
+'isValidISBN' took 02.020,
+'activelyPublishingInIST' took 01.308,
+'publishedInIST' took 010,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------
+Linux 3.10.0-1062.12.1.el7.x86_64
+OpenJDK 64-Bit Server VM 25.242-b08
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+Logical processors: 16
+Xms: 30293 MB
+Xmx: 30293 MB
+Starting execution at 07-Mar-2020 20:02:54
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+GARBAGE_COLLECTION: 20.765 (20765 ms), 0 MB
+execute(): 02:15.153 (135153 ms), 10113 MB
+
+Finished at 07-Mar-2020 20:05:30
+-----------------------------------------------------
+'validPageLength' took 07:25.880,
+'isValidMonth' took 05:56.501,
+'malformedKey' took 02:05.049,
+'malformedURL' took 25.278,
+'activelyPublishingInIST' took 22.955,
+'isValidISBN' took 01.093,
+'publishedInIST' took 000,
+'pre' took 000
+-----------------------------------------------------
+5644240 constraints have not been satisfied.
+-----------------------------------------------------

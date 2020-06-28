@@ -1,0 +1,57 @@
+model name	: AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 736 MB
+Xmx: 25668 MB
+Starting execution at 5 Sep 2018, 16:47:55
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 123 (123 ms), 14 MB
+Parsing model: 36.709 (36709 ms), 2856 MB
+prepareExecution(): 001 (1 ms), 0 MB
+create jobs: 06.727 (6727 ms), -989 MB
+shuffle jobs: 093 (93 ms), 0 MB
+submit jobs: 415 (415 ms), 98 MB
+execute jobs: 01:08.777 (68777 ms), 2563 MB
+postExecution(): 115 (115 ms), 34 MB
+executeImpl: 01:16.138 (76138 ms), 1706 MB
+
+Finished at 5 Sep 2018, 16:49:48
+-----------------------------------------------------
+'noObscuredVariables' took 08.571,
+'parametersEffectivelyFinal' took 08.062,
+'variableIsUsed' took 04.554,
+'equalsNotOnStrings' took 04.456,
+'publicFieldsOnlyInPOJO' took 04.050,
+'equalsNotOnLiterals' took 03.693,
+'canBeLocal' took 03.134,
+'localMethodIsUsed' took 02.826,
+'emptyBlockIsDocumented' took 02.523,
+'notReservedWord' took 02.482,
+'noUselessControlFlow' took 02.021,
+'hashCodeAndEquals' took 01.992,
+'shouldStartWithUpperCase' took 01.433,
+'noDeadCode' took 01.333,
+'equalsAndCompareTo' took 01.288,
+'noRedundantInterfaceImpl' took 01.198,
+'shouldStartWithLowerCase' took 01.173,
+'doesNotCallRunFinalizers' took 01.102,
+'doesNotCallExit' took 01.085,
+'doesNotCallFinalize' took 01.053,
+'noCovariantEquals' took 896,
+'noCovariantCompareTo' took 811,
+'publicVariableIsFinal' took 647,
+'noRedundantAssignments' took 508,
+'noRedundantComparison' took 327,
+'serialUIDInSerializableClass' took 310,
+'cloneInCloneable' took 243,
+'comparatorImplementsSerializable' took 224,
+'exceptionIsUsed' took 082,
+'publicVariableIsFinal' took 057,
+'moreThan3Cases' took 038,
+'noRedundantSuperCall' took 038,
+'doesNotCatchDubiousExceptions' took 022,
+'hasStatements' took 006
+-----------------------------------------------------
+192608 constraints have not been satisfied.
+-----------------------------------------------------

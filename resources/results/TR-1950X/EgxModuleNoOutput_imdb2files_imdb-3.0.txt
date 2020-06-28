@@ -1,0 +1,105 @@
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 25 Mar 2020, 14:37:50
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 074 (74 ms), 33 MB
+Loading model(s): 23.711 (23711 ms), 3282 MB
+GARBAGE_COLLECTION: 08.359 (8359 ms), 0 MB
+execute(): 09:10.151 (550151 ms), 1846 MB
+
+Finished at 25 Mar 2020, 14:47:32
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 09:08.609,
+'post' took 115,
+'pre' took 001
+-----------------------------------------------------
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 25 Mar 2020, 16:01:32
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 078 (78 ms), 53 MB
+Loading model(s): 23.699 (23699 ms), 2682 MB
+GARBAGE_COLLECTION: 08.658 (8658 ms), 0 MB
+execute(): 09:40.943 (580943 ms), 1437 MB
+
+Finished at 25 Mar 2020, 16:11:45
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 09:39.293,
+'post' took 124,
+'pre' took 000
+-----------------------------------------------------
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 25 Mar 2020, 17:27:36
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 080 (80 ms), 26 MB
+Loading model(s): 23.456 (23456 ms), 2719 MB
+GARBAGE_COLLECTION: 08.673 (8673 ms), 0 MB
+execute(): 09:22.610 (562610 ms), 861 MB
+
+Finished at 25 Mar 2020, 17:37:32
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 09:21.078,
+'post' took 104,
+'pre' took 001
+-----------------------------------------------------
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 25 Mar 2020, 18:52:03
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 076 (76 ms), 33 MB
+Loading model(s): 23.724 (23724 ms), 2676 MB
+GARBAGE_COLLECTION: 08.639 (8639 ms), 0 MB
+execute(): 09:14.729 (554729 ms), 974 MB
+
+Finished at 25 Mar 2020, 19:01:50
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 09:13.225,
+'post' took 108,
+'pre' took 000
+-----------------------------------------------------
+Linux 5.5.5-200.fc31.x86_64
+OpenJDK 64-Bit Server VM 11.0.6+10
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 7672 MB
+Xmx: 25620 MB
+Starting execution at 25 Mar 2020, 20:16:03
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 076 (76 ms), 33 MB
+Loading model(s): 23.388 (23388 ms), 2686 MB
+GARBAGE_COLLECTION: 08.685 (8685 ms), 0 MB
+execute(): 09:25.037 (565037 ms), 1027 MB
+
+Finished at 25 Mar 2020, 20:26:00
+-----------------------------------------------------
+'People2MovieFiles (Person)' took 09:23.374,
+'post' took 180,
+'pre' took 000
+-----------------------------------------------------

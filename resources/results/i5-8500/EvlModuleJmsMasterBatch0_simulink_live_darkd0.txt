@@ -1,0 +1,57 @@
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 10-Oct-2019 17:04:31
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 088 (88 ms), -14 MB
+Loading model: 13.656 (13656 ms), 0 MB
+GARBAGE_COLLECTION: 11.722 (11722 ms), 0 MB
+execute(): 08:48.198 (528198 ms), 5471 MB
+
+Finished at 10-Oct-2019 17:13:45
+-----------------------------------------------------
+'PropertyCheck_BlockNameIsLowerCase' took 01:04.553,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 01:04.443,
+'VertexConnectivity_AllOutportsConnected' took 51.634,
+'LoopAbsence' took 46.712,
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 45.076,
+'NavigationAndFilter_InportsAreGreen' took 37.882,
+'PropertyCheck_HasDescription' took 14.025,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 10.937,
+'PropertyCheck_TagVisibility' took 03.440
+
+5918 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+Java HotSpot(TM) 64-Bit Server VM 25.181-b13
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+Logical processors: 6
+Xms: 3925 MB
+Xmx: 12743 MB
+Starting execution at 25-Oct-2019 17:02:49
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 109 (109 ms), -34 MB
+Loading model(s): 01:06.212 (66212 ms), 0 MB
+GARBAGE_COLLECTION: 17.565 (17565 ms), 0 MB
+execute(): 08:03.255 (483255 ms), 5376 MB
+
+Finished at 25-Oct-2019 17:12:16
+-----------------------------------------------------
+'NavigationAndFilter_ThereExistsAGotoBlockWithTheFromGotoTagAndInScope' took 01:19.963,
+'PropertyCheck_BlockNameIsLowerCase' took 01:11.930,
+'TransitiveClosure_NoMoreThanThreeLevelsDeep' took 57.349,
+'VertexConnectivity_AllOutportsConnected' took 51.237,
+'LoopAbsence' took 42.818,
+'NavigationAndFilter_InportsAreGreen' took 39.233,
+'PropertyCheck_PortDimensionsHasAssignedValue' took 10.739,
+'PropertyCheck_HasDescription' took 08.964,
+'PropertyCheck_TagVisibility' took 208
+-----------------------------------------------------
+5918 constraints have not been satisfied.
+-----------------------------------------------------

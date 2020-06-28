@@ -1,0 +1,84 @@
+Linux 5.0.5-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8032 MB
+Xmx: 28880 MB
+Starting execution at 11 May 2019, 23:31:05
+-----------------------------------------------------
+
+Profiled processes:
+Prepare model: 08.708 (8708 ms), 115 MB
+setup: 374 (374 ms), 0 MB
+Prepare validator: 000 (0 ms), 0 MB
+execute: 08.854 (8854 ms), 30 MB
+GARBAGE_COLLECTION: 940 (940 ms), 0 MB
+dispose: 029 (29 ms), 0 MB
+
+Finished at 11 May 2019, 23:31:24
+-----------------------------------------------------
+28914 unsatisfied constraints.
+-----------------------------------------------------
+Linux 5.0.5-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8032 MB
+Xmx: 28880 MB
+Starting execution at 11 May 2019, 23:38:49
+-----------------------------------------------------
+
+Profiled processes:
+Prepare model: 08.177 (8177 ms), 115 MB
+setup: 366 (366 ms), 0 MB
+Prepare validator: 000 (0 ms), 0 MB
+execute: 08.739 (8739 ms), 31 MB
+GARBAGE_COLLECTION: 01.016 (1016 ms), 0 MB
+dispose: 032 (32 ms), 0 MB
+
+Finished at 11 May 2019, 23:39:07
+-----------------------------------------------------
+28914 unsatisfied constraints.
+-----------------------------------------------------
+Linux 5.0.5-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8032 MB
+Xmx: 28880 MB
+Starting execution at 11 May 2019, 23:46:36
+-----------------------------------------------------
+
+Profiled processes:
+Prepare model: 08.201 (8201 ms), 113 MB
+setup: 366 (366 ms), 2 MB
+Prepare validator: 000 (0 ms), 0 MB
+execute: 08.990 (8990 ms), 31 MB
+GARBAGE_COLLECTION: 937 (937 ms), 0 MB
+dispose: 029 (29 ms), 0 MB
+
+Finished at 11 May 2019, 23:46:54
+-----------------------------------------------------
+28914 unsatisfied constraints.
+-----------------------------------------------------
+Linux 5.0.5-200.fc29.x86_64
+OpenJDK 64-Bit Server VM 11.0.2+7
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 8032 MB
+Xmx: 28880 MB
+Starting execution at 11 May 2019, 23:54:23
+-----------------------------------------------------
+
+Profiled processes:
+Prepare model: 08.163 (8163 ms), 115 MB
+setup: 372 (372 ms), -3 MB
+Prepare validator: 000 (0 ms), 0 MB
+execute: 08.901 (8901 ms), 32 MB
+GARBAGE_COLLECTION: 962 (962 ms), 0 MB
+dispose: 033 (33 ms), 0 MB
+
+Finished at 11 May 2019, 23:54:42
+-----------------------------------------------------
+28914 unsatisfied constraints.
+-----------------------------------------------------

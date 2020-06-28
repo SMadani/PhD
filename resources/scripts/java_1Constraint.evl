@@ -1,0 +1,9 @@
+context ImportDeclaration {
+	@parallel
+	constraint allImportsAreUsed {
+		check: NamedElement.allInstances().exists(ne |
+			ne == self.importedElement and
+			ne.originalCompilationUnit == self.originalCompilationUnit
+		)
+	}
+}

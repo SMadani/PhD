@@ -1,0 +1,18 @@
+model name	: AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 736 MB
+Xmx: 25668 MB
+Starting execution at 6 Sep 2018, 17:40:26
+-----------------------------------------------------
+
+Profiled processes:
+Parsing script: 076 (76 ms), 9 MB
+Parsing model: 17.656 (17656 ms), 1511 MB
+execute(): 13:00.136 (780136 ms), 1220 MB
+
+Finished at 6 Sep 2018, 17:53:44
+-----------------------------------------------------
+'allImportsAreUsed' took 6:55:48.339
+-----------------------------------------------------
+All constraints have been satisfied.
+-----------------------------------------------------

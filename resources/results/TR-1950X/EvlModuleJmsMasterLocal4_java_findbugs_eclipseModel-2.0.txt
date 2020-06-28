@@ -1,0 +1,68 @@
+Linux 5.3.7-301.fc31.x86_64
+OpenJDK 64-Bit Server VM 25.232-b09
+AMD Ryzen Threadripper 1950X 16-Core Processor
+Logical processors: 32
+Xms: 1963 MB
+Xmx: 7118 MB
+Starting execution at 11-Nov-2019 15:12:27
+-----------------------------------------------------
+[MASTER] 15:12:27.689 Connected to tcp://localhost:61616 session 735
+[MASTER] 15:12:27.746 Waiting for workers to load configuration...
+[MASTER] 15:12:41.389 Total number of jobs = 484775
+[MASTER] 15:12:54.059 Sent 24240 jobs to workers
+[MASTER] 15:12:54.060 Awaiting workers to signal completion...
+[MASTER] 15:15:47.805 Worker finished (processed 5727 jobs)
+[MASTER] 15:15:52.904 Worker finished (processed 6171 jobs)
+[MASTER] 15:15:54.335 Worker finished (processed 6171 jobs)
+[MASTER] 15:15:54.346 Worker finished (processed 6171 jobs)
+[MASTER] 15:15:54.347 All workers finished (24240 processed jobs)
+[MASTER] 15:15:55.065 Finished processing 6059 master jobs
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 115 (115 ms), -2 MB
+Loading model(s): 09.181 (9181 ms), 382 MB
+Sending configuration to workers: 11.327 (11327 ms), 352 MB
+GARBAGE_COLLECTION: 04.162 (4162 ms), 0 MB
+execute(): 03:14.579 (194579 ms), 48 MB
+
+Finished at 11-Nov-2019 15:15:55
+-----------------------------------------------------
+'allImportsAreUsed' took 1:45:26.232,
+'noObscuredVariables' took 06.423,
+'parametersEffectivelyFinal' took 04.621,
+'publicFieldsOnlyInPOJO' took 03.328,
+'hashCodeAndEquals' took 03.140,
+'canBeLocal' took 03.087,
+'variableIsUsed' took 02.792,
+'localMethodIsUsed' took 01.781,
+'equalsNotOnLiterals' took 01.585,
+'equalsNotOnStrings' took 01.360,
+'emptyBlockIsDocumented' took 01.306,
+'notReservedWord' took 01.229,
+'shouldStartWithLowerCase' took 01.035,
+'noRedundantInterfaceImpl' took 836,
+'noUselessControlFlow' took 776,
+'noDeadCode' took 689,
+'equalsAndCompareTo' took 511,
+'publicVariableIsFinal' took 376,
+'doesNotCallFinalize' took 354,
+'doesNotCallExit' took 303,
+'shouldStartWithUpperCase' took 295,
+'doesNotCallRunFinalizers' took 294,
+'noCovariantEquals' took 221,
+'noRedundantAssignments' took 211,
+'noCovariantCompareTo' took 203,
+'serialUIDInSerializableClass' took 186,
+'cloneInCloneable' took 185,
+'comparatorImplementsSerializable' took 181,
+'noRedundantComparison' took 144,
+'exceptionIsUsed' took 051,
+'noRedundantSuperCall' took 038,
+'moreThan3Cases' took 018,
+'doesNotCatchDubiousExceptions' took 006,
+'publicVariableIsFinal' took 005,
+'hasStatements' took 005
+-----------------------------------------------------
+72966 constraints have not been satisfied.
+-----------------------------------------------------
+
