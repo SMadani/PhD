@@ -78,7 +78,7 @@ public abstract class AbstractModule extends AbstractModuleElement implements IM
 		return parse(uri, uri.toURL().openStream());
 	}
 
-	protected boolean invokeMainRule(List<CommonToken> multilineComments) throws Exception {
+	protected boolean invokeMainRule(List<CommonToken> comments) throws Exception {
 		EpsilonParseProblemManager.INSTANCE.reset();
 		AST cst = null;
 		
@@ -108,10 +108,7 @@ public abstract class AbstractModule extends AbstractModuleElement implements IM
 		
 		if (getParseProblems().isEmpty()) {
 			assignAnnotations(cst);
-			assignComments(cst, multilineComments);
-			//createAst(cst, null);
-			//assignAnnotations(ast);
-			//buildModel();
+			assignComments(cst, comments);
 			createAst(cst, null);
 			return true;
 		}
@@ -126,12 +123,7 @@ public abstract class AbstractModule extends AbstractModuleElement implements IM
 		ModuleElement moduleElement = adapt(cst, parentAst);
 		if (moduleElement != null) {
 			moduleElement.setUri(cst.getUri());
-			//moduleElement.setFile(cst.getFile());
 			moduleElement.setModule(cst.getModule());
-			//try {
-			//	moduleElement.setBasename(cst.getBasename());
-			//}
-			//catch (Exception ex) {}
 			moduleElement.setRegion(cst.getRegion());
 			moduleElement.build(cst, this);
 			if (parentAst != null) {
@@ -144,14 +136,25 @@ public abstract class AbstractModule extends AbstractModuleElement implements IM
 	public abstract ModuleElement adapt(AST cst, ModuleElement parentAst);
 	
 	protected List<CommonToken> extractComments(CommonTokenStream stream) {
+		
 		List<CommonToken> comments = new ArrayList<>();
+		
+		// stream is automatically filled in 3.2 but not in 3.5.2
+		// We'd like to be able to call stream.fill() to ensure it's
+		// filled before we start processing tokens, but fill()
+		// doesn't exist in 3.2. To support a wider range of ANTLR
+		// versions than just 3.5.2 we're calling toString() instead
+		// which has no effect in 3.2 but calls fill() in 3.5.2
+		if (stream.size() == 0) stream.toString();
 		
 		for (Object t : stream.getTokens()) {
 			CommonToken token = (CommonToken) t;
-			if (token.getType() == EolLexer.COMMENT || token.getType() == EolParser.LINE_COMMENT) {
+			int type = token.getType();
+			if (type == EolLexer.COMMENT || type == EolParser.LINE_COMMENT) {
 				comments.add(token);
 			}
 		}
+		
 		return comments;
 	}
 	
@@ -165,17 +168,14 @@ public abstract class AbstractModule extends AbstractModuleElement implements IM
 		    ByteArrayInputStream noTabsStream = new ByteArrayInputStream(contents.replaceAll("\t", " ").getBytes());
 		    
 		    final Lexer lexer = createLexer(new ANTLRInputStream(noTabsStream));
-		    
 			final CommonTokenStream stream = new CommonTokenStream(lexer);
-			
-			List<CommonToken> multilineComments = extractComments(stream);
-			
+			List<CommonToken> comments = extractComments(stream);
 			final EpsilonTreeAdaptor adaptor = new EpsilonTreeAdaptor(uri, this);
 
 			parser = createParser(stream);
 			parser.setDeepTreeAdaptor(adaptor);
 
-			return invokeMainRule(multilineComments);
+			return invokeMainRule(comments);
 		}
 		catch (Exception ex) {
 			parseProblems.add(new ParseProblem("Exception during parsing: " + ex.getLocalizedMessage(), ParseProblem.ERROR));

@@ -23,6 +23,7 @@ import org.eclipse.epsilon.eol.execute.control.ExecutionController;
 import org.eclipse.epsilon.eol.execute.control.ExecutionProfiler;
 import org.eclipse.epsilon.evl.distributed.EvlModuleDistributedMaster;
 import org.eclipse.epsilon.evl.distributed.execute.context.EvlContextDistributedMaster;
+import org.eclipse.epsilon.evl.distributed.execute.data.SerializableEvlResult;
 import org.eclipse.epsilon.evl.distributed.jms.execute.context.EvlContextJmsMaster;
 
 /**
@@ -111,7 +112,13 @@ public class EvlModuleJmsMaster extends EvlModuleDistributedMaster {
 		try {
 			connectionContext = evlContext.getConnectionFactory().createContext(JMSContext.AUTO_ACKNOWLEDGE);
 			log("Connected to "+evlContext.getBrokerHost()+" session "+sessionId);
-			localWorkerThread = new Thread(createLocalWorker());
+			
+			if (evlContext.hasLocalJmsWorker()) {
+				Runnable localWorkerRunnable = createLocalWorker();
+				if (localWorkerRunnable != null) {
+					localWorkerThread = new Thread(localWorkerRunnable);
+				}
+			}
 			
 			// Initial registration of workers
 			final Destination tempDest = connectionContext.createTemporaryQueue();
@@ -189,8 +196,8 @@ public class EvlModuleJmsMaster extends EvlModuleDistributedMaster {
 				
 				for (Serializable job : jobs) {
 					jobsProducer.send(jobsQueue, job);
+					jobsSentToWorkers++;
 				}
-				jobsSentToWorkers += jobs.size();
 				// Signal completion
 				jobsProducer.send(completionTopic, jobContext.createMessage());
 				
@@ -206,6 +213,9 @@ public class EvlModuleJmsMaster extends EvlModuleDistributedMaster {
 		}
 	}
 	
+	/**
+	 * Ensures the critical condition is satisfied before returning.
+	 */
 	private final void waitForWorkersToFinishJobs() {
 		log("Awaiting workers to signal completion...");
 		while (!getCriticalCondition()) synchronized (criticalConditionObj) {
@@ -256,9 +266,10 @@ public class EvlModuleJmsMaster extends EvlModuleDistributedMaster {
 	protected void beforeSend(AtomicInteger workersReady) throws Exception {
 		log("Waiting for workers to load configuration...");
 		// Need to make sure someone is listening otherwise messages might be lost
-		while (localWorkerThread == null && workersReady.get() < Math.max(getContext().getDistributedParallelism(), 1))
+		while (localWorkerThread == null && workersReady.get() < Math.max(getContext().getDistributedParallelism(), 1)) {
 			synchronized (workersReady) {
 				workersReady.wait();
+			}
 		}
 	}
 	
@@ -293,6 +304,11 @@ public class EvlModuleJmsMaster extends EvlModuleDistributedMaster {
 		}
 	}
 	
+	/**
+	 * Implementations may override this to customize the worker implementation.
+	 * @return A worker dedicated to processing the master's jobs on this machine.
+	 * @throws Exception
+	 */
 	protected Runnable createLocalWorker() throws Exception {
 		return new EvlJmsWorker(this);
 	}
@@ -328,7 +344,7 @@ public class EvlModuleJmsMaster extends EvlModuleDistributedMaster {
 					}
 				}
 				else if (msg instanceof ObjectMessage) {
-					Serializable contents = ((ObjectMessage)msg).getObject();
+					Serializable contents = ((ObjectMessage) msg).getObject();
 					if (contents instanceof Exception) {
 						handleExceptionFromWorker((Exception) contents);
 					}
@@ -363,8 +379,10 @@ public class EvlModuleJmsMaster extends EvlModuleDistributedMaster {
 	}
 	
 	/**
+	 * Handles message sent from a worker to this master. Typically,
+	 * this would be a {@link SerializableEvlResult}.
 	 * 
-	 * @param response
+	 * @param response The received message contents.
 	 * @return Whether the job was processed. Returning <code>true</code> will
 	 * not add the response to the collection for post-processing. Returning <code>false</code>
 	 * will deal with the job later once all other jobs have been executed.
@@ -425,7 +443,7 @@ public class EvlModuleJmsMaster extends EvlModuleDistributedMaster {
 	}
 	
 	@Override
-	protected void postExecution() throws EolRuntimeException {
+	public void postExecution() throws EolRuntimeException {
 		assert getCriticalCondition() && jobsProcessedByWorkers == jobsSentToWorkers : "All worker jobs processed";
 
 		super.postExecution();

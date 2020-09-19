@@ -10,10 +10,8 @@
 package org.eclipse.epsilon.evl.distributed.jms.launch;
 
 import java.io.File;
-import java.io.IOException;
 import java.lang.management.ManagementFactory;
 import java.util.ArrayList;
-import org.eclipse.epsilon.common.util.OperatingSystem;
 import org.eclipse.epsilon.evl.distributed.jms.EvlJmsWorker;
 import org.eclipse.epsilon.evl.distributed.jms.EvlModuleJmsMaster;
 import org.eclipse.epsilon.evl.distributed.jms.execute.context.EvlContextJmsMaster;
@@ -27,10 +25,23 @@ import org.eclipse.epsilon.evl.distributed.launch.DistributedEvlRunConfiguration
  */
 public class JmsEvlRunConfigurationMaster extends DistributedEvlRunConfigurationMaster {
 	
+	@SuppressWarnings("unchecked")
 	public static class Builder<R extends JmsEvlRunConfigurationMaster, B extends Builder<R, B>> extends DistributedEvlRunConfigurationMaster.Builder<R, B> {
+		
+		public boolean includeLocalWorker = false;
+		
+		public B withLocalJmsWorker() {
+			return withLocalJmsWorker(true);
+		}
+		public B withLocalJmsWorker(boolean includeLocalWorker) {
+			this.includeLocalWorker = includeLocalWorker;
+			return (B) this;
+		}
+		
 		@Override
 		protected EvlModuleJmsMaster createModule() {
-			EvlContextJmsMaster context = new EvlContextJmsMaster(parallelism, distributedParallelism, getJobSplitter(), host, sessionID);
+			includeLocalWorker |= masterProportion == 0;
+			EvlContextJmsMaster context = new EvlContextJmsMaster(parallelism, distributedParallelism, getJobSplitter(), host, sessionID, includeLocalWorker);
 			return new EvlModuleJmsMaster(context);
 		}
 		
@@ -81,15 +92,8 @@ public class JmsEvlRunConfigurationMaster extends DistributedEvlRunConfiguration
 		final String[] commandArr = commands.toArray(new String[commands.size()]);
 		
 		for (int i = 0; i < numWorkers; i++) {
-			new Thread(() -> {
-				try {
-					OperatingSystem.executeCommand(commandArr);
-				}
-				catch (IOException ex) {
-					// TODO Auto-generated catch block
-					ex.printStackTrace();
-				}
-			}).start();
+			Process worker = new ProcessBuilder(commandArr).redirectErrorStream(true).start();
+			writeOut("Started worker process "+worker.pid());
 		}
 	}
 }

@@ -42,10 +42,6 @@ public class PlainXmlPropertySetter extends JavaPropertySetter {
 					e.setAttribute(p.getProperty(), p.cast(String.valueOf(value)) + "");
 					return;
 				}
-				else if (p.isText()) {
-					e.setTextContent(p.cast(String.valueOf(value)) + "");
-					return;
-				}
 				else if (p.isReference()) {
 					String sourceTag = e.getTagName();
 					
@@ -74,8 +70,10 @@ public class PlainXmlPropertySetter extends JavaPropertySetter {
 										}
 									}	
 								}
-								e.setAttribute(sourceAttribute, new IterableOperationContributor(referenceIds).concat(", "));
-								return;
+								try (IterableOperationContributor ic = new IterableOperationContributor(referenceIds)) {
+									e.setAttribute(sourceAttribute, ic.concat(", "));
+									return;
+								}
 							}
 							else {
 								if (value instanceof Element) {

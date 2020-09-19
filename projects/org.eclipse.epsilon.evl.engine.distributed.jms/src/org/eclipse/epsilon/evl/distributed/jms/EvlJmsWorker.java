@@ -191,21 +191,25 @@ public final class EvlJmsWorker implements CheckedRunnable<Exception> {
 		Destination resultDest = replyContext.createQueue(RESULTS_QUEUE+sessionID);
 		log("Began processing jobs");
 		
+		long timeout = Long.MAX_VALUE;
 		Message msg;
-		while ((msg = finished ? jobConsumer.receiveNoWait() : jobConsumer.receive()) != null) {
+		while ((msg = jobConsumer.receive(timeout)) != null) {
 			try {
 				msg.acknowledge();
-				if (msg instanceof ObjectMessage)  {
+				boolean isObjectMessage = msg instanceof ObjectMessage;
+				if (isObjectMessage) {
+					timeout = 1000;
 					Serializable currentJob = ((ObjectMessage) msg).getObject();
 					ObjectMessage resultsMsg = null;
 					try {
+						Object resultObj;
 						if (context instanceof EvlContextDistributedSlave) {
-							Object resultObj = ((EvlContextDistributedSlave) context).executeJobStateless(currentJob);
-							resultsMsg = replyContext.createObjectMessage((Serializable) resultObj);
+							resultObj = ((EvlContextDistributedSlave) context).executeJobStateless(currentJob);
 						}
 						else {
-							context.executeJob(currentJob);
+							resultObj = context.executeJob(currentJob);
 						}
+						resultsMsg = replyContext.createObjectMessage((Serializable) resultObj);
 						++jobsProcessed;
 					}
 					catch (EolRuntimeException eox) {
@@ -220,8 +224,9 @@ public final class EvlJmsWorker implements CheckedRunnable<Exception> {
 				
 				if (msg.getBooleanProperty(LAST_MESSAGE_PROPERTY)) {
 					finished = true;
+					timeout = 0;
 				}
-				else if (!(msg instanceof ObjectMessage)) {
+				else if (!isObjectMessage) {
 					log("Received unexpected message of type "+msg.getClass().getName());
 				}
 			}

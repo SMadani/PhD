@@ -85,12 +85,15 @@ EolModule,1,selectOne,imdb-1.0,203109,716,,,244,293,4949,299,1608,74
 EolModule,1,select,imdb-0.2,110624,5524,,,6,9,1368,117,103,
 EolModule,1,select,imdb-1.5,1129938,56923,,,38,59,9114,197,747,
 EolModule,1,select,imdb-all,2408343,127604,,,61,136,25364,,1798,
+EvlModuleJmsMasterBatchLocal,1,findbugs,eclipseModel-0.1,4541,215,1.952,1.952,959,793,1174,33,210,58
 EvlModuleJmsMasterBatchLocal,1,findbugs,eclipseModel-0.2,12548,339,3.451,3.451,797,526,1818,26,985,49
 EvlModuleJmsMasterBatchLocal,1,findbugs,eclipseModel-0.5,60922,2691,5.251,5.251,284,203,3590,45,1674,81
 EvlModuleJmsMasterBatchLocal,1,findbugs,eclipseModel-1.0,233434,3689,5.108,5.108,1862,569,6623,293,769,497
+EvlModuleJmsMasterBatchLocal,3,findbugs,eclipseModel-0.1,5474,144,1.62,0.54,1415,154,1298,44,250,46
 EvlModuleJmsMasterBatchLocal,3,findbugs,eclipseModel-0.2,12760,143,3.394,1.131,838,454,2674,119,969,23
 EvlModuleJmsMasterBatchLocal,3,findbugs,eclipseModel-0.5,58609,847,5.459,1.82,352,187,4809,94,1681,66
 EvlModuleJmsMasterBatchLocal,3,findbugs,eclipseModel-1.0,170410,5299,6.998,2.333,1045,454,8099,326,1030,450
+EvlModuleJmsMasterBatchLocal,7,findbugs,eclipseModel-0.1,9709,351,0.913,0.13,196,123,1532,43,112,29
 EvlModuleJmsMasterBatchLocal,7,findbugs,eclipseModel-0.2,17084,414,2.535,0.362,490,318,5266,663,151,193
 EvlModuleJmsMasterBatchLocal,7,findbugs,eclipseModel-0.5,65550,791,4.881,0.697,464,177,7997,328,326,244
 EvlModuleJmsMasterBatchLocal,7,findbugs,eclipseModel-1.0,196487,2233,6.069,0.867,744,358,13042,336,463,106
@@ -113,10 +116,11 @@ EvlModuleParallelConstraintAtoms,4,equals,eclipseModel-all,12629,904,3.704,0.926
 EvlModuleParallelConstraintAtoms,4,manyConstraint1Context,eclipseModel-3.5,3180,1363,2.886,0.722,5626,1182,21712,,3459,
 EvlModuleParallelConstraintAtoms,4,simple,eclipseModel-all,13334,4114,2.663,0.666,4708,2674,23997,363,4674,84
 EvlModuleParallelConstraintAtoms,8,equals,eclipseModel-all,7048,565,6.637,0.83,4032,2948,24031,402,4671,72
-EvlModuleParallelConstraintAtoms,8,findbugs,eclipseModel-0.1,3498,446,,,1710,296,1428,,388,
+EvlModuleParallelConstraintAtoms,8,findbugs,eclipseModel-0.1,3498,446,2.535,0.317,1710,296,1428,,388,
 EvlModuleParallelConstraintAtoms,8,manyConstraint1Context,eclipseModel-3.5,2358,1372,3.892,0.486,4242,1452,22253,,3477,
 EvlModuleParallelConstraintAtoms,8,simple,eclipseModel-all,10816,4101,3.282,0.41,7588,222,23947,435,4651,158
 EvlModuleParallelContextAtoms,16,equals,eclipseModel-all,5228,743,8.947,0.559,4281,3050,23997,435,4654,126
+EvlModuleParallelContextAtoms,16,findbugs,eclipseModel-0.1,2671,405,3.319,0.207,537,292,1153,106,289,174
 EvlModuleParallelContextAtoms,16,findbugs,eclipseModel-0.2,10723,384,4.038,0.252,3516,1276,1628,15,644,11
 EvlModuleParallelContextAtoms,16,findbugs,eclipseModel-0.5,68676,5287,4.658,0.291,437,679,3460,247,787,601
 EvlModuleParallelContextAtoms,16,findbugs,eclipseModel-1.0,246599,7179,4.836,0.302,2873,1589,6003,74,670,18
@@ -163,6 +167,7 @@ EvlModuleParallelElements,8,simple,eclipseModel-all,8872,2516,4.002,0.5,4317,278
 EvlModule,1,isbn,dblp-all,288061,30253,1.0,1.0,2295,341,40379,1100,4218,109
 EvlModule,1,validator,imdb-1.0,34764,5198,1.0,1.0,1431,1246,5134,473,1254,396
 EvlModule,1,equals,eclipseModel-all,46776,1940,1.0,1.0,3625,2914,23914,372,4634,62
+EvlModule,1,findbugs,eclipseModel-0.1,8866,138,1.0,1.0,216,66,1086,9,393,17
 EvlModule,1,findbugs,eclipseModel-0.2,43302,1105,1.0,1.0,247,193,1637,25,644,11
 EvlModule,1,findbugs,eclipseModel-0.5,319923,13484,1.0,1.0,460,301,3323,135,1333,13
 EvlModule,1,findbugs,eclipseModel-1.0,1192448,48753,1.0,1.0,1079,695,6031,61,673,15
